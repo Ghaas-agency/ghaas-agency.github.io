@@ -113,12 +113,6 @@
       font-weight: bold;
     }
   }
-
-  &--btn {
-    @extend .btn,
-    .btn-lg,
-    .btn-danger;
-  }
 }
 
 .section__onepass {
@@ -127,14 +121,14 @@
   .justify-content-center,
   .align-items-center,
   .text-center,
-  .text-capitalize;
+  .text-capitalize, .bg-danger;
 
-  min-height: 220px;
+  min-height: 150px;
   color: white;
-  background: url('../images/gym-2.jpeg') no-repeat;
+  /* background: url('../images/gym-2.jpeg') no-repeat;
   background-position: center center;
   background-color: rgba($color: #000, $alpha: 0.6);
-  background-blend-mode: hue;
+  background-blend-mode: hue; */
   font-style: italic;
 }
 
