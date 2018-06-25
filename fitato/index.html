@@ -64,6 +64,7 @@
           <div class="col-lg-6 offset-lg-3 my-2">
             <p>Fitato is the largest fitness network that offers universal membership to 300+ best gyms and fitness centers around the Pune city and on-demand fitness classes at your workplace. One pass for every employee fitness need. Workout anytime, anywhere, in a facility next to your office or home.</p>
             <p>Shape a culture of fitness in your team with access to premium fitness classes and the tools to increase motivation and connection.</p>
+            <span class="btn btn-lg btn-danger btn-block shadow" data-toggle="modal" data-target="#contactModal">Get in touch</span>
           </div>
         </div>
       </div>
@@ -356,26 +357,26 @@
         </div>
         <div class="modal-body">
           <p class="text-muted">Please fill out our form, and we’ll get in touch shortly.</p>
-          <form>
+          <form action="https://formspree.io/connect@fitato.fit" method="POST">
             <div class="form-group">
               <label for="name">Name</label>
-              <input type="email" class="form-control" id="name" placeholder="Enter your personal name" required>
+              <input name="Personal Name" type="text" class="form-control" id="name" placeholder="Enter your personal name" required>
             </div>
             <div class="form-group">
               <label for="name">Company Name</label>
-              <input type="email" class="form-control" id="name" placeholder="Enter your company name" required>
+              <input name="Company Name" type="text" class="form-control" id="name" placeholder="Enter your company name" required>
             </div>
             <div class="form-group">
               <label for="email">Email address</label>
-              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your business email" required>
+              <input name="Email" type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your business email" required>
             </div>
             <div class="form-group">
               <label for="phone">Contact number</label>
-              <input type="tel" class="form-control" id="phone" placeholder="Enter your contact number" required>
+              <input name="Phone Number" type="tel" class="form-control" id="phone" placeholder="Enter your contact number" required>
             </div>
             <div class="form-group">
               <label for="number">Team size</label>
-              <input type="number" class="form-control" id="number" placeholder="Enter team size" required>
+              <input name="Team Size" type="number" class="form-control" id="number" placeholder="Enter team size" required>
             </div>
             <small class="form-text text-muted">We'll never share your details with anyone else.</small>
             <br>
@@ -383,6 +384,9 @@
               <button type="submit" class="btn btn-danger float-left">Submit</button>
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
+            <input type="hidden" name="_cc" value="murada@fitato.fit" />
+            <input type="hidden" name="_cc" value="akshat@ghaas.xyz" />
+            <input type="hidden" name="_subject" value="Fitato for Workplace: New submission" />
           </form>
         </div>
       </div>
