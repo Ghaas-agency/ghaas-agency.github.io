@@ -76,7 +76,7 @@
   margin: 0;
 
   @media (max-width: 450px) {
-    min-height: 650px;
+    min-height: 750px;
   }
 
   @extend .row,
@@ -89,11 +89,15 @@
   &--left {
     @extend .col-lg-6,
     .offset-lg-6;
+    padding: 20px;
     padding-top: 200px;
+    box-shadow: 10px 10px 0px rgba($color: #000, $alpha: 0.5);
     color: black;
 
+    background-color: rgba($color: #fff, $alpha: 0.9);
+
     @media (max-width: 800px) {
-      padding-top: 180px;
+      padding-top: 150px;
     }
 
     p {
@@ -129,7 +133,7 @@
   color: white;
   background: url('../images/gym-2.jpeg') no-repeat;
   background-position: center center;
-  background-color: rgba($color: #000, $alpha: 0.85);
+  background-color: rgba($color: #000, $alpha: 0.6);
   background-blend-mode: hue;
   font-style: italic;
 }
@@ -163,16 +167,15 @@
   .flex-column,
   .justify-content-center,
   .align-items-center,
-  .pt-5;
+  .pt-3;
 
   min-height: 80vh;
   background: url('../images/gym-1.jpeg') no-repeat center center;
   background-blend-mode: hue;
-  background-color: rgba($color: #000, $alpha: 0.85);
-  color: white;
+  background-color: rgba($color: #fff, $alpha: 0.9);
 
   p {
-    font-size: 120%;
+    @extend .h4, .font-weight-normal;
   }
 
   &--heading {
@@ -275,10 +278,11 @@
     padding-top: 20px;
     margin: 10px;
     font-weight: bold;
-    color: rgba($color: #fff, $alpha: 0.75);
+    color: rgba($color: #fff, $alpha: 0.8);
     cursor: default;
     border: solid 2px rgba($color: #fff, $alpha: 0.15);
     border-radius: 5px;
+    background-color: rgba($color: #fff, $alpha: 0.05);
 
     &:hover {
       border: solid 2px rgba($color: #fff, $alpha: 0.25);
@@ -289,17 +293,16 @@
 .section__happy {
   @extend .d-flex,
   .justify-content-center,
-  .align-items-center,
-  .py-5;
+  .align-items-center;
 
   min-height: 250px;
   background: url('../images/achievement.jpg') no-repeat;
   background-size: cover;
   background-position: center center;
-  background-color: rgba($color: #000, $alpha: 0.85);
+  background-color: rgba($color: #fff, $alpha: 0.9);
   background-blend-mode: hue;
-  color: white;
   text-align: center;
+  padding: 130px 0;
 
   &--btn {
     @extend .btn,
@@ -352,17 +355,11 @@
   background: url('../images/gymnist.jpeg') no-repeat center center;
   background-blend-mode: hue;
   background-size: cover;
-  background-color: rgba($color: #000, $alpha: 0.85);
+  background-color: rgba($color: #fff, $alpha: 0.85);
   text-align: center;
-  color: white;
 
   p {
     font-size: 120%;
-  }
-
-  h2 {
-    @extend .mb-4;
-    font-size: 200%;
   }
 
   &--btn {
