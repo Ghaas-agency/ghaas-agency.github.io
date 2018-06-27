@@ -1,5 +1,158 @@
-body {
+$primary: #FF6600;
+$dark-grey: #424242;
+$off-black: rgba(0,0,0,0.85);
+
+/* GLOBAL */
+
+html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: $off-black;
+  font-size: 18px;
+}
+
+a {
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  color: $primary;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+
+/* COMPONENETS */
+
+.button {
+  background-color: $primary;
+  padding: 15px 40px;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0 5px 10px #00000040;
+
+  &:hover, &:focus {
+    background-color: darken($primary, $amount: 5%);
+  }
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* NAVBAR */
+
+.navbar {
+  background-color: $dark-grey;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+}
+
+.header-img {
+  width: 70px;
+  padding: 20px 0 15px 40px;
+}
+
+.menu-links {
+  list-style-type: none;
+  float: right;
+  padding: 18px 30px 0 0;
+}
+
+.menu-link-item {
+  margin: 0;
+  padding: 0 10px;
+  display: inline;
+}
+
+.menu-link-item > a {
+  color: white;
+  text-decoration: none;
+
+  &:hover, &:focus {
+    color: $primary;
+  }
+}
+
+/* SECTIONS */
+
+.section-one, .section-two {
+  margin: 20px 50px;
+  clear: both;
+}
+
+.section-one {
+  padding-top: 100px;
+
+  &__left {
+    float: left;
+    width: 60%;
+
+    > img {
+      width: 100%;
+    }
+  }
+
+  &__right {
+    float: right;
+    width: 40%;
+    text-align: right;
+    padding-top: 100px;
+  }
+}
+
+.section-two {
+  text-align: center;
+  padding-top: 50px;
+  
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__item-left {
+    float: left;
+  }
+
+  &__item-right {
+    float: right;
+  }
+
+  &__item-left, &__item-right {
+    flex: 45%;
+    background-color: #eee;
+    margin: 10px;
+    padding: 50px 20px;
+
+    > img {
+      width: 100%;
+    }
+  }
+
+  &__item-content {
+    padding: 0 80px;
+  }
 }
