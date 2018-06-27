@@ -16,9 +16,15 @@ body {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
-p {
+p, li {
   color: $off-black;
   font-size: 18px;
+  line-height: 1.5em;
+  margin-bottom: 2em;
+}
+
+li {
+  margin-bottom: 0.5em;
 }
 
 a {
@@ -138,6 +144,10 @@ h3 {
   &:hover, &:focus {
     color: $primary;
   }
+}
+
+.menu-link-active {
+  color: $primary !important;
 }
 
 @media (max-width: 480px) {
@@ -275,5 +285,31 @@ h3 {
     @media (max-width: 480px) {
       padding: 0 20px;
     }
+  }
+}
+
+/* SERVICES PAGES */
+
+.services-main {
+  padding: 100px 0;
+  @media (max-width: 480px) {
+    padding-top: 160px;
+  }
+}
+
+.container {
+  width: 55%;
+  margin: auto;
+
+  @media (max-width: 979px) {
+    width: 75%;
+  }
+  
+  @media (max-width: 767px) {
+    width: 80%;
+  }
+  
+  @media (max-width: 480px) {
+    width: 90%;
   }
 }
