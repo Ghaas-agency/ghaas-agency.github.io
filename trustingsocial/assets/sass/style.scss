@@ -5,7 +5,8 @@ $off-black: rgba(0,0,0,0.85);
 /* GLOBAL */
 
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -14,6 +15,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 p {
@@ -73,14 +75,19 @@ h1 {
 }
 
 .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   min-height: 100vh;
 }
 
 .section {
   &__one {
-    flex-grow: 1;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
     padding: 50px 30px;
 
     @media (max-width: 979px) {
@@ -89,16 +96,20 @@ h1 {
 
     @media (max-width: 767px) {
       padding: 5px 30px;
-      align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
     }
 
     @media (max-width: 480px) {
       padding: 5px 10px;
-      align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
     }
   }
   &__two {
-    flex-grow: 2;
+    -webkit-box-flex: 2;
+        -ms-flex-positive: 2;
+            flex-grow: 2;
     background-color: $primary;
     padding: 100px;
 
