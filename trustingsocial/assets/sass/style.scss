@@ -17,20 +17,20 @@ body {
 }
 
 p {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 16px;
+  color: #ffffff;
+  font-size: 17px;
   line-height: 1.5em;
   margin-bottom: 20px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 h1 {
   color: #ffffff;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 strong {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 h1 {
@@ -47,6 +47,7 @@ h1 {
 
   &:hover, &:focus {
     border: #cccccc 2px solid;
+    background-color: #ffffff 2px solid;
   }
 }
 
@@ -82,8 +83,17 @@ h1 {
     flex-grow: 1;
     padding: 50px 30px;
 
-    @media (max-width: 480px) {
+    @media (max-width: 979px) {
       padding: 5px 30px;
+    }
+
+    @media (max-width: 767px) {
+      padding: 5px 30px;
+      align-self: center;
+    }
+
+    @media (max-width: 480px) {
+      padding: 5px 10px;
       align-self: center;
     }
   }
@@ -91,6 +101,15 @@ h1 {
     flex-grow: 2;
     background-color: $primary;
     padding: 100px;
+
+    @media (max-width: 979px) {
+      padding: 10px 50px;
+    }
+
+    @media (max-width: 767px) {
+      padding: 10px 50px;
+    }
+
     @media (max-width: 480px) {
       padding: 30px;
     }
