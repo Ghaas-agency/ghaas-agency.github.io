@@ -49,10 +49,10 @@ h1 {
   border: #ffffff 2px solid;
   background: none;
   -moz-transition: all 0.3s ease-in-out;
-		-o-transition: all 0.3s ease-in-out;
-		-webkit-transition: all 0.3s ease-in-out;
-		-ms-transition: all 0.3s ease-in-out;
-		transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 
   &:hover, &:focus {
     background-color: #ffffff;
@@ -85,16 +85,30 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  /* -ms-flex-wrap: wrap;
+  flex-wrap: wrap; */
   min-height: 100vh;
+
+  @media (max-width: 767px) {
+    -ms-flex-item-align: center;
+    align-self: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 480px) {
+    -ms-flex-item-align: center;
+    align-self: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
 }
 
 .section {
   &__one {
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     padding: 50px 30px;
 
     @media (max-width: 979px) {
@@ -104,21 +118,22 @@ h1 {
     @media (max-width: 767px) {
       padding: 5px 30px;
       -ms-flex-item-align: center;
-          align-self: center;
+      align-self: center;
     }
 
     @media (max-width: 480px) {
       padding: 5px 10px;
       -ms-flex-item-align: center;
-          align-self: center;
+      align-self: center;
     }
   }
   &__two {
     -webkit-box-flex: 2;
-        -ms-flex-positive: 2;
-            flex-grow: 2;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
     background-color: $primary;
     padding: 100px;
+    /* max-width: 50%; */
 
     @media (max-width: 979px) {
       padding: 10px 50px;
