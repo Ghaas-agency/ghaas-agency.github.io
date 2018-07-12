@@ -11,43 +11,99 @@
 </head>
 <body>
   
-  <nav class="navbar">
-    <img src="assets/img/Yuyutsu-logo-orange.png" alt="Yuyutsu" class="header-img" title="Yuyutsu Systems">
-    <ul class="menu-links">
-      <li class="menu-link-item"><a href="index.html">Home</a></li>
-      <li class="menu-link-item"><a href="services.html" class="menu-link-active">Services</a></li>
-      <li class="menu-link-item"><a href="contact.html">Contact Us</a></li>
-    </ul>
-  </nav>
-
-  <main class="services-main">
-    <div class="container">
-      <h1>Tired of sitting around and getting frustrated because the internet in your office is down again?</h1>
-      <img src="assets/img/yuyutsu-banner_01.png" alt="leased-lines" class="featured-image">
-      <p>Broadband connections are known to be unreliable, to be excessively slow frequently and to suffer a lot of downtime. Couple that with inadequate customer service and an average of 24 hours response time to connectivity problems, that’s a lot of productivity lost and money down the drain.</p>
-      <p>How long will you stand back and keep on hoping that the internet works fine today? It’s time to take control and solve this problem once and for all.</p>
-      <p>The answer is Leased Lines.</p>
-      <h2>Advantages of a Leased Line?</h2>
-      <h3>1. No Downtime</h3>
-      <p>A leased line gives your business dedicated band-with just for your business. This means that the bandwith has been reserved solely for your usage. This gives you round-the-clock connectivity and ensures your connections don’t falter, even at peak usage times. Down-time will be a thing of the past.</p>
-      <h3>2. Speed</h3>
-      <p>A leased line connection is far superior when it comes to speed, both for downloads and for uploads. The symmetric nature of leased lines means that they can upload data at the same fast speed at which they can can download data. This is particularly useful if you wish to:</p>
-      <ul>
-        <li>send large files,</li>
-        <li>upload sizable files to your web sites,</li>
-        <li>backup data using online services,</li>
-        <li>host web sites on a server at your office, or</li>
-        <li>use VoIP telephony.</li>
+  <main>
+    <nav class="navbar">
+      <img src="assets/img/Yuyutsu-logo-orange.png" alt="Yuyutsu" class="header-img" title="Yuyutsu Systems">
+      <ul class="menu-links">
+        <li class="menu-link-item"><a href="index.html#services" class="menu-link-active">Services</a></li>
+        <li class="menu-link-item"><span id="myBtn">Contact Us</span></li>
       </ul>
-      <h3>3. LAN Cabling</h3>
-      <p>LAN Cables must be arranged in such a way to promote maximum information flow and bandwidth. With today's high speed networks, it is essential that the networking system must be broken up into shorter chunks that allow workstation wiring to be concentrated for maximum efficiency. In order to achieve the perfect wiring concentration standard, telecommunication rooms (wiring centers) are placed at planned locations within a building. These telecom rooms are then interconnected to provide the total network connectivity for the building.</p>
-      <h3>4. Better Customer Support</h3>
-      <p>When you’re using a broadband connection, and your internet is down, you’re just one among the hundreds of people who are facing the same problem at that very second.</p>
-      <p>With a leased line, you have your own personal bandwidth connection, which allows us to not only respond to you faster but also fix the problem faster, because of lesser complexities involved.</p>
-      <h2>Want To Solve The Problem Of Bad Internet Once And For All?</h2>
-      <a href="contact.html" class="button">Talk to us</a>
-    </div>
+    </nav>
+
+    <section class="services-main">
+      <div class="container">
+        <h1>Tired of sitting around and getting frustrated because the internet in your office is down again?</h1>
+        <img src="assets/img/yuyutsu-banner_01.png" alt="leased-lines" class="featured-image">
+        <p>Broadband connections are known to be unreliable, to be excessively slow frequently and to suffer a lot of downtime. Couple that with inadequate customer service and an average of 24 hours response time to connectivity problems, that’s a lot of productivity lost and money down the drain.</p>
+        <p>How long will you stand back and keep on hoping that the internet works fine today? It’s time to take control and solve this problem once and for all.</p>
+        <p>The answer is Leased Lines.</p>
+        <h2>Advantages of a Leased Line?</h2>
+        <h3>1. No Downtime</h3>
+        <p>A leased line gives your business dedicated band-with just for your business. This means that the bandwith has been reserved solely for your usage. This gives you round-the-clock connectivity and ensures your connections don’t falter, even at peak usage times. Down-time will be a thing of the past.</p>
+        <h3>2. Speed</h3>
+        <p>A leased line connection is far superior when it comes to speed, both for downloads and for uploads. The symmetric nature of leased lines means that they can upload data at the same fast speed at which they can can download data. This is particularly useful if you wish to:</p>
+        <ul>
+          <li>send large files,</li>
+          <li>upload sizable files to your web sites,</li>
+          <li>backup data using online services,</li>
+          <li>host web sites on a server at your office, or</li>
+          <li>use VoIP telephony.</li>
+        </ul>
+        <h3>3. LAN Cabling</h3>
+        <p>LAN Cables must be arranged in such a way to promote maximum information flow and bandwidth. With today's high speed networks, it is essential that the networking system must be broken up into shorter chunks that allow workstation wiring to be concentrated for maximum efficiency. In order to achieve the perfect wiring concentration standard, telecommunication rooms (wiring centers) are placed at planned locations within a building. These telecom rooms are then interconnected to provide the total network connectivity for the building.</p>
+        <h3>4. Better Customer Support</h3>
+        <p>When you’re using a broadband connection, and your internet is down, you’re just one among the hundreds of people who are facing the same problem at that very second.</p>
+        <p>With a leased line, you have your own personal bandwidth connection, which allows us to not only respond to you faster but also fix the problem faster, because of lesser complexities involved.</p>
+        <h2>Want To Solve The Problem Of Bad Internet Once And For All?</h2>
+        <span id="myBtn" class="button">Talk to us</span>
+      </div>
+    </section>
   </main>
+
+  <!-- Contact Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Get in touch</h2>
+      <p>Fill this form and we&apos;ll get in touch soon.</p>
+      <form action="https://formspree.io/akshay.dhiman@ghaas.xyz" method="POST">
+        <div class="form-item">
+          <label for="name">Name</label>
+          <input type="text" name="name" placeholder="Enter your name">
+        </div>
+        <div class="form-item">
+          <label for="email">Email</label>
+          <input type="email" name="_replyto" placeholder="Enter your email">
+        </div>
+        <div>
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  
+  </div>
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+
+    // Get the button that opens the modal
+    var btn = document.querySelectorAll("#myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on the button, open the modal
+    for (var i = 0; i < btn.length; i++) {
+      btn[i].onclick = function() {
+        modal.style.display = "block";
+      }
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
 
 </body>
 </html>

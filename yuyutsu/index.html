@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,60 +10,123 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="shortcut icon" href="assets/img/Yuyutsu-icon.png" type="image/png">
 </head>
+
 <body>
+
+  <main>
+    <nav class="navbar">
+      <img src="assets/img/Yuyutsu-logo-orange.png" alt="Yuyutsu logo" class="header-img" title="Yuyutsu Systems">
+      <ul class="menu-links">
+        <li class="menu-link-item">
+          <a href="#services">Services</a>
+        </li>
+        <li class="menu-link-item">
+          <span id="myBtn">Contact Us</span>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="section-one">
+      <div class="section-one__left">
+        <img src="assets/img/yuyutsu-banner_02.png" alt="IT admin team">
+      </div>
+      <div class="section-one__right">
+        <h1>Your Dedicated I.T. and Admin Team</h1>
+        <span id="myBtn" class="button">Talk to us</span>
+      </div>
+    </section>
+
+    <section id="services" class="section-two">
+      <h2>How We Can Help</h2>
+      <div class="section-two__items">
+        <a href="leased-lines.html" class="section-two__item-left">
+          <img src="assets/img/yuyutsu-banner_01.png" alt="leased-lines" style="width: 100%;">
+          <div class="section-two__item-content">
+            <h3>Bad Internet Pausing Your Business?</h3>
+            <p>Our best-in-class leased line services with 99.9% uptime will make bad internet obsolete.</p>
+          </div>
+        </a>
+        <a href="unauthorised-access.html" class="section-two__item-right">
+          <img src="assets/img/yuyutsu-banner_04.png" alt="unauthorised-access" style="width: 90%;">
+          <div class="section-two__item-content">
+            <h3>Worried About Unauthorised Access?</h3>
+            <p>Our top of the line security systems can help you prevent unauthorised access of all types.</p>
+          </div>
+        </a>
+        <div class="clearfix"></div>
+        <a href="data-management.html" class="section-two__item-left">
+          <img src="assets/img/yuyutsu-banner_05.png" alt="data-management" style="width: 100%;">
+          <div class="section-two__item-content">
+            <h3>Data Becoming Difficult to Manage?</h3>
+            <p>Our bespoke data management solutions will make storing &amp; managing your data, a breeze.</p>
+          </div>
+        </a>
+        <a href="network-security.html" class="section-two__item-right">
+          <img src="assets/img/yuyutsu-banner_03.png" alt="network-security" style="width: 60%;">
+          <div class="section-two__item-content">
+            <h3>Concerned About Network&apos;s Security?</h3>
+            <p>Our expert consultants can help set up air-tight networks within your office. No more &quot;Oh, sh*t!&quot;.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Contact Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Get in touch</h2>
+      <p>Fill this form and we&apos;ll get in touch soon.</p>
+      <form action="https://formspree.io/akshay.dhiman@ghaas.xyz" method="POST">
+        <div class="form-item">
+          <label for="name">Name</label>
+          <input type="text" name="name" placeholder="Enter your name">
+        </div>
+        <div class="form-item">
+          <label for="email">Email</label>
+          <input type="email" name="_replyto" placeholder="Enter your email">
+        </div>
+        <div>
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
   
-  <nav class="navbar">
-    <img src="assets/img/Yuyutsu-logo-orange.png" alt="Yuyutsu logo" class="header-img" title="Yuyutsu Systems">
-    <ul class="menu-links">
-      <li class="menu-link-item"><a href="services.html">Services</a></li>
-      <li class="menu-link-item"><a href="contact.html">Contact Us</a></li>
-    </ul>
-  </nav>
+  </div>
 
-  <section class="section-one">
-    <div class="section-one__left">
-      <img src="assets/img/yuyutsu-banner_02.png" alt="IT admin team">
-    </div>
-    <div class="section-one__right">
-      <h1>Your Dedicated I.T. and Admin Team</h1>
-      <a href="contact.html" class="button">Talk to us</a>
-    </div>
-  </section>
+  <script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
 
-  <section class="section-two">
-    <h2>How We Can Help</h2>
-    <div class="section-two__items">
-      <a href="leased-lines.html" class="section-two__item-left">
-        <img src="assets/img/yuyutsu-banner_01.png" alt="leased-lines" style="width: 100%;">
-        <div class="section-two__item-content">
-          <h3>Bad Internet Pausing Your Business?</h3>
-          <p>Our best-in-class leased line services with 99.9% uptime will make bad internet obsolete.</p>
-        </div>
-      </a>
-      <a href="unauthorised-access.html" class="section-two__item-right">
-        <img src="assets/img/yuyutsu-banner_04.png" alt="unauthorised-access" style="width: 90%;">
-        <div class="section-two__item-content">
-          <h3>Worried About Unauthorised Access?</h3>
-          <p>Our top of the line security systems can help you prevent unauthorised access of all types.</p>
-        </div>
-      </a>
-      <div class="clearfix"></div>
-      <a href="data-management.html" class="section-two__item-left">
-        <img src="assets/img/yuyutsu-banner_05.png" alt="data-management" style="width: 100%;">
-        <div class="section-two__item-content">
-          <h3>Data Becoming Difficult to Manage?</h3>
-          <p>Our bespoke data management solutions will make storing &amp; managing your data, a breeze.</p>
-        </div>
-      </a>
-      <a href="network-security.html" class="section-two__item-right">
-        <img src="assets/img/yuyutsu-banner_03.png" alt="network-security" style="width: 65%;">
-        <div class="section-two__item-content">
-          <h3>Concerned About Network&apos;s Security?</h3>
-          <p>Our expert consultants can help set up air-tight networks within your office. No more &quot;Oh, sh*t!&quot;.</p>
-        </div>
-      </a>
-    </div>
-  </section>
+    // Get the button that opens the modal
+    var btn = document.querySelectorAll("#myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on the button, open the modal
+    for (var i = 0; i < btn.length; i++) {
+			btn[i].onclick = function() {
+				modal.style.display = "block";
+			}
+		}
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
 
 </body>
+
 </html>

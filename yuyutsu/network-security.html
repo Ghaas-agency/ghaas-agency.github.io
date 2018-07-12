@@ -11,34 +11,90 @@
 </head>
 <body>
   
-  <nav class="navbar">
-    <img src="assets/img/Yuyutsu-logo-orange.png" alt="Yuyutsu" class="header-img" title="Yuyutsu Systems">
-    <ul class="menu-links">
-      <li class="menu-link-item"><a href="index.html">Home</a></li>
-      <li class="menu-link-item"><a href="services.html" class="menu-link-active">Services</a></li>
-      <li class="menu-link-item"><a href="contact.html">Contact Us</a></li>
-    </ul>
-  </nav>
+  <main>
+    <nav class="navbar">
+      <img src="assets/img/Yuyutsu-logo-orange.png" alt="Yuyutsu" class="header-img" title="Yuyutsu Systems">
+      <ul class="menu-links">
+        <li class="menu-link-item"><a href="index.html#services" class="menu-link-active">Services</a></li>
+        <li class="menu-link-item"><span id="myBtn">Contact Us</span></li>
+      </ul>
+    </nav>
 
-  <main class="services-main">
-    <div class="container">
-      <h1>Concerned About Network's Security?</h1>
-      <img src="assets/img/yuyutsu-banner_03.png" alt="network-security" class="featured-image">
-      <p>Many companies suffer from numerous network security problems without ever actually realizing it. What’s worse, when these problems go unresolved, they can create openings for attackers to breach a company’s security infrastructure to steal data and generally wreak havoc.</p>
-      <p>Of course, it doesn’t necessarily need to be hackers or malware either. Network security can often be severely compromised by unintentional human errors as well.</p>
-      <p>One of your biggest threats, even though you might not have thought about it are your employees themselves. About 60% of all attacks were carried out by insiders themselves. Whether it’s intentional leaks and misuse of account privileges, or identity theft arising from a phishing campaign or other social engineering attack that compromises their user account data, the people inside your business represent one of the biggest security problems you’ll ever face.</p>
-      <p>Because these threats come from trusted users and systems, they’re also among the hardest to identify and stop.</p>
-      <p>However, with proper network security protocols in place, you’ll be able to identify and ward off all possible threats and inadvertent mistakes.</p>
-      <h2>We Provide</h2>
-      <h3>1. Firewalls</h3>
-      <p>Firewalls are always the first line of defense when it comes to network security. Firewalls put up a barrier between your trusted internal network and untrusted outside networks, such as the Internet. They use a set of defined rules to allow or block traffic. A firewall can be hardware, software, or both. Investing in a strong firewall will help you identify threats and completely prevent unauthorized intrusions.</p>
-      <h3>2. Bandwidth Throttling</h3>
-      <p>Bandwidth throttling is when an ISP purposely slows down your internet speed based on what you are doing online. It is a reactive measure employed in communication networks to regulate network traffic.</p>
-      <p>Throttling can be used to actively limit a user's upload and download rates when the user is deemed to be doing something suspicious. Protocols can be put into place to prevent certain types of network usage on a computer, which would prevent activities like hacking, phishing, etc. It can even be used on programs such as video streaming, BitTorrent protocols and other file sharing applications.</p>
-      <h2>Are you scared about the safety of your data and want to solve your network security problems once and for all?</h2>
-      <a href="contact.html" class="button">Talk to us</a>
-    </div>
+    <section class="services-main">
+      <div class="container">
+        <h1>Concerned About Network's Security?</h1>
+        <img src="assets/img/yuyutsu-banner_03.png" alt="network-security" class="featured-image">
+        <p>Many companies suffer from numerous network security problems without ever actually realizing it. What’s worse, when these problems go unresolved, they can create openings for attackers to breach a company’s security infrastructure to steal data and generally wreak havoc.</p>
+        <p>Of course, it doesn’t necessarily need to be hackers or malware either. Network security can often be severely compromised by unintentional human errors as well.</p>
+        <p>One of your biggest threats, even though you might not have thought about it are your employees themselves. About 60% of all attacks were carried out by insiders themselves. Whether it’s intentional leaks and misuse of account privileges, or identity theft arising from a phishing campaign or other social engineering attack that compromises their user account data, the people inside your business represent one of the biggest security problems you’ll ever face.</p>
+        <p>Because these threats come from trusted users and systems, they’re also among the hardest to identify and stop.</p>
+        <p>However, with proper network security protocols in place, you’ll be able to identify and ward off all possible threats and inadvertent mistakes.</p>
+        <h2>We Provide</h2>
+        <h3>1. Firewalls</h3>
+        <p>Firewalls are always the first line of defense when it comes to network security. Firewalls put up a barrier between your trusted internal network and untrusted outside networks, such as the Internet. They use a set of defined rules to allow or block traffic. A firewall can be hardware, software, or both. Investing in a strong firewall will help you identify threats and completely prevent unauthorized intrusions.</p>
+        <h3>2. Bandwidth Throttling</h3>
+        <p>Bandwidth throttling is when an ISP purposely slows down your internet speed based on what you are doing online. It is a reactive measure employed in communication networks to regulate network traffic.</p>
+        <p>Throttling can be used to actively limit a user's upload and download rates when the user is deemed to be doing something suspicious. Protocols can be put into place to prevent certain types of network usage on a computer, which would prevent activities like hacking, phishing, etc. It can even be used on programs such as video streaming, BitTorrent protocols and other file sharing applications.</p>
+        <h2>Are you scared about the safety of your data and want to solve your network security problems once and for all?</h2>
+        <span id="myBtn" class="button">Talk to us</span>
+      </div>
+    </section>
   </main>
+
+  <!-- Contact Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Get in touch</h2>
+      <p>Fill this form and we&apos;ll get in touch soon.</p>
+      <form action="https://formspree.io/akshay.dhiman@ghaas.xyz" method="POST">
+        <div class="form-item">
+          <label for="name">Name</label>
+          <input type="text" name="name" placeholder="Enter your name">
+        </div>
+        <div class="form-item">
+          <label for="email">Email</label>
+          <input type="email" name="_replyto" placeholder="Enter your email">
+        </div>
+        <div>
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  
+  </div>
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+
+    // Get the button that opens the modal
+    var btn = document.querySelectorAll("#myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on the button, open the modal
+    for (var i = 0; i < btn.length; i++) {
+      btn[i].onclick = function() {
+        modal.style.display = "block";
+      }
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
 
 </body>
 </html>
