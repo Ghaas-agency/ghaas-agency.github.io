@@ -61,7 +61,7 @@ label {
   margin-bottom: 10px;
 }
 
-input[type="email"], input[type="text"] {
+input[type="email"], input[type="text"], input[type="tel"] {
   padding: 5px 0;
   display: block;
   margin: 5px 0;
@@ -74,7 +74,9 @@ input[type="email"], input[type="text"] {
   transition: all 0.15s ease-in-out;
 }
 
-input[type="email"]:active, input[type="email"]:focus, input[type="text"]:active, input[type="text"]:focus {
+input[type="email"]:active, input[type="email"]:focus,
+input[type="text"]:active, input[type="text"]:focus,
+input[type="tel"]:active, input[type="tel"]:focus {
   outline: none;
   border-bottom: 1.5px solid $primary;
 }
@@ -383,8 +385,9 @@ input[type="email"]:active, input[type="email"]:focus, input[type="text"]:active
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 7.5% auto; /* 15% from the top and centered */
+  margin: 5% auto; /* 15% from the top and centered */
   padding: 30px;
+  padding-bottom: 50px;
   border: 1px solid #888;
   max-width: 50%;
   position: relative;
@@ -439,4 +442,16 @@ input[type="email"]:active, input[type="email"]:focus, input[type="text"]:active
 /* FORM */
 .form-item {
   margin: 10px 0 20px 0;
+}
+
+/* Floating Button */
+.floating-btn {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+
+  @media (max-width: 480px) {
+    right: 50%;
+    margin-right: -37.5%;
+  }
 }

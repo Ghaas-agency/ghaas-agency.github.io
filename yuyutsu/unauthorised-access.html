@@ -13,7 +13,7 @@
   
   <main>
     <nav class="navbar">
-      <img src="assets/img/Yuyutsu-logo-orange.png" alt="Yuyutsu" class="header-img" title="Yuyutsu Systems">
+      <a href="index.html"><img src="assets/img/Yuyutsu-logo-orange.png" alt="Yuyutsu" class="header-img" title="Yuyutsu Systems"></a>
       <ul class="menu-links">
         <li class="menu-link-item"><a href="index.html#services" class="menu-link-active">Services</a></li>
         <li class="menu-link-item"><span id="myBtn">Contact Us</span></li>
@@ -58,21 +58,35 @@
       <span class="close">&times;</span>
       <h2>Get in touch</h2>
       <p>Fill this form and we&apos;ll get in touch soon.</p>
-      <form action="https://formspree.io/akshay.dhiman@ghaas.xyz" method="POST">
+      <form action="https://formspree.io/shekhar@yuyutsusystems.com" method="POST">
         <div class="form-item">
           <label for="name">Name</label>
-          <input type="text" name="name" placeholder="Enter your name">
+          <input type="text" name="name" placeholder="Enter your name" required>
         </div>
         <div class="form-item">
-          <label for="email">Email</label>
-          <input type="email" name="_replyto" placeholder="Enter your email">
+          <label for="_replyto">Email</label>
+          <input type="email" name="_replyto" placeholder="Enter your email" required>
+        </div>
+        <div class="form-item">
+          <label for="company">Company Name</label>
+          <input type="text" name="company" placeholder="Enter your company name" required>
+        </div>
+        <div class="form-item">
+          <label for="phone">Phone</label>
+          <input type="tel" name="phone" placeholder="Enter your contact number" required>
         </div>
         <div>
+          <input type="hidden" name="_subject" value="New submission on Yuyutsu website." />
           <input type="submit" value="Submit">
         </div>
       </form>
     </div>
   
+  </div>
+
+  <!-- Floating Contact Button -->
+  <div id="floatbtn" class="floating-btn">
+    <span id="myBtn" class="button">Talk to us</span>
   </div>
 
   <script>
@@ -101,6 +115,17 @@
     window.onclick = function(event) {
       if (event.target == modal) {
         modal.style.display = "none";
+      }
+    }
+
+    // Floating button
+    var floatingBtn = document.getElementById('floatbtn');
+    var docHeight = (document.height !== undefined) ? document.height : document.body.offsetHeight;
+    window.onscroll = function() {
+      if ((window.innerHeight + window.scrollY) + 100 >= document.body.offsetHeight) {
+        floatingBtn.style.display = 'none';
+      } else {
+        floatingBtn.style.display = '';
       }
     }
   </script>

@@ -13,7 +13,7 @@
   
   <main>
     <nav class="navbar">
-      <img src="assets/img/Yuyutsu-logo-orange.png" alt="Yuyutsu" class="header-img" title="Yuyutsu Systems">
+      <a href="index.html"><img src="assets/img/Yuyutsu-logo-orange.png" alt="Yuyutsu" class="header-img" title="Yuyutsu Systems"></a>
       <ul class="menu-links">
         <li class="menu-link-item"><a href="index.html#services" class="menu-link-active">Services</a></li>
         <li class="menu-link-item"><span id="myBtn">Contact Us</span></li>
@@ -43,10 +43,15 @@
         <h3>Data Retrieval Solutions</h3>
         <p>If all your data is localized, one would need to be physically present at the office if he/she intends to access that Data. A cloud system will help you stay connected and in sync with all the latest changes in your data, allowing you to access it and work on it wherever convenient. In case of an accidental hardware failure, all your data is backed up on the cloud anyway. So you don’t end up losing important data.</p>
         <h2>Don't wait until later before deciding what to do. Start planning now for your future storage needs, so you won't waste time and money later.</h2>
-        <a href="contact.html" class="button">Talk to us</a>
+        <span id="myBtn" class="button">Talk to us</span>
       </div>
     </section>
   </main>
+
+  <!-- Floating Contact Button -->
+  <div id="floatbtn" class="floating-btn">
+    <span id="myBtn" class="button">Talk to us</span>
+  </div>
 
   <!-- Contact Modal -->
   <div id="myModal" class="modal">
@@ -56,17 +61,26 @@
       <span class="close">&times;</span>
       <h2>Get in touch</h2>
       <p>Fill this form and we&apos;ll get in touch soon.</p>
-      <form action="https://formspree.io/akshay.dhiman@ghaas.xyz" method="POST">
+      <form action="https://formspree.io/shekhar@yuyutsusystems.com" method="POST">
         <div class="form-item">
           <label for="name">Name</label>
-          <input type="text" name="name" placeholder="Enter your name">
+          <input type="text" name="name" placeholder="Enter your name" required>
         </div>
         <div class="form-item">
-          <label for="email">Email</label>
-          <input type="email" name="_replyto" placeholder="Enter your email">
+          <label for="_replyto">Email</label>
+          <input type="email" name="_replyto" placeholder="Enter your email" required>
+        </div>
+        <div class="form-item">
+          <label for="company">Company Name</label>
+          <input type="text" name="company" placeholder="Enter your company name" required>
+        </div>
+        <div class="form-item">
+          <label for="phone">Phone</label>
+          <input type="tel" name="phone" placeholder="Enter your contact number" required>
         </div>
         <div>
-          <span id="myBtn" class="button">Talk to us</span>
+          <input type="hidden" name="_subject" value="New submission on Yuyutsu website." />
+          <input type="submit" value="Submit">
         </div>
       </form>
     </div>
@@ -99,6 +113,17 @@
     window.onclick = function(event) {
       if (event.target == modal) {
         modal.style.display = "none";
+      }
+    }
+
+    // Floating button
+    var floatingBtn = document.getElementById('floatbtn');
+    var docHeight = (document.height !== undefined) ? document.height : document.body.offsetHeight;
+    window.onscroll = function() {
+      if ((window.innerHeight + window.scrollY) + 100 >= document.body.offsetHeight) {
+        floatingBtn.style.display = 'none';
+      } else {
+        floatingBtn.style.display = '';
       }
     }
   </script>
