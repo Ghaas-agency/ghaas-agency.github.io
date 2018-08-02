@@ -1,0 +1,68 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-3737ff1a89988533e7dc.js",
+      "component---src-pages-index-js-3737ff1a89988533e7dc.js.map"
+    ],
+    "component---src-pages-download-js": [
+      "component---src-pages-download-js-d57b18e016a1b2895102.js",
+      "component---src-pages-download-js-d57b18e016a1b2895102.js.map"
+    ],
+    "path---": [
+      "path----43dd20cc64264c833f55.js",
+      "path----43dd20cc64264c833f55.js.map"
+    ],
+    "component---src-pages-contact-js": [
+      "component---src-pages-contact-js-ebba47b3409ac0af9478.js",
+      "component---src-pages-contact-js-ebba47b3409ac0af9478.js.map"
+    ],
+    "path---pricing": [
+      "path---pricing-a0e39f21c11f6a62c5ab.js",
+      "path---pricing-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-86a328287d38e8859a8e.js",
+      "component---src-layouts-index-js-86a328287d38e8859a8e.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-5a98e6e60a10e1028b17.js",
+      "build-js-styles.css",
+      "commons-5a98e6e60a10e1028b17.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---contact": [
+      "path---contact-a0e39f21c11f6a62c5ab.js",
+      "path---contact-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---download": [
+      "path---download-a0e39f21c11f6a62c5ab.js",
+      "path---download-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-pricing-js": [
+      "component---src-pages-pricing-js-1c3a9f43c3b6470c3a16.js",
+      "component---src-pages-pricing-js-1c3a9f43c3b6470c3a16.js.map"
+    ],
+    "app": [
+      "app-4dcbb386b2d935bca485.js",
+      "build-js-styles.css",
+      "app-4dcbb386b2d935bca485.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
