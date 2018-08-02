@@ -65,7 +65,7 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container text-center" style="padding-top: 20px;">
+  <div class="container text-center header-notif">
     <a href="https://trustingsocial.com" rel="noopener" target="_blank">Oogway Consulting is now a part of Trusting Social</a>
   </div>
   <div class="container-fluid section-1">
@@ -254,7 +254,7 @@
 <script type="text/javascript">
 var navbar = $('.header').offset().top;
   $(window).scroll(function () {
-    if ($(window).scrollTop() > navbar) {
+    if ($(window).scrollTop() > (navbar-50)) {
       var h = $('.header').height();
       $('.header').addClass('sticky');
       document.querySelector('.add-head-space').style.height = h + 'px';
