@@ -61,7 +61,7 @@ img{
 
 .sticky {
   position: fixed;
-  top: 50px;
+  top: 60px;
   width: 100%;
   z-index: 1;
   font-size: 14px !important;
@@ -102,13 +102,13 @@ img{
 
 .section-one-right {
 	text-align: left;
-	margin-top: 35px;
+	margin-top: 60px;
 	padding-left: 30px;
 	padding-right: 30px;
 }
 
 .section-one-left {
-	margin-top: 150px;
+	margin-top: 180px;
 }
 .section-one-left>img {
 	width: 200px;
@@ -146,16 +146,16 @@ img{
 	}
 
 	.sticky {
-		top: 70px;
+		top: 90px;
 	}
 }
 
 .header-notif {
 	position: fixed;
-	padding-top: 20px;
+	padding: 20px 10px;
 	top: 0px;
-	left: 20px;
+	left: 0px;
 	right: 0;
 	z-index: 999;
-	background-color: #eef1f0;
+	background-color: #ffffff;
 }
