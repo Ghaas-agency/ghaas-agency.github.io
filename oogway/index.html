@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-78296065-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-78296065-1');
+  </script>
+
+  <script>
+  /**
+  * Function that tracks a click on an outbound link in Analytics.
+  * This function takes a valid URL string as an argument, and uses that URL string
+  * as the event label. Setting the transport method to 'beacon' lets the hit be sent
+  * using 'navigator.sendBeacon' in browser that support it.
+  */
+  var trackOutboundLink = function(url) {
+    gtag('event', 'click', {
+      'event_category': 'outbound',
+      'event_label': url,
+      'transport_type': 'beacon',
+      'event_callback': function(){document.location = url;}
+    });
+  }
+  </script>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Oogway Consulting: Software and Data Engineering</title>
+  <meta name="description" content="Website">
+  <meta name="description" content="We build carefully crafted, built to last software systems that deliver inner peace.">
+  <meta name="keywords" content="Scale, Software, Open-Source Software, First Principles, Golang, Ruby, Java, Data Engineering, Microservices, Asynchronous, Messaging, Coffee, Kung Fu">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Cairo|Playfair+Display|Raleway|Open+Sans:300" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/custom.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" href="Assets/favicon.png">
+
+</head>
+
+<body class="main">
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container text-center" style="padding-top: 20px;">
+    <a href="https://trustingsocial.com" rel="noopener" target="_blank">Oogway Consulting is now a part of Trusting Social</a>
+  </div>
+  <div class="container-fluid section-1">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="text-center section-one-left">
+          <img src="Assets/Oogway-website-logo-02.png">
+        </div>
+      </div>
+      <div class="col-sm-6 text-center section-one-right">
+        <br>
+        <h1>Hello, we are <br><span style="font-size: 46px; /*font-family: 'Playfair Display', seriff;*/ color: green;">Oogway Consulting</span></h1>
+        <br>
+        <p>
+          Is your business growing faster than your technology can handle? <br/><br/>
+          We specalize in tackling <strong>scalability issues</strong> in<br/>
+          <br>
+          - Software Engineering<br/>
+          - Data Engineering<br/>
+          - Infrastructure Engineering<br/>
+          - Architecture<br/>
+        </p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="header" id="myHeader">
+    <div class="row">
+      <div class="col-sm-6">
+      </div>
+      <div class="col-sm-6">            
+        <h3 class="text-center"><a href="http://blog.oogway.in" onclick="trackOutboundLink('http://blog.oogway.in'); return false;" target="_blank">Blog</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="mailto:contact@oogway.in" onclick="trackOutboundLink('mailto:contact@oogway.in'); return false;">Contact</h3></a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Adds the space required to cover .header -->
+  <div class="add-head-space"></div>
+
+
+<!--   <div class="container-fluid section-2" id="team">
+    <h2 style="text-align: center; padding-top: 30px;">Services</h2>
+      <div class="row" style="padding-top: 50px">
+          <div class="col-sm-4" style="padding: 20px 60px; text-align: center;">
+              <h3>Advise + Architect</h3>
+              <p>We advise and help architect systems. Aligning your business goals with your technology, our goal is to maximise impact to cost ratio.</p>              
+          </div>
+          
+          <div class="col-sm-4">
+            <div class="text-center hide-mobile"><img src="Assets/cycle.svg" style="padding-top: 100px" width="250px"></div>
+          </div>
+
+          <div class="col-sm-4" style="padding: 20px 60px; text-align: center;">
+              <h3>Design + Implement</h3>
+              <p>We help you design and build your software with the best <em>time-to-value</em>, accelerating the process using tried and tested cookbooks.</p>              
+          </div>
+      </div>
+
+
+      <div class="row mobile-adjust">
+        <div class="col-sm-4 col-sm-offset-4" style="text-align: center;">
+          <h3>Collaborate + Improve</h3>
+          <p>Working closely with you and your team, we help you optimise your development process. We introducing best practices and methodologies for better scalability, performance and processes.</p>
+        </div>
+      </div>
+  </div> -->
+
+
+
+
+  <div class="container-fluid section-2" id="team">
+    <h2 style="text-align: center; padding-top:30px">Team</h2>
+      <div class="row" style="padding-top: 50px">         
+         <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="padding: 20px 50px">
+            <center><img src="Assets/ag.png" width="100px">
+              <p style="font-size: 16px; margin-bottom: 0px">Aditya Godbole</p>
+              <a href="https://www.linkedin.com/in/adityagodbole/" target="_blank"><img src="Assets/li-icon.svg" width="20px" style="border-radius: 0px"></a>
+            </center>                
+        </div>
+
+
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="padding: 20px 50px">
+            <center><img src="Assets/ag1.jpg" width="100px">
+              <p style="font-size: 16px; margin-bottom: 0px">Akshat Goyal</p>
+              <a href="https://www.linkedin.com/in/akshat-goyal/" target="_blank"><img src="Assets/li-icon.svg" width="20px" style="border-radius: 0px"></a>
+            </center>                
+        </div>
+
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="padding: 20px 50px">
+            <center><img src="Assets/cn.jpg" width="100px">
+              <p style="font-size: 16px; margin-bottom: 0px">Chinmay Naik</p>
+              <a href="https://www.linkedin.com/in/chinmay185/" target="_blank"><img src="Assets/li-icon.svg" width="20px" style="border-radius: 0px"></a>
+            </center>                
+        </div>
+
+
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="padding: 20px 30px">
+            <center><img src="Assets/jaideep.jpg" width="100px">
+              <p style="font-size: 16px; margin-bottom: 0px">Jaideep Khandelwal</p>
+              <a href="https://www.linkedin.com/in/jdk2588/" target="_blank"><img src="Assets/li-icon.svg" width="20px" style="border-radius: 0px"></a>
+            </center>                
+        </div>
+
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="padding: 20px 50px">
+            <center><img src="Assets/mohan.jpg" width="100px">
+              <p style="font-size: 16px; margin-bottom: 0px">Mohan Dutt</p>
+              <a href="https://www.linkedin.com/in/mohan-dutt-2b753062/" target="_blank"><img src="Assets/li-icon.svg" width="20px" style="border-radius: 0px"></a>
+            </center>                
+        </div>
+
+
+
+         <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="padding: 20px 50px">
+            <center><img src="Assets/nm.png" width="100px">
+              <p style="font-size: 16px; margin-bottom: 0px">Nishant Modak</p>
+              <a href="https://www.linkedin.com/in/modak/" target="_blank"><img src="Assets/li-icon.svg" width="20px" style="border-radius: 0px"></a>
+            </center>                
+        </div>
+
+
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="padding: 20px 50px">
+            <center><img src="Assets/pv.png" width="100px">
+              <p style="font-size: 16px; margin-bottom: 0px">Piyush Verma</p>
+              <a href="https://www.linkedin.com/in/meson10/" target="_blank"><img src="Assets/li-icon.svg" width="20px" style="border-radius: 0px"></a>
+            </center>                
+        </div>
+
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="padding: 20px 50px">
+            <center><img src="Assets/pm.png" width="100px">
+              <p style="font-size: 16px; margin-bottom: 0px">Poorva Mahajan</p>
+              <a href="https://www.linkedin.com/in/poorva-mahajan-47b91713b/" target="_blank"><img src="Assets/li-icon.svg" width="20px" style="border-radius: 0px"></a>
+            </center>                
+        </div>
+
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="padding: 20px 50px">
+            <center><img src="Assets/sagar.jpg" width="100px">
+              <p style="font-size: 16px; margin-bottom: 0px">Sagar Rakshe</p>
+              <a href="https://www.linkedin.com/in/sagarrakshe/" target="_blank"><img src="Assets/li-icon.svg" width="20px" style="border-radius: 0px"></a>
+            </center>                
+        </div>
+
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="padding: 20px 50px">
+            <center><img src="Assets/sapana.png" width="100px">
+              <p style="font-size: 16px; margin-bottom: 0px">Sapana Kothari</p>
+              <a href="https://www.linkedin.com/in/sapana-kothari-profile/" target="_blank"><img src="Assets/li-icon.svg" width="20px" style="border-radius: 0px"></a>
+            </center>                
+        </div>
+
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="padding: 20px 50px">
+            <center><img src="Assets/sp.png" width="100px">
+              <p style="font-size: 16px; margin-bottom: 0px">Sheetal Parikh</p>
+              <a href="https://www.linkedin.com/in/sheetal-parikh-78008ab/" target="_blank"><img src="Assets/li-icon.svg" width="20px" style="border-radius: 0px"></a>
+            </center>                
+        </div>
+
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="padding: 20px 50px">
+            <center><img src="Assets/sirtaj.png" width="100px">
+              <p style="font-size: 16px; margin-bottom: 0px">Sirtaj Singh Kang</p>
+              <a href="https://www.linkedin.com/in/sirtaj/" target="_blank"><img src="Assets/li-icon.svg" width="20px" style="border-radius: 0px"></a>
+            </center>                
+        </div>
+
+
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="padding: 20px 50px">
+            <center><img src="Assets/sb.jpg" width="100px">
+              <p style="font-size: 16px; margin-bottom: 0px">Surabhi Borgikar</p>
+              <a href="https://www.linkedin.com/in/surabhi-borgikar-4039b373/" target="_blank"><img src="Assets/li-icon.svg" width="20px" style="border-radius: 0px"></a>
+            </center>                
+        </div>
+
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="padding: 20px 50px">
+            <center><img src="Assets/talina.jpg" width="100px">
+              <p style="font-size: 16px; margin-bottom: 0px">Talina Shrotriya</p>
+              <a href="https://www.linkedin.com/in/talinashrotriya/" target="_blank"><img src="Assets/li-icon.svg" width="20px" style="border-radius: 0px"></a>
+            </center>                
+        </div>
+    </div>
+  </div>
+
+
+<div class="container-fluid footer">
+    <p>Copyright 2018 | Oogway Consulting Pvt. Ltd.</p>
+  </div>
+</div>
+
+<script type="text/javascript">
+var navbar = $('.header').offset().top;
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > navbar) {
+      var h = $('.header').height();
+      $('.header').addClass('sticky');
+      document.querySelector('.add-head-space').style.height = h + 'px';
+    } else {
+      $('.header').removeClass('sticky');
+      document.querySelector('.add-head-space').style.height = '0px';
+    }
+  });
+</script>
+  
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
