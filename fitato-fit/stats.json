@@ -1,5 +1,9 @@
 {
   "assetsByChunkName": {
+    "component---src-pages-privacy-policy-js": [
+      "component---src-pages-privacy-policy-js-e528539f55cb576d1bdb.js",
+      "component---src-pages-privacy-policy-js-e528539f55cb576d1bdb.js.map"
+    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-9be8a57feff669a0bb14.js",
       "component---src-pages-index-js-9be8a57feff669a0bb14.js.map"
@@ -21,8 +25,8 @@
       "path---faq-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-faq-js": [
-      "component---src-pages-faq-js-ba9adacd59103ad67f30.js",
-      "component---src-pages-faq-js-ba9adacd59103ad67f30.js.map"
+      "component---src-pages-faq-js-76485cc0b76f1ea5f47d.js",
+      "component---src-pages-faq-js-76485cc0b76f1ea5f47d.js.map"
     ],
     "path---pricing": [
       "path---pricing-a0e39f21c11f6a62c5ab.js",
@@ -71,10 +75,14 @@
       "component---src-pages-pricing-js-ca8cde28cff84e0bd82f.js.map"
     ],
     "app": [
-      "app-da8243e00df35c3dfa1f.js",
+      "app-f8410897abcd95d195d0.js",
       "build-js-styles.css",
-      "app-da8243e00df35c3dfa1f.js.map",
+      "app-f8410897abcd95d195d0.js.map",
       "build-js-styles.css.map"
+    ],
+    "path---privacy-policy": [
+      "path---privacy-policy-a0e39f21c11f6a62c5ab.js",
+      "path---privacy-policy-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
