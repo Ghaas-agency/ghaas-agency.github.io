@@ -1,8 +1,16 @@
 {
   "assetsByChunkName": {
+    "path---become-a-partner": [
+      "path---become-a-partner-a0e39f21c11f6a62c5ab.js",
+      "path---become-a-partner-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "component---src-pages-privacy-policy-js": [
       "component---src-pages-privacy-policy-js-f2e1a429496d6a8492aa.js",
       "component---src-pages-privacy-policy-js-f2e1a429496d6a8492aa.js.map"
+    ],
+    "component---src-pages-workplace-js": [
+      "component---src-pages-workplace-js-afe41dce916af70c9253.js",
+      "component---src-pages-workplace-js-afe41dce916af70c9253.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-a776b2f7c634740bb49d.js",
@@ -20,21 +28,25 @@
       "component---src-pages-contact-js-a538273257b7269da0d5.js",
       "component---src-pages-contact-js-a538273257b7269da0d5.js.map"
     ],
+    "component---src-pages-become-a-partner-js": [
+      "component---src-pages-become-a-partner-js-c5876f5d398c16008dd5.js",
+      "component---src-pages-become-a-partner-js-c5876f5d398c16008dd5.js.map"
+    ],
     "path---faq": [
       "path---faq-a0e39f21c11f6a62c5ab.js",
       "path---faq-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-faq-js": [
-      "component---src-pages-faq-js-c6f25334583bfdaa3450.js",
-      "component---src-pages-faq-js-c6f25334583bfdaa3450.js.map"
+      "component---src-pages-faq-js-0786b183291b282f054b.js",
+      "component---src-pages-faq-js-0786b183291b282f054b.js.map"
     ],
     "path---pricing": [
       "path---pricing-a0e39f21c11f6a62c5ab.js",
       "path---pricing-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-33b5cf8fedcff5fd0202.js",
-      "component---src-layouts-index-js-33b5cf8fedcff5fd0202.js.map"
+      "component---src-layouts-index-js-a631cbe9d385ffcaf26b.js",
+      "component---src-layouts-index-js-a631cbe9d385ffcaf26b.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -45,17 +57,17 @@
       "path---partners-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-reviews-js": [
-      "component---src-pages-reviews-js-c9aeb7a23124233e0cc6.js",
-      "component---src-pages-reviews-js-c9aeb7a23124233e0cc6.js.map"
+      "component---src-pages-reviews-js-a908798b6cbae41d3708.js",
+      "component---src-pages-reviews-js-a908798b6cbae41d3708.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-8f0896231b3d6839158c.js",
       "component---src-pages-404-js-8f0896231b3d6839158c.js.map"
     ],
     "commons": [
-      "commons-be480e78ae2680bf73fd.js",
+      "commons-0eb1b0d7f9ca4d44b351.js",
       "build-js-styles.css",
-      "commons-be480e78ae2680bf73fd.js.map",
+      "commons-0eb1b0d7f9ca4d44b351.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
@@ -71,17 +83,17 @@
       "path---download-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-partners-js": [
-      "component---src-pages-partners-js-90399b99de8cb4390ae6.js",
-      "component---src-pages-partners-js-90399b99de8cb4390ae6.js.map"
+      "component---src-pages-partners-js-81a2c58749272353ca86.js",
+      "component---src-pages-partners-js-81a2c58749272353ca86.js.map"
     ],
     "component---src-pages-pricing-js": [
       "component---src-pages-pricing-js-2b27b784d109064623cf.js",
       "component---src-pages-pricing-js-2b27b784d109064623cf.js.map"
     ],
     "app": [
-      "app-c82be8ed8fd3c3520b3b.js",
+      "app-c7ca0a4f1ec64abcfc5c.js",
       "build-js-styles.css",
-      "app-c82be8ed8fd3c3520b3b.js.map",
+      "app-c7ca0a4f1ec64abcfc5c.js.map",
       "build-js-styles.css.map"
     ],
     "path---privacy-policy": [
@@ -95,6 +107,10 @@
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---workplace": [
+      "path---workplace-a0e39f21c11f6a62c5ab.js",
+      "path---workplace-a0e39f21c11f6a62c5ab.js.map"
     ]
   }
 }
