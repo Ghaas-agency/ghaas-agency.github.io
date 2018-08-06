@@ -1,40 +1,40 @@
 {
   "assetsByChunkName": {
     "component---src-pages-privacy-policy-js": [
-      "component---src-pages-privacy-policy-js-e528539f55cb576d1bdb.js",
-      "component---src-pages-privacy-policy-js-e528539f55cb576d1bdb.js.map"
+      "component---src-pages-privacy-policy-js-f2e1a429496d6a8492aa.js",
+      "component---src-pages-privacy-policy-js-f2e1a429496d6a8492aa.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-8ee0d9bc67cd7f503c1f.js",
-      "component---src-pages-index-js-8ee0d9bc67cd7f503c1f.js.map"
+      "component---src-pages-index-js-a776b2f7c634740bb49d.js",
+      "component---src-pages-index-js-a776b2f7c634740bb49d.js.map"
     ],
     "component---src-pages-download-js": [
-      "component---src-pages-download-js-ff5f754b2d89ae0ea509.js",
-      "component---src-pages-download-js-ff5f754b2d89ae0ea509.js.map"
+      "component---src-pages-download-js-09dbf7323fe6eeeb730d.js",
+      "component---src-pages-download-js-09dbf7323fe6eeeb730d.js.map"
     ],
     "path---": [
       "path----43dd20cc64264c833f55.js",
       "path----43dd20cc64264c833f55.js.map"
     ],
     "component---src-pages-contact-js": [
-      "component---src-pages-contact-js-97bbeb2cf3426a52a3ef.js",
-      "component---src-pages-contact-js-97bbeb2cf3426a52a3ef.js.map"
+      "component---src-pages-contact-js-a538273257b7269da0d5.js",
+      "component---src-pages-contact-js-a538273257b7269da0d5.js.map"
     ],
     "path---faq": [
       "path---faq-a0e39f21c11f6a62c5ab.js",
       "path---faq-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-faq-js": [
-      "component---src-pages-faq-js-42d04f57e5ae428220d6.js",
-      "component---src-pages-faq-js-42d04f57e5ae428220d6.js.map"
+      "component---src-pages-faq-js-c6f25334583bfdaa3450.js",
+      "component---src-pages-faq-js-c6f25334583bfdaa3450.js.map"
     ],
     "path---pricing": [
       "path---pricing-a0e39f21c11f6a62c5ab.js",
       "path---pricing-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-477cad1fce3ca9e3b3e1.js",
-      "component---src-layouts-index-js-477cad1fce3ca9e3b3e1.js.map"
+      "component---src-layouts-index-js-5d585a1f2a09abac8cac.js",
+      "component---src-layouts-index-js-5d585a1f2a09abac8cac.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -45,17 +45,17 @@
       "path---partners-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-reviews-js": [
-      "component---src-pages-reviews-js-ceb819035d70152c19bd.js",
-      "component---src-pages-reviews-js-ceb819035d70152c19bd.js.map"
+      "component---src-pages-reviews-js-c9aeb7a23124233e0cc6.js",
+      "component---src-pages-reviews-js-c9aeb7a23124233e0cc6.js.map"
     ],
     "component---src-pages-404-js": [
-      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
-      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+      "component---src-pages-404-js-8f0896231b3d6839158c.js",
+      "component---src-pages-404-js-8f0896231b3d6839158c.js.map"
     ],
     "commons": [
-      "commons-b28cb5a1a06ec3a0e088.js",
+      "commons-be480e78ae2680bf73fd.js",
       "build-js-styles.css",
-      "commons-b28cb5a1a06ec3a0e088.js.map",
+      "commons-be480e78ae2680bf73fd.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
@@ -71,12 +71,12 @@
       "path---download-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-partners-js": [
-      "component---src-pages-partners-js-aeaf8dccd10faab9f15c.js",
-      "component---src-pages-partners-js-aeaf8dccd10faab9f15c.js.map"
+      "component---src-pages-partners-js-90399b99de8cb4390ae6.js",
+      "component---src-pages-partners-js-90399b99de8cb4390ae6.js.map"
     ],
     "component---src-pages-pricing-js": [
-      "component---src-pages-pricing-js-ca8cde28cff84e0bd82f.js",
-      "component---src-pages-pricing-js-ca8cde28cff84e0bd82f.js.map"
+      "component---src-pages-pricing-js-2b27b784d109064623cf.js",
+      "component---src-pages-pricing-js-2b27b784d109064623cf.js.map"
     ],
     "app": [
       "app-c82be8ed8fd3c3520b3b.js",
