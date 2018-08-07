@@ -25,12 +25,12 @@
       "path----43dd20cc64264c833f55.js.map"
     ],
     "component---src-pages-contact-js": [
-      "component---src-pages-contact-js-a538273257b7269da0d5.js",
-      "component---src-pages-contact-js-a538273257b7269da0d5.js.map"
+      "component---src-pages-contact-js-7edc6e6efe6386de376c.js",
+      "component---src-pages-contact-js-7edc6e6efe6386de376c.js.map"
     ],
     "component---src-pages-become-a-partner-js": [
-      "component---src-pages-become-a-partner-js-c5876f5d398c16008dd5.js",
-      "component---src-pages-become-a-partner-js-c5876f5d398c16008dd5.js.map"
+      "component---src-pages-become-a-partner-js-fa4c4a0af8bd7e07c1fc.js",
+      "component---src-pages-become-a-partner-js-fa4c4a0af8bd7e07c1fc.js.map"
     ],
     "path---faq": [
       "path---faq-a0e39f21c11f6a62c5ab.js",
@@ -45,8 +45,8 @@
       "path---pricing-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-a631cbe9d385ffcaf26b.js",
-      "component---src-layouts-index-js-a631cbe9d385ffcaf26b.js.map"
+      "component---src-layouts-index-js-0107a9983303828861c5.js",
+      "component---src-layouts-index-js-0107a9983303828861c5.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -65,9 +65,9 @@
       "component---src-pages-404-js-8f0896231b3d6839158c.js.map"
     ],
     "commons": [
-      "commons-0eb1b0d7f9ca4d44b351.js",
+      "commons-bb427b56c898cebb6abb.js",
       "build-js-styles.css",
-      "commons-0eb1b0d7f9ca4d44b351.js.map",
+      "commons-bb427b56c898cebb6abb.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
