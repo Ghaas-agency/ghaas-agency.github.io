@@ -1,0 +1,259 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.topbar {
+	height: 100%;
+	line-height: 100% !important;
+	background-color: #eeeeee;
+}
+
+.row {
+	margin: 0 0 0 0 !important;
+}
+
+.section-1 {
+	padding: 50px;
+}
+
+.section-1 .col-md-4 {
+	background-color: #eaeaea;
+}
+
+.section-2 {
+	padding: 50px;
+}
+
+.section-3 {
+	padding: 50px;
+}
+
+.section-4 {
+	padding: 50px;
+}
+
+.header {
+	font-family: 'Open Sans', sans-serif;
+	overflow: hidden;
+	background-color: rgba(0, 65, 31, 1);
+	color: #efefef;
+	font-family: 'Open Sans', sans-serif;
+	padding: 150px 15%;
+}
+
+.header .btn {
+	background-color: rgba(255, 255, 255, 0);
+	color: #ffffff;
+}
+
+.text-section {
+	font-family: 'Open Sans', sans-serif;
+	background: #ffffff;
+	padding: 80px;
+}
+
+.half-card {
+	padding: 70px;
+	/*border: 0.1px grey solid;*/
+	height: 100%;
+	background: #f7f7f7;
+}
+
+.half-card-5 {
+	padding: 70px;
+	/*border: 0.1px grey solid;*/
+	height: 100%;
+	background: #f1f1f1;
+}
+
+.half-card-1 {
+	padding: 50px;
+	height: 100%;
+	color: #000000;
+	background: #f7f7f7;
+}
+
+.half-card-2 {
+	padding: 50px;
+	height: 100%;
+	color: #ffffff;
+	background: #96927e;
+}
+
+.half-card-3 {
+	padding: 50px;
+	height: 100%;
+	color: #ffffff;
+	background: #5d5252;
+}
+
+.half-card-4 {
+	padding: 50px;
+	height: 100%;
+	color: #ffffff;
+	/*background: #695d84;*/
+	background: #5e4f80;
+}
+
+.what-we-do {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.what-we-do p {
+	font-size: 16px;
+}
+
+.client-section {
+	font-family: 'Open Sans', sans-serif;
+	background: #f7f7f7;
+	padding: 50px;
+}
+
+.section-why {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.footer {
+	padding: 30px;
+	background: #000000;
+	color: #aeaeae;
+}
+
+/*Thank you page specific section */
+
+.thank-you {
+	padding: 100px;
+	background-color: #ffffff;
+	background-size: cover;
+}
+
+/* End */
+
+/* Child pages general css */
+
+.header-child {
+	font-family: 'Open Sans', sans-serif;
+	overflow: hidden;
+	background-color: rgba(0, 65, 31, 1);
+	color: #efefef;
+	font-family: 'Open Sans', sans-serif;
+	padding: 100px;
+}
+
+.header-child .btn {
+	background-color: rgba(255, 255, 255, 0);
+	color: #ffffff;
+}
+
+.text-section-child {
+	font-family: 'Open Sans', sans-serif;
+	background: #ffffff;
+	padding: 50px;
+}
+
+.text-section-child p {
+	font-size: 16px;
+}
+
+.half-card-child {
+	padding: 30px;
+	/*border: 0.1px grey solid;*/
+	height: 100%;
+	background: #f7f7f7;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.half-card-5-child {
+	padding: 30px;
+	/*border: 0.1px grey solid;*/
+	height: 100%;
+	background: #f1f1f1;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Child pages general css */
+
+/* Equalizig columns */
+
+/* FURTHER */
+
+.main-header {
+	padding: 15px 0 20px 0;	
+	background-color: #eeeeee;
+}
+.header-left, .header-right {
+	display: inline-block;
+}
+.header-right {
+	float: right;
+	padding-top: 10px;
+}
+.header-menu {
+	display: inline;
+	list-style-type: none;
+}
+.header-menu>li {
+	padding: 0;
+	margin: 0 12px;
+	display: inline;
+	font-size: 16px;
+}
+.header-menu>li>a:hover {
+	border-bottom: 1px solid #5d5252;
+}
+
+.btn {
+	white-space: normal;
+}
+
+@media (min-width: 768px) {
+	.table-row {
+		display: table;
+		table-layout: fixed;
+	}
+	.table-row [class^="col-"] {
+		display: table-cell;
+		float: none;
+	}
+}
+
+@media (max-width: 979px) {
+	.header, .header-child, .text-section-child {
+		padding: 50px 5%;
+	}
+}
+
+@media (max-width: 767px) {
+	.header, .header-child, .text-section-child, .half-card, .half-card-5 {
+		padding: 50px 5%;
+	}
+	.text-section {
+		padding: 50px 5%;
+	}
+}
+
+@media (max-width: 480px) {
+	.header, .header-child, .text-section-child, .half-card, .half-card-5 {
+		padding: 50px 2%;
+	}
+	.main-header {
+		text-align: center;
+	}
+	.header-menu {
+		margin: 0;
+		padding: 0;
+	}
+	.header-right {
+		float: none;
+	}
+}
