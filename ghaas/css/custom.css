@@ -38,7 +38,7 @@ body {
 	background-color: rgba(0, 65, 31, 1);
 	color: #efefef;
 	font-family: 'Open Sans', sans-serif;
-	padding: 150px 15%;
+	padding: 80px 15%;
 }
 
 .header .btn {
@@ -187,6 +187,15 @@ a:hover {
 
 /* FURTHER */
 
+h1, h2, h3, h4, h5, h6, p {
+	line-height: 1.5em;
+	margin-bottom: 30px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
 .main-header {
 	padding: 15px 0 20px 0;	
 	background-color: #eeeeee;
@@ -232,11 +241,11 @@ a:hover {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 50px;
-	justify-content: space-evenly;
+	justify-content: center;
 }
 
 .clients-row-item {
-	flex: 25%;
+	flex: 33%;
 	padding: 30px 7.5%;
 	max-width: 240px;
 }
@@ -264,11 +273,20 @@ a:hover {
 	.clients-row-item>img, .clients-row-item>a>img {
 		width: 100%;
 	}
+	.half-card-5, .half-card {
+		padding: 5%;
+	}
+	.text-section {
+		padding: 30px 5%;
+	}
 }
 
 @media (max-width: 979px) {
 	.header, .header-child, .text-section-child {
 		padding: 50px 5%;
+	}
+	.half-card-5, .half-card {
+		padding: 25px;
 	}
 	.clients-row-item {
 		flex: 33%;
@@ -278,11 +296,17 @@ a:hover {
 	.clients-row-item>img, .clients-row-item>a>img {
 		width: 100%;
 	}
+	.text-section {
+		padding: 30px 0%;
+	}
 }
 
 @media (max-width: 767px) {
 	.header, .header-child, .text-section-child, .half-card, .half-card-5 {
 		padding: 50px 5%;
+	}
+	.half-card-5, .half-card {
+		padding: 25px;
 	}
 	.text-section {
 		padding: 50px 5%;
@@ -298,11 +322,29 @@ a:hover {
 		padding: 30px 15%;
 		max-width: 250px;
 	}
+	.text-section {
+		padding: 30px 5%;
+	}
 }
 
 @media (max-width: 480px) {
+	h1 {
+		font-size: 200%;
+	}
+	h2 {
+		font-size: 175%;
+	}
+	h3 {
+		font-size: 150%;
+	}
+	h4 {
+		font-size: 125%;
+	}
 	.header, .header-child, .text-section-child, .half-card, .half-card-5 {
 		padding: 50px 2%;
+	}
+	.half-card-5, .half-card {
+		padding: 25px;
 	}
 	.main-header {
 		text-align: center;
