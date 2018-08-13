@@ -9,12 +9,12 @@
       "component---src-pages-privacy-policy-js-f2e1a429496d6a8492aa.js.map"
     ],
     "component---src-pages-workplace-js": [
-      "component---src-pages-workplace-js-3941e3a9e56240f139cf.js",
-      "component---src-pages-workplace-js-3941e3a9e56240f139cf.js.map"
+      "component---src-pages-workplace-js-ce6322b95271f059e550.js",
+      "component---src-pages-workplace-js-ce6322b95271f059e550.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-b34f64f8a0ce52b3f893.js",
-      "component---src-pages-index-js-b34f64f8a0ce52b3f893.js.map"
+      "component---src-pages-index-js-44de1aaaecb7193f4d7f.js",
+      "component---src-pages-index-js-44de1aaaecb7193f4d7f.js.map"
     ],
     "component---src-pages-download-js": [
       "component---src-pages-download-js-315b4cdd0ef69eeb6b98.js",
@@ -37,16 +37,16 @@
       "path---faq-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-faq-js": [
-      "component---src-pages-faq-js-c274c01d33719276e71f.js",
-      "component---src-pages-faq-js-c274c01d33719276e71f.js.map"
+      "component---src-pages-faq-js-100ae5db5469e624e47d.js",
+      "component---src-pages-faq-js-100ae5db5469e624e47d.js.map"
     ],
     "path---pricing": [
       "path---pricing-a0e39f21c11f6a62c5ab.js",
       "path---pricing-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-07844cd5a724df6b82a9.js",
-      "component---src-layouts-index-js-07844cd5a724df6b82a9.js.map"
+      "component---src-layouts-index-js-3eacf385c54fe17b206d.js",
+      "component---src-layouts-index-js-3eacf385c54fe17b206d.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -57,17 +57,17 @@
       "path---partners-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-reviews-js": [
-      "component---src-pages-reviews-js-bd9c80d1ac0a6b3bdfe9.js",
-      "component---src-pages-reviews-js-bd9c80d1ac0a6b3bdfe9.js.map"
+      "component---src-pages-reviews-js-30f9456b326bd08e80ee.js",
+      "component---src-pages-reviews-js-30f9456b326bd08e80ee.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-8f0896231b3d6839158c.js",
       "component---src-pages-404-js-8f0896231b3d6839158c.js.map"
     ],
     "commons": [
-      "commons-83c48dc39828245fcf9d.js",
+      "commons-c7e4ce5e004d63388c14.js",
       "build-js-styles.css",
-      "commons-83c48dc39828245fcf9d.js.map",
+      "commons-c7e4ce5e004d63388c14.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
@@ -83,12 +83,12 @@
       "path---download-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-partners-js": [
-      "component---src-pages-partners-js-05c6ce4545ae31c8f891.js",
-      "component---src-pages-partners-js-05c6ce4545ae31c8f891.js.map"
+      "component---src-pages-partners-js-0ad555ebaaf4b3ac428a.js",
+      "component---src-pages-partners-js-0ad555ebaaf4b3ac428a.js.map"
     ],
     "component---src-pages-pricing-js": [
-      "component---src-pages-pricing-js-99b63db363a8b00a71b0.js",
-      "component---src-pages-pricing-js-99b63db363a8b00a71b0.js.map"
+      "component---src-pages-pricing-js-393e933fde5c6c9cce8f.js",
+      "component---src-pages-pricing-js-393e933fde5c6c9cce8f.js.map"
     ],
     "app": [
       "app-c7ca0a4f1ec64abcfc5c.js",
