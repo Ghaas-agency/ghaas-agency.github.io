@@ -4,7 +4,7 @@
 
 nav {
   background-color: $grey-color-dark;
-  padding: 15px 0;
+  padding: 20px 0;
   position: fixed;
   top: 0;
   left: 0;
@@ -22,7 +22,8 @@ nav {
     flex: 1;
 
     img {
-      max-width: 150px;
+      max-width: 130px;
+      vertical-align: middle;
     }
   }
   
@@ -37,6 +38,7 @@ nav {
 
       li {
         display: inline;
+        vertical-align: middle;
 
         a, a:visited {
           margin: 0 15px;
@@ -65,7 +67,7 @@ footer {
 }
 
 .section-talk {
-  padding: 100px 0;
+  padding: 100px 15%;
   text-align: center;
   background-color: $grey-color-dark;
   color: $grey-color-light;
@@ -169,6 +171,7 @@ footer {
       background-color: $grey-color-light;
       color: $grey-color-dark;
       border-radius: 2px;
+      border-top: 5px solid $primary-color;
     }
   }
 
@@ -301,5 +304,102 @@ footer {
     background-color: $primary-color;
     color: $grey-color-light;
     margin-top: 100px;
+  }
+}
+
+#sme {
+  .section-hero {
+    min-height: 60vh;
+    background-color: $grey-color-dark;
+    color: $grey-color-light;
+    text-align: center;
+    padding: 0 15% 100px 15%;
+
+    p {
+      font-size: 1.3em;
+    }
+
+    .container {
+      padding-top: 150px;
+    }
+
+    .button {
+      margin-top: 1em;
+    }
+  }
+
+  .section-what {
+    padding: 100px 15%;
+    text-align: center;
+
+    .line {
+      margin-bottom: 2.5em;
+    }
+  }
+
+  .section-steps {
+    padding: 100px 0;
+    text-align: center;
+    background-color: $grey-color-dark;
+
+    &__items {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 3.5em;
+    }
+
+    &__item {
+      flex: 1;
+      background-color: $grey-color-dark;
+      border: 1px solid $grey-color-light;
+      margin: 20px 50px;
+      position: relative;
+      border-radius: 2px;
+
+      &--top {
+        background-color: $grey-color-light;
+        padding: 20px;
+      }
+
+      &--bottom {
+        padding: 20px;
+        color: $grey-color-light;
+      }
+
+      &:nth-child(1)::after, &:nth-child(2)::after {
+        content: "\26DB";
+        position: absolute;
+        top: 45%;
+        right: -75px;
+        color: $primary-color;
+        font-size: 3em;
+        transform: rotate(-90deg);
+      }
+    }
+  }
+
+  .section-services {
+    padding: 100px;
+    text-align: center;
+
+    .line {
+      margin-bottom: 3.5em;
+    }
+
+    &__items {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &__item {
+      flex: 1;
+      padding: 20px 30px;
+      margin: 20px;
+      text-align: left;
+      border-top: 5px solid $primary-color;
+      background-color: $grey-color-dark;
+      color: $grey-color-light;
+      border-radius: 2px;
+    }
   }
 }
