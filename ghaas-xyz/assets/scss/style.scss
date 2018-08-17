@@ -219,6 +219,10 @@ footer {
     .container {
       padding-top: 150px;
     }
+
+    .button {
+      margin-top: 1em;
+    }
   }
 
   .section-what {
@@ -231,6 +235,9 @@ footer {
   }
 
   .section-steps {
+    a {
+      text-decoration: none;
+    }
     
     &__items {
       display: flex;
@@ -286,5 +293,13 @@ footer {
       margin-top: 0.75em;
       padding: 20px;
     }
+  }
+
+  .section-connected {
+    text-align: center;
+    padding: 100px 15%;
+    background-color: $primary-color;
+    color: $grey-color-light;
+    margin-top: 100px;
   }
 }

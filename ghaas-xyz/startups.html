@@ -35,6 +35,7 @@
         <div class="line"></div>
         <h1>Growth Hacking For Startups</h1>
         <p>How can we help your startup achieve the growth it deserves.</p>
+        <span class="button">Engage us</span>
       </div>
     </section>
   
@@ -50,7 +51,7 @@
     <section class="section-steps">
       <div class="container">
         <div class="section-steps__items">
-          <div class="section-steps__item">
+          <a class="section-steps__item" href="#prototype" data-scroll>
             <div class="section-steps__item--left">
               <img src="" alt="">
             </div>
@@ -58,8 +59,8 @@
               <h4>Prototype &rarr;</h4>
               <p>You have an idea and are looking to get a prototype ready.</p>
             </div>
-          </div>
-          <div class="section-steps__item">
+          </a>
+          <a class="section-steps__item" href="#product-market-fit" data-scroll>
             <div class="section-steps__item--left">
               <img src="" alt="">
             </div>
@@ -67,8 +68,8 @@
               <h4>Product/Market Fit &rarr;</h4>
               <p>You already have an MVP and are looking towards product/market fit.</p>
             </div>
-          </div>
-          <div class="section-steps__item">
+          </a>
+          <a class="section-steps__item" href="#growth" data-scroll>
             <div class="section-steps__item--left">
               <img src="" alt="">
             </div>
@@ -76,12 +77,12 @@
               <h4>Growth &rarr;</h4>
               <p>You&apos;ve found the right market and the product; you need to grow your user base.</p>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </section>
 
-    <section class="section-steps">
+    <section id="prototype" class="section-steps">
       <div class="container">
         <h2>Prototype</h2>
         <div class="line"></div>
@@ -127,9 +128,10 @@
           </div>
         </div>
       </div>
+      <span class="button">Engage us</span>
     </section>
     
-    <section class="section-steps">
+    <section id="product-market-fit" class="section-steps">
       <div class="container">
         <h2>Product/Market Fit</h2>
         <div class="line"></div>
@@ -178,9 +180,10 @@
           </div>
         </div>
       </div>
+      <span class="button">Engage us</span>
     </section>
 
-    <section class="section-steps">
+    <section id="growth" class="section-steps">
       <div class="container">
         <h2>Growth</h2>
         <div class="line"></div>
@@ -230,6 +233,14 @@
           </div>
         </div>
       </div>
+      <span class="button">Engage us</span>
+    </section>
+
+    <section class="section-connected">
+      <div class="container">
+        <p>We are deeply committed to what we do and we want the absolute best for your startup. Growing a young company takes a lot of understanding and in-depth knowledge about the market. Hence, we aren't able work with a lot of clients at the same time.</p>
+        <p>We thoroughly love what we do, and want similar clients to work with.</p>
+      </div>
     </section>
     
   </main>
@@ -248,9 +259,15 @@
     </div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14.0/dist/smooth-scroll.polyfills.min.js"></script>
   <script>
     var date = new Date();
     document.getElementsByClassName('current-year')[0].innerHTML = date.getFullYear();
+
+    var scroll = new SmoothScroll('a[href*="#"]', {
+      offset: 50,
+      updateURL: true,
+    });
   </script>
 
 </body>
