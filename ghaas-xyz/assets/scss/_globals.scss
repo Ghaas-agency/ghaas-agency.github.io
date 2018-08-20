@@ -95,6 +95,7 @@ h4, .h4 {
 
 a, a:visited {
   color: $primary-color;
+  cursor: pointer;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -118,4 +119,28 @@ ul {
 
 li {
   margin-bottom: 0.75em;
+}
+
+label {
+  font-size: 1em;
+  display: block;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+input[type="email"], input[type="text"], textarea {
+  display: block;
+  width: 100%;
+  margin: 15px 0;
+  border-radius: 2px;
+  padding: 10px;
+  box-shadow: none;
+  border: 1px solid $grey-color-dark;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.85em;
+}
+
+input[type="email"]:focus, input[type="text"]:focus, textarea:focus {
+  outline: none;
+  box-shadow: $primary-shadow;
 }
