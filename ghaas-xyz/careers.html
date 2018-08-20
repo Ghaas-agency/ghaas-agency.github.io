@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Careers | Ghaas</title>
+  <meta name="description" content="Ghaas is Growth Hacking as a Service. A growth and digital marketing agency consisting of ex-founders and growth hackers who can help you grow your business, fast.">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/png" href="assets/img/ghaas-icon.png">
+</head>
+<body>
+
+  <div class="visible">
+
+    <nav>
+      <div class="container">
+        <div class="nav-left">
+          <img src="assets/img/ghaas-logo.svg" alt="ghaas logo">
+        </div>
+        <div class="nav-right">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="startups.html">FOR STARTUPS</a></li>
+            <li><a href="sme.html">FOR SMEs</a></li>
+            <li><a id="contact-modal-trigger">CONTACT</a></li>
+            <li><a href="careers.html" class="active">CAREERS</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main id="careers">
+
+      <section class="section-hero">
+        <div class="container">
+          <div class="line"></div>
+          <h1>Work With Us</h1>
+          <p>Supercharge your career towards a growth marketer. Come, work with some of the best minds in the industry.</p>
+          <a class="button" href="#positions">View Positions</a>
+        </div>
+      </section>
+    
+      <section class="section-intro">
+        <div class="line"></div>
+        <h2>What We&apos;re Building</h2>
+        <div class="container">
+
+          <div class="section-intro__what">
+            <p>A young company is classified as a startup if it has the potential to grow exponentially rather than the sustained general 10-20% growth year on year. Paul Graham in his essays, goes on to equate startups with growth.</p>
+            <p>Depending on which stage your company is, growth can mean different things for you. We think of growth for startups is reaching the next stage of your company, as fast as possible. And we've divided the startup journey into three parts to better provide our services to help your startup grow, fast.</p>
+          </div>
+          
+          <div class="section-intro__culture">
+            <h3>Company Culture</h3>
+            <p>We're very young, so the company culture doesn't exists as yet. That being said, we want to work towards building a culture that stimulates creativity, encourages independent thinking and pushes you to be your best. Combine this with an environment that breeds mutual resepect, promotes learning and is a basically a fun place to work, that's what we want to build. Interested? Come join us!</p>
+            <p>Oh, and did we mention learning? We're BIG on learning. So much so that we'll provide a learning allowance that you can use for purchasing books, e-learning coureses or tutorials.</p>
+          </div>
+
+          <div class="section-intro__serious">
+            <h3>The Serious Stuff</h3>
+            <p>We are very particular about certain things:</p>
+            <ul>
+              <li>Timely Execution. You get to set your own deadlines but you have to meet them. Always.</li>
+              <li>Committment. We're very young, and cannot afford casual at the moment. Sorry.</li>
+              <li>Quality. Strive towards turning in the highest quality stuff. Every single time.</li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section-positions" id="positions">
+        <div class="container">
+          <div class="line"></div>
+          <h2>Open Positions</h2>
+
+        </div>
+      </section>
+      
+    </main>
+    
+    <section class="section-talk">
+      <div class="container">
+        <div class="line"></div>
+        <h2 class="h3">Still have questions?</h2>
+        <span id="contact-modal-trigger" class="button">Contact us</span>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <small>&copy; <span class="current-year"></span> Ghaas</small>
+      </div>
+    </footer>
+
+  </div>
+
+  <div id="contact-modal">
+    <div class="contact-modal-content">
+      <span class="modal-close">&times;</span>
+      <h3>Contact us</h3>
+      <p>Please enter your details and we&apos;ll get in touch soon.</p>
+      <form action="POST">
+        <div>
+          <input type="text" name="name" id="form-name" placeholder="Name">
+        </div>
+        <div>
+          <input type="email" name="email" id="form-email" placeholder="Email">
+        </div>
+        <div>
+          <textarea name="message" id="form-message" placeholder="How can we help you?"></textarea>
+        </div>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14.0/dist/smooth-scroll.polyfills.min.js"></script>
+  <script type="text/javascript">
+    /* Adding current year to the copyright section. */
+    var date = new Date();
+    document.getElementsByClassName('current-year')[0].innerHTML = date.getFullYear();
+
+    /* Smooth scroll. */
+    var scroll = new SmoothScroll('a[href*="#"]', {
+      offset: 100,
+      updateURL: true,
+    });
+
+    /* Contact Modal */
+    var modal = document.getElementById('contact-modal');
+    var visible = document.getElementsByClassName('visible')[0];
+
+    window.onclick = function(e) {
+
+      if(e.target.id === 'contact-modal-trigger') {
+        modal.style.display = 'block';
+        visible.classList.add('blur');
+      }
+
+      if(e.target.className === 'modal-close' || e.target.id === 'contact-modal') {
+        modal.style.display = 'none';
+        visible.classList.remove('blur');
+      }
+    }
+  </script>
+
+</body>
+</html>
