@@ -55,6 +55,16 @@ nav {
 
         a.active {
           color: $primary-color;
+          position: relative;
+        }
+        a.active::after {
+          content: '';
+          position: absolute;
+          bottom: -22px;
+          height: 2px;
+          background-color: $primary-color;
+          width: 100%;
+          left: 0;
         }
       }
     }
@@ -306,10 +316,12 @@ footer {
 
         &--left {
           flex: 100%;
+          order: 1;
         }
         
         &--right {
           flex: 100%;
+          order: 2;
         }
       }
     }
@@ -740,6 +752,65 @@ footer {
   .section-positions {
     text-align: center;
     padding-bottom: 100px;
+
+    &__menu {
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 50px;
+
+      &--item {
+        flex: 1;
+        position: relative;
+        margin: 0 10px;
+        text-align: left;
+
+        a {
+          color: $primary-color;
+          text-decoration: none;
+          text-transform: uppercase;
+
+          &:hover, &:active, &:focus {
+            color: $grey-color-dark;
+          }
+        }
+
+        &:after {
+          content: '';
+          position: absolute;
+          bottom: -10px;
+          left: 0;
+          height: 1px;
+          width: 100%;
+          background-color: $primary-color;
+        }
+
+        @media (max-width: 767px) {
+          flex: 100%;
+          margin: 20px 10px;
+        }
+      }
+    }
+
+    &__position {
+      padding: 50px 20%;
+      text-align: left;
+
+      @media (max-width: 1200px) {
+        padding: 50px 15%;
+      }
+      
+      @media (max-width: 979px) {
+        padding: 50px 10%;
+      }
+      
+      @media (max-width: 767px) {
+        padding: 50px 5%;
+      }
+      
+      @media (max-width: 480px) {
+        padding: 50px 3%;
+      }
+    }
   }
 }
 
