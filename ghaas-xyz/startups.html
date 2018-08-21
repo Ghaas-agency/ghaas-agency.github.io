@@ -23,9 +23,11 @@
           <ul>
             <li><a href="startups.html" class="active">FOR STARTUPS</a></li>
             <li><a href="sme.html">FOR SMEs</a></li>
-            <li><a id="contact-modal-trigger">CONTACT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
           </ul>
         </div>
+        <img src="assets/img/menu.svg" alt="menu" class="menu-trigger">
+        <div class="menu-trigger-bg"></div>
       </div>
     </nav>
 
@@ -250,7 +252,7 @@
       <div class="container">
         <div class="line"></div>
         <h2 class="h3">Let&apos;s talk about growing your business</h2>
-        <span id="contact-modal-trigger" class="button">Talk to us</span>
+        <span id="contact-modal-trigger" class="button">Get in touch</span>
       </div>
     </section>
 
@@ -284,6 +286,10 @@
 
   <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14.0/dist/smooth-scroll.polyfills.min.js"></script>
   <script type="text/javascript">
+    /* Menu handling for smaller screens. */
+    var menu = document.getElementsByClassName('nav-right')[0];
+    var menuBg = document.getElementsByClassName('menu-trigger-bg')[0];
+    
     /* Adding current year to the copyright section. */
     var date = new Date();
     document.getElementsByClassName('current-year')[0].innerHTML = date.getFullYear();
@@ -299,12 +305,22 @@
     var visible = document.getElementsByClassName('visible')[0];
 
     window.onclick = function(e) {
+      /* Navigation menu toggle. */
+      if(e.target.className === 'menu-trigger' && getComputedStyle(menu, null).display === 'none') {
+        menu.style.display = 'block';
+        menuBg.style.display = 'block';
+      } else if(e.target.className === 'menu-trigger' && getComputedStyle(menu, null).display === 'block' || e.target.className === 'menu-trigger-bg' && getComputedStyle(menuBg, null).display === 'block') {
+        menu.style.display = 'none';
+        menuBg.style.display = 'none';
+      }
 
+      /* Contact modal open. */
       if(e.target.id === 'contact-modal-trigger') {
         modal.style.display = 'block';
         visible.classList.add('blur');
       }
 
+      /* Contact modal close. */
       if(e.target.className === 'modal-close' || e.target.id === 'contact-modal') {
         modal.style.display = 'none';
         visible.classList.remove('blur');

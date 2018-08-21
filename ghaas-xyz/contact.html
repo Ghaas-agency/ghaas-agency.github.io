@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact Ghaas</title>
+  <meta name="description" content="Ghaas is Growth Hacking as a Service. A growth and digital marketing agency consisting of ex-founders and growth hackers who can help you grow your business, fast.">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/png" href="assets/img/ghaas-icon.png">
+</head>
+<body>
+
+  <div class="visible">
+
+    <nav>
+      <div class="container">
+        <div class="nav-left">
+          <a href="index.html"><img src="assets/img/ghaas-logo.svg" alt="ghaas logo"></a>
+        </div>
+        <div class="nav-right">
+          <ul>
+            <li><a href="startups.html">FOR STARTUPS</a></li>
+            <li><a href="sme.html">FOR SMEs</a></li>
+            <li><a href="contact.html" class="active">CONTACT</a></li>
+          </ul>
+        </div>
+        <img src="assets/img/menu.svg" alt="menu" class="menu-trigger">
+        <div class="menu-trigger-bg"></div>
+      </div>
+    </nav>
+
+    <main id="contact">
+
+      <section class="section-hero">
+        <div class="container">
+          <div class="line"></div>
+          <h1>Contact Ghaas</h1>
+          <p>Let&apos;s talk about growing your business.</p>
+        </div>
+      </section>
+
+      <section class="section-form">
+        <div class="container">
+          <div class="section-form__left">
+            <p>Please enter your details and we&apos;ll get in touch soon.</p>
+            <form action="POST">
+              <div>
+                <input type="text" name="name" id="form-name" placeholder="Name">
+              </div>
+              <div>
+                <input type="email" name="email" id="form-email" placeholder="Email">
+              </div>
+              <div>
+                <textarea name="message" id="form-message" placeholder="How can we help you?"></textarea>
+              </div>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+          <div class="section-form__right">
+            <p>Third Floor, E2 Liberty Phase 2, Koregaon Park, Pune, Maharashtra</p>
+            <p>+91 9988776655</p>
+            <p>contact@ghaas.xyz</p>
+          </div>
+        </div>
+      </section>
+      
+    </main>
+
+    <footer>
+      <div class="container">
+        <small>&copy; <span class="current-year"></span> Ghaas</small>
+        <a href="careers.html" style="float:right;">Careers</a>
+      </div>
+    </footer>
+  
+  </div>
+
+  <script type="text/javascript">
+    /* Menu handling for smaller screens. */
+    var menu = document.getElementsByClassName('nav-right')[0];
+    var menuBg = document.getElementsByClassName('menu-trigger-bg')[0];
+
+    /* Adding current year to the copyright section. */
+    var date = new Date();
+    document.getElementsByClassName('current-year')[0].innerHTML = date.getFullYear();
+
+    window.onclick = function(e) {
+      /* Navigation menu toggle. */
+      if(e.target.className === 'menu-trigger' && getComputedStyle(menu, null).display === 'none') {
+        menu.style.display = 'block';
+        menuBg.style.display = 'block';
+      } else if(e.target.className === 'menu-trigger' && getComputedStyle(menu, null).display === 'block' || e.target.className === 'menu-trigger-bg' && getComputedStyle(menuBg, null).display === 'block') {
+        menu.style.display = 'none';
+        menuBg.style.display = 'none';
+      }
+    }
+  </script>
+
+</body>
+</html>
