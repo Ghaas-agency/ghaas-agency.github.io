@@ -25,6 +25,16 @@ nav {
     img {
       max-width: 130px;
       vertical-align: middle;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      -webkit-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        filter: grayscale(100%) brightness(2);
+        box-shadow: $primary-shadow;
+      }
     }
   }
   
@@ -299,15 +309,20 @@ footer {
       text-align: left;
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
       padding: 50px 0;
 
       &--left {
         flex: 1;
+        min-width: 225px;
         max-width: 250px;
+        margin: 20px;
       }
       
       &--right {
         flex: 2;
+        margin: 20px;
       }
 
       @media (max-width: 767px) {
