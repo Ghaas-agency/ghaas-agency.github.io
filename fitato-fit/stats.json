@@ -20,17 +20,21 @@
       "component---src-pages-download-js-8120d8292edbb2d32a78.js",
       "component---src-pages-download-js-8120d8292edbb2d32a78.js.map"
     ],
+    "component---src-pages-purchase-fitato-js": [
+      "component---src-pages-purchase-fitato-js-236c8d0c724ace83d86d.js",
+      "component---src-pages-purchase-fitato-js-236c8d0c724ace83d86d.js.map"
+    ],
     "path---": [
-      "path----56e5541782bca708df0d.js",
-      "path----56e5541782bca708df0d.js.map"
+      "path----bb4c49649eb0f7e0d201.js",
+      "path----bb4c49649eb0f7e0d201.js.map"
     ],
     "component---src-pages-contact-js": [
       "component---src-pages-contact-js-9ff829c93b039aa5b905.js",
       "component---src-pages-contact-js-9ff829c93b039aa5b905.js.map"
     ],
     "component---src-pages-become-a-partner-js": [
-      "component---src-pages-become-a-partner-js-c32d39e117621ece7051.js",
-      "component---src-pages-become-a-partner-js-c32d39e117621ece7051.js.map"
+      "component---src-pages-become-a-partner-js-7480ae83207c0a6bb4db.js",
+      "component---src-pages-become-a-partner-js-7480ae83207c0a6bb4db.js.map"
     ],
     "path---faq": [
       "path---faq-a0e39f21c11f6a62c5ab.js",
@@ -40,13 +44,13 @@
       "component---src-pages-faq-js-c5f3b6bb109384073e10.js",
       "component---src-pages-faq-js-c5f3b6bb109384073e10.js.map"
     ],
-    "path---pricing": [
-      "path---pricing-a0e39f21c11f6a62c5ab.js",
-      "path---pricing-a0e39f21c11f6a62c5ab.js.map"
+    "path---purchase-fitato": [
+      "path---purchase-fitato-a0e39f21c11f6a62c5ab.js",
+      "path---purchase-fitato-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-5b63e483815905e2a747.js",
-      "component---src-layouts-index-js-5b63e483815905e2a747.js.map"
+      "component---src-layouts-index-js-d02aff8132932523bc1c.js",
+      "component---src-layouts-index-js-d02aff8132932523bc1c.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -83,8 +87,8 @@
       "path---download-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-rakhi-offer-js": [
-      "component---src-pages-rakhi-offer-js-259377deffc10d255802.js",
-      "component---src-pages-rakhi-offer-js-259377deffc10d255802.js.map"
+      "component---src-pages-rakhi-offer-js-9a0b21fae2826429c9ba.js",
+      "component---src-pages-rakhi-offer-js-9a0b21fae2826429c9ba.js.map"
     ],
     "path---rakhi-offer": [
       "path---rakhi-offer-a0e39f21c11f6a62c5ab.js",
@@ -94,14 +98,10 @@
       "component---src-pages-partners-js-a29c17352ae99834dc2e.js",
       "component---src-pages-partners-js-a29c17352ae99834dc2e.js.map"
     ],
-    "component---src-pages-pricing-js": [
-      "component---src-pages-pricing-js-236c8d0c724ace83d86d.js",
-      "component---src-pages-pricing-js-236c8d0c724ace83d86d.js.map"
-    ],
     "app": [
-      "app-7802fc926e1b5b4688bb.js",
+      "app-426009f0bd18b3efd636.js",
       "build-js-styles.css",
-      "app-7802fc926e1b5b4688bb.js.map",
+      "app-426009f0bd18b3efd636.js.map",
       "build-js-styles.css.map"
     ],
     "path---privacy-policy": [
