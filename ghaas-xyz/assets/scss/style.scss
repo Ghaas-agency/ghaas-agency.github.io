@@ -2,6 +2,16 @@
 @import 'globals';
 @import 'components';
 
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: $primary-color;
+}
+
+.visible {
+  background-color: $grey-color-light;
+}
+
 nav {
   background-color: $grey-color-dark;
   padding: 20px 0;
@@ -11,6 +21,8 @@ nav {
   right: 0;
   z-index: 999;
   box-shadow: 0 3px 1px rgba(0,0,0,0.1), 0 1px 1px rgba(0,0,0,0.25);
+  max-width: 1600px;
+  margin: 0 auto;
 
   .container {
     display: flex;
@@ -225,6 +237,17 @@ footer {
 
     .container {
       padding-top: 200px;
+    }
+
+    @media (max-width: 767px) {
+      .container {
+        padding-top: 130px;
+      }
+    }
+
+    @media (min-height: 800px) {
+      min-height: 30vh;
+      padding-bottom: 200px;
     }
   }
 
@@ -442,6 +465,11 @@ footer {
     .button {
       margin-top: 1em;
     }
+
+    @media (min-height: 800px) {
+      min-height: 30vh;
+      padding-bottom: 100px;
+    }
   }
 
   .section-what {
@@ -586,6 +614,11 @@ footer {
     @media (max-width: 480px) {
       padding: 0 5% 100px 5%;
     }
+
+    @media (min-height: 800px) {
+      min-height: 30vh;
+      padding-bottom: 100px;
+    }
   }
 
   .section-what {
@@ -728,6 +761,11 @@ footer {
     @media (max-width: 480px) {
       padding: 0 5% 100px 5%;
     }
+
+    @media (min-height: 800px) {
+      min-height: 30vh;
+      padding-bottom: 100px;
+    }
   }
 
   .section-intro {
@@ -864,6 +902,11 @@ footer {
     @media (max-width: 480px) {
       padding: 0 5% 100px 5%;
     }
+
+    @media (min-height: 800px) {
+      min-height: 30vh;
+      padding-bottom: 100px;
+    }
   }
 
   .section-team {
@@ -908,6 +951,17 @@ footer {
       &__item {
         margin: 25px;
         flex: 25%;
+  
+        img {
+          width: 80%;
+        }
+      }
+    }
+
+    @media (max-width: 480px) {
+      &__item {
+        margin: 25px;
+        flex: 50%;
   
         img {
           width: 80%;
