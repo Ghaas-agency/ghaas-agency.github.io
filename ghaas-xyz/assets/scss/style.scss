@@ -578,13 +578,14 @@ footer {
       display: flex;
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+      justify-content: center;
     }
 
     &__item {
       -webkit-box-flex: 1;
       -ms-flex: 1;
       flex: 1;
-      padding: 20px 40px 30px 40px;
+      padding: 30px 40px;
       background-color: $primary-color;
       margin: 20px;
       color: $grey-color-light;
@@ -595,6 +596,10 @@ footer {
       transition: all 0.3s ease-in-out;
       cursor: pointer;
       text-align: left;
+
+      &--left img {
+        max-height: 130px;
+      }
 
       &:hover {
         -webkit-box-shadow: $secondary-shadow;
