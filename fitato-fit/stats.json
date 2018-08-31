@@ -1,0 +1,100 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-privacy-policy-js": [
+      "component---src-pages-privacy-policy-js-c7112d14b1b89bc22a54.js",
+      "component---src-pages-privacy-policy-js-c7112d14b1b89bc22a54.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-32ad64d53d60daf36202.js",
+      "component---src-pages-index-js-32ad64d53d60daf36202.js.map"
+    ],
+    "component---src-pages-download-js": [
+      "component---src-pages-download-js-d7a47faac58d50f0be3e.js",
+      "component---src-pages-download-js-d7a47faac58d50f0be3e.js.map"
+    ],
+    "component---src-pages-purchase-fitato-js": [
+      "component---src-pages-purchase-fitato-js-a133b3c209cca632480f.js",
+      "component---src-pages-purchase-fitato-js-a133b3c209cca632480f.js.map"
+    ],
+    "path---": [
+      "path----43dd20cc64264c833f55.js",
+      "path----43dd20cc64264c833f55.js.map"
+    ],
+    "component---src-pages-contact-js": [
+      "component---src-pages-contact-js-090b496ee8a0fd28a48c.js",
+      "component---src-pages-contact-js-090b496ee8a0fd28a48c.js.map"
+    ],
+    "path---faq": [
+      "path---faq-a0e39f21c11f6a62c5ab.js",
+      "path---faq-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-faq-js": [
+      "component---src-pages-faq-js-e5f2d8cc3ac4eec00ff4.js",
+      "component---src-pages-faq-js-e5f2d8cc3ac4eec00ff4.js.map"
+    ],
+    "path---purchase-fitato": [
+      "path---purchase-fitato-a0e39f21c11f6a62c5ab.js",
+      "path---purchase-fitato-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-87029ba95bf4875c09e0.js",
+      "component---src-layouts-index-js-87029ba95bf4875c09e0.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---partners": [
+      "path---partners-a0e39f21c11f6a62c5ab.js",
+      "path---partners-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-reviews-js": [
+      "component---src-pages-reviews-js-c88e343795a44afdda03.js",
+      "component---src-pages-reviews-js-c88e343795a44afdda03.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-5d82ecb241477f17c42d.js",
+      "component---src-pages-404-js-5d82ecb241477f17c42d.js.map"
+    ],
+    "commons": [
+      "commons-e8ba30d139cf706192ad.js",
+      "build-js-styles.css",
+      "commons-e8ba30d139cf706192ad.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---contact": [
+      "path---contact-a0e39f21c11f6a62c5ab.js",
+      "path---contact-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---download": [
+      "path---download-a0e39f21c11f6a62c5ab.js",
+      "path---download-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-partners-js": [
+      "component---src-pages-partners-js-c1ce06df1e0cf038eca8.js",
+      "component---src-pages-partners-js-c1ce06df1e0cf038eca8.js.map"
+    ],
+    "app": [
+      "app-958d42e602c51734f523.js",
+      "build-js-styles.css",
+      "app-958d42e602c51734f523.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---privacy-policy": [
+      "path---privacy-policy-a0e39f21c11f6a62c5ab.js",
+      "path---privacy-policy-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---reviews": [
+      "path---reviews-a0e39f21c11f6a62c5ab.js",
+      "path---reviews-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
