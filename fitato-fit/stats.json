@@ -5,24 +5,28 @@
       "component---src-pages-privacy-policy-js-c7112d14b1b89bc22a54.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-e56abd0871f410f596d0.js",
-      "component---src-pages-index-js-e56abd0871f410f596d0.js.map"
+      "component---src-pages-index-js-0201f30f9acd63930064.js",
+      "component---src-pages-index-js-0201f30f9acd63930064.js.map"
     ],
     "component---src-pages-download-js": [
-      "component---src-pages-download-js-d7a47faac58d50f0be3e.js",
-      "component---src-pages-download-js-d7a47faac58d50f0be3e.js.map"
+      "component---src-pages-download-js-73e9e1f2794e4e348d62.js",
+      "component---src-pages-download-js-73e9e1f2794e4e348d62.js.map"
     ],
     "component---src-pages-purchase-fitato-js": [
-      "component---src-pages-purchase-fitato-js-b1f8279f632cd3c77946.js",
-      "component---src-pages-purchase-fitato-js-b1f8279f632cd3c77946.js.map"
+      "component---src-pages-purchase-fitato-js-e341e85c1376ee64394a.js",
+      "component---src-pages-purchase-fitato-js-e341e85c1376ee64394a.js.map"
     ],
     "path---": [
       "path----43dd20cc64264c833f55.js",
       "path----43dd20cc64264c833f55.js.map"
     ],
     "component---src-pages-contact-js": [
-      "component---src-pages-contact-js-057da0ba598f286b2689.js",
-      "component---src-pages-contact-js-057da0ba598f286b2689.js.map"
+      "component---src-pages-contact-js-d075a1bc1cfb0cb280c5.js",
+      "component---src-pages-contact-js-d075a1bc1cfb0cb280c5.js.map"
+    ],
+    "component---src-pages-fit-squad-js": [
+      "component---src-pages-fit-squad-js-950835d4bc7022e3837e.js",
+      "component---src-pages-fit-squad-js-950835d4bc7022e3837e.js.map"
     ],
     "path---faq": [
       "path---faq-a0e39f21c11f6a62c5ab.js",
@@ -57,9 +61,9 @@
       "component---src-pages-404-js-5d82ecb241477f17c42d.js.map"
     ],
     "commons": [
-      "commons-e8ba30d139cf706192ad.js",
+      "commons-bb3b90640c28069361f5.js",
       "build-js-styles.css",
-      "commons-e8ba30d139cf706192ad.js.map",
+      "commons-bb3b90640c28069361f5.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
@@ -70,18 +74,30 @@
       "path---contact-a0e39f21c11f6a62c5ab.js",
       "path---contact-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-thank-you-js": [
+      "component---src-pages-thank-you-js-574281bbfff7f4eebc5c.js",
+      "component---src-pages-thank-you-js-574281bbfff7f4eebc5c.js.map"
+    ],
     "path---download": [
       "path---download-a0e39f21c11f6a62c5ab.js",
       "path---download-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---fit-squad": [
+      "path---fit-squad-a0e39f21c11f6a62c5ab.js",
+      "path---fit-squad-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-partners-js": [
       "component---src-pages-partners-js-c1ce06df1e0cf038eca8.js",
       "component---src-pages-partners-js-c1ce06df1e0cf038eca8.js.map"
     ],
+    "path---thank-you": [
+      "path---thank-you-a0e39f21c11f6a62c5ab.js",
+      "path---thank-you-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "app": [
-      "app-958d42e602c51734f523.js",
+      "app-ad1504528568c7753593.js",
       "build-js-styles.css",
-      "app-958d42e602c51734f523.js.map",
+      "app-ad1504528568c7753593.js.map",
       "build-js-styles.css.map"
     ],
     "path---privacy-policy": [
