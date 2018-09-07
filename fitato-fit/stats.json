@@ -5,12 +5,12 @@
       "component---src-pages-privacy-policy-js-c7112d14b1b89bc22a54.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-0201f30f9acd63930064.js",
-      "component---src-pages-index-js-0201f30f9acd63930064.js.map"
+      "component---src-pages-index-js-154278dc7cf3dca4db25.js",
+      "component---src-pages-index-js-154278dc7cf3dca4db25.js.map"
     ],
     "component---src-pages-download-js": [
-      "component---src-pages-download-js-73e9e1f2794e4e348d62.js",
-      "component---src-pages-download-js-73e9e1f2794e4e348d62.js.map"
+      "component---src-pages-download-js-2ae9769a476528b6d51a.js",
+      "component---src-pages-download-js-2ae9769a476528b6d51a.js.map"
     ],
     "component---src-pages-purchase-fitato-js": [
       "component---src-pages-purchase-fitato-js-e341e85c1376ee64394a.js",
@@ -21,8 +21,8 @@
       "path----43dd20cc64264c833f55.js.map"
     ],
     "component---src-pages-contact-js": [
-      "component---src-pages-contact-js-d075a1bc1cfb0cb280c5.js",
-      "component---src-pages-contact-js-d075a1bc1cfb0cb280c5.js.map"
+      "component---src-pages-contact-js-660deaed39dd416930ca.js",
+      "component---src-pages-contact-js-660deaed39dd416930ca.js.map"
     ],
     "component---src-pages-fit-squad-js": [
       "component---src-pages-fit-squad-js-0da63f9fbc3efc9a12b5.js",
@@ -33,8 +33,8 @@
       "path---faq-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-faq-js": [
-      "component---src-pages-faq-js-e5f2d8cc3ac4eec00ff4.js",
-      "component---src-pages-faq-js-e5f2d8cc3ac4eec00ff4.js.map"
+      "component---src-pages-faq-js-ccba3a682e48a5a0ee77.js",
+      "component---src-pages-faq-js-ccba3a682e48a5a0ee77.js.map"
     ],
     "path---purchase-fitato": [
       "path---purchase-fitato-a0e39f21c11f6a62c5ab.js",
@@ -61,9 +61,9 @@
       "component---src-pages-404-js-5d82ecb241477f17c42d.js.map"
     ],
     "commons": [
-      "commons-bb3b90640c28069361f5.js",
+      "commons-b9dd5e75a4efcb6916f3.js",
       "build-js-styles.css",
-      "commons-bb3b90640c28069361f5.js.map",
+      "commons-b9dd5e75a4efcb6916f3.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
