@@ -5,8 +5,8 @@
       "component---src-pages-privacy-policy-js-c7112d14b1b89bc22a54.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-a2e8020a11724a640227.js",
-      "component---src-pages-index-js-a2e8020a11724a640227.js.map"
+      "component---src-pages-index-js-cb0810319f37066e408c.js",
+      "component---src-pages-index-js-cb0810319f37066e408c.js.map"
     ],
     "component---src-pages-download-js": [
       "component---src-pages-download-js-848b7f34b3dcd9b1887b.js",
@@ -61,9 +61,9 @@
       "component---src-pages-404-js-5d82ecb241477f17c42d.js.map"
     ],
     "commons": [
-      "commons-b9dd5e75a4efcb6916f3.js",
+      "commons-3db81a6e917e050ec8b2.js",
       "build-js-styles.css",
-      "commons-b9dd5e75a4efcb6916f3.js.map",
+      "commons-3db81a6e917e050ec8b2.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
