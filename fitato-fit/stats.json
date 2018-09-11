@@ -25,8 +25,8 @@
       "component---src-pages-contact-js-660deaed39dd416930ca.js.map"
     ],
     "component---src-pages-fit-squad-js": [
-      "component---src-pages-fit-squad-js-28605d4c483a0ab3734b.js",
-      "component---src-pages-fit-squad-js-28605d4c483a0ab3734b.js.map"
+      "component---src-pages-fit-squad-js-8f8b03a00db968056304.js",
+      "component---src-pages-fit-squad-js-8f8b03a00db968056304.js.map"
     ],
     "path---faq": [
       "path---faq-a0e39f21c11f6a62c5ab.js",
@@ -41,8 +41,8 @@
       "path---purchase-fitato-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-d51e5098f87058d01440.js",
-      "component---src-layouts-index-js-d51e5098f87058d01440.js.map"
+      "component---src-layouts-index-js-6369ffbd53e0c5a3bce0.js",
+      "component---src-layouts-index-js-6369ffbd53e0c5a3bce0.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -61,9 +61,9 @@
       "component---src-pages-404-js-5d82ecb241477f17c42d.js.map"
     ],
     "commons": [
-      "commons-3db81a6e917e050ec8b2.js",
+      "commons-be8c0a560e9437b1f2ec.js",
       "build-js-styles.css",
-      "commons-3db81a6e917e050ec8b2.js.map",
+      "commons-be8c0a560e9437b1f2ec.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
