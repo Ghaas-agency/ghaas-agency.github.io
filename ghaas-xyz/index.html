@@ -50,13 +50,15 @@
 
     <main class="index">
 
-      <section class="section-hero">
+      <section class="section-hero" style="background-image: url('assets/img/index-hero-bg.svg')">
         <div class="container">
-          <div class="line"></div>
-          <h1>Supercharge Your Growth</h1>
-          <p>We work with startups &amp; corporates to help them achieve rapid, sustainable growth.</p>
-          <br>
-          <span id="contact-modal-trigger" class="button">Talk to us</span>
+          <div class="section-hero__wrapper">
+            <div class="line"></div>
+            <h1>Supercharge Your Growth</h1>
+            <p>We work with startups &amp; corporates to help them achieve rapid, sustainable growth.</p>
+            <br>
+            <span id="contact-modal-trigger" class="button">Talk to us</span>
+          </div>
         </div>
       </section>
 
@@ -196,7 +198,6 @@
           </div>
         </div>
       </section>
-
       
     </main>
     
@@ -237,12 +238,15 @@
       <p>Please enter your details and we&apos;ll get in touch soon.</p>
       <form action="POST">
         <div>
+          <label for="form-name">Name</label>
           <input type="text" name="name" id="form-name" placeholder="Name">
         </div>
         <div>
+          <label for="form-email">Email</label>
           <input type="email" name="email" id="form-email" placeholder="Email">
         </div>
         <div>
+          <label for="form-message">Message</label>
           <textarea name="message" id="form-message" placeholder="How can we help you?"></textarea>
         </div>
         <input type="submit" value="Submit">

@@ -54,9 +54,7 @@ nav {
 
       &:hover {
         -webkit-filter: grayscale(100%) brightness(2);
-        filter: grayscale(100%) brightness(2);
-        -webkit-box-shadow: $primary-shadow;
-        box-shadow: $primary-shadow;
+        filter: grayscale(100%) brightness(0.65);
       }
     }
   }
@@ -269,14 +267,24 @@ footer {
 .index {
   .section-hero {
     min-height: 100vh;
-    background-color: $grey-color-dark;
-    color: $grey-color-light;
-    text-align: center;
+    color: $grey-color-dark;
     padding-bottom: 100px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__wrapper {
+      width: 50%;
+
+      .line {
+        margin: 0 auto 2.5em 0;
+      }
+    }
 
     p {
       font-size: 1.5em;
       font-weight: 300;
+      color: $grey-color-dark;
     }
 
     .container {
@@ -478,7 +486,11 @@ footer {
 
   .section-clients {
     text-align: center;
-    padding: 100px 0;
+    padding: 100px 10%;
+
+    @media (max-width: 767px) {
+      padding: 100px 0%;
+    }
 
     &__items {
       display: -webkit-box;
@@ -1322,8 +1334,8 @@ footer {
 }
 
 .contact-modal-content {
-  background-color: #fefefe;
-  margin: 100px auto 50px auto;
+  background-color: $grey-color-light;
+  margin: 70px auto 50px auto;
   padding: 20px;
   padding-top: 0;
   border-top: 5px solid $primary-color;
@@ -1336,6 +1348,7 @@ footer {
   -webkit-box-shadow: $primary-shadow;
   box-shadow: $primary-shadow;
   position: relative;
+  overflow: auto;
 
   @media (max-width: 480px) {
     width: 80%;
