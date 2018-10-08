@@ -403,6 +403,7 @@ input[type="submit"] {
   display: inline-block;
   background-color: #ff8303;
   color: #F2F2F2;
+  font-family: inherit;
   font-size: 1.1em;
   text-transform: uppercase;
   cursor: pointer;
@@ -423,7 +424,8 @@ input[type="submit"] {
 .button-inverted:focus,
 input[type="submit"]:hover,
 input[type="submit"]:focus {
-  background-color: #ff9c36
+  background-color: #ff9c36;
+  box-shadow:0 5px 20px rgba(0,0,0,.3);
 }
 
 .button-inverted {
@@ -436,7 +438,8 @@ input[type="submit"]:focus {
 .button-inverted:hover,
 .button-inverted:focus {
   border: 1px solid #ff8303;
-  background-color: #fff1e3
+  background-color: #efefef;
+  box-shadow:0 5px 20px rgba(0,0,0,.3);
 }
 
 input[type="submit"] {
@@ -667,12 +670,18 @@ footer .footer-links a:visited {
 
 .section-hero .container {
   display: flex;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .section-hero__wrapper {
   width: 70%;
-  padding-top: 90px;
+  padding-top: 50px;
   padding-bottom: 50px
+}
+
+.section-hero a.button {
+  color: #ffffff;
 }
 
 .section-hero__social {
@@ -686,7 +695,6 @@ footer .footer-links a:visited {
 }
 
 .section-hero__social a img {
-  filter: brightness(60%);
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -697,7 +705,7 @@ footer .footer-links a:visited {
 }
 
 .section-hero__social a img:hover {
-  filter: brightness(30%)
+  filter: brightness(75%)
 }
 
 .section-hero__social a:hover,
