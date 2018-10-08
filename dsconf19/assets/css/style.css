@@ -705,7 +705,7 @@ footer .footer-links a:visited {
 }
 
 .section-hero__social a img:hover {
-  filter: brightness(75%)
+  filter: brightness(50%) grayscale(150%)
 }
 
 .section-hero__social a:hover,
@@ -840,6 +840,21 @@ footer .footer-links a:visited {
   .section-hero__social a {
     color: #F2F2F2;
     border-bottom-color: #F2F2F2
+  }
+
+  .section-hero__social a:hover,
+  .section-hero__social a:active,
+  .section-hero__social a:focus {
+    color: #ffffff;
+    border-bottom-color: #ffffff
+  }
+
+  .section-hero__social a img {
+    filter: brightness(200%) grayscale(100%)
+  }
+
+  .section-hero__social a img:hover {
+    filter: brightness(200%) grayscale(100%)
   }
 }
 
