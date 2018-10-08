@@ -432,7 +432,6 @@ input[type="submit"]:focus {
   background-color: transparent;
   border: 1px solid #ff8303;
   color: #ff8303;
-  padding: 8px 13px
 }
 
 .button-inverted:hover,
@@ -457,7 +456,6 @@ input[type="submit"]:focus {
 a.button,
 a.button-inverted {
   text-decoration: none;
-  border-bottom-width: 0
 }
 
 a.button:hover,
@@ -465,6 +463,11 @@ a.button-inverted:hover,
 a.button:focus,
 a.button-inverted:focus {
   color: #F2F2F2
+}
+
+a.button-inverted:hover,
+a.button-inverted:focus {
+  color: #ff8303
 }
 
 .line {
@@ -661,7 +664,12 @@ footer .footer-links a:visited {
 .section-hero .button-inverted {
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-right: 10px
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+a.button-inverted {
+  text-decoration: none;
 }
 
 .section-hero h1 {
@@ -691,7 +699,9 @@ footer .footer-links a:visited {
 .section-hero__social a {
   margin: 0 8px;
   vertical-align: bottom;
-  border-bottom-width: 0
+  border-bottom-width: 0;
+  color: #949494;
+  border-bottom-color: #949494
 }
 
 .section-hero__social a img {
@@ -701,7 +711,8 @@ footer .footer-links a:visited {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   margin: 0;
-  padding: 0
+  padding: 0;
+  filter: brightness(100%) grayscale(150%)
 }
 
 .section-hero__social a img:hover {
@@ -711,8 +722,8 @@ footer .footer-links a:visited {
 .section-hero__social a:hover,
 .section-hero__social a:active,
 .section-hero__social a:focus {
-  color: #353535;
-  border-bottom-color: #353535
+  color: #4a4a4a;
+  border-bottom-color: #4a4a4a
 }
 
 .section-hero__social a:last-child, .section-hero__social a:nth-last-child(2) {
@@ -838,23 +849,23 @@ footer .footer-links a:visited {
   }
 
   .section-hero__social a {
-    color: #F2F2F2;
-    border-bottom-color: #F2F2F2
+    color: #c3c3c3;
+    border-bottom-color: #c3c3c3
   }
 
   .section-hero__social a:hover,
   .section-hero__social a:active,
   .section-hero__social a:focus {
-    color: #ffffff;
-    border-bottom-color: #ffffff
+    color: #efefef;
+    border-bottom-color: #efefef
   }
 
   .section-hero__social a img {
-    filter: brightness(200%) grayscale(100%)
+    filter: brightness(150%) grayscale(150%)
   }
 
   .section-hero__social a img:hover {
-    filter: brightness(200%) grayscale(100%)
+    filter: brightness(120%) grayscale(150%)
   }
 }
 
