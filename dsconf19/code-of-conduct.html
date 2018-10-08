@@ -16,6 +16,27 @@
     section {
       padding: 50px 0;
     }
+    .nav-items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding-top: 20px;
+    }
+    .nav-left, .nav-right {
+      flex: 1;
+    }
+    .nav-left img {
+      width: 150px;
+    }
+    .nav-left a {
+      border: none;
+      text-decoration: none;
+    }
+    .nav-right {
+      text-align: right;
+    }
   </style>
 </head>
 
@@ -23,14 +44,18 @@
 
   <nav>
     <div class="container">
-      <div class="nav-left">
-        <img src="assets/img/DSConf_logo.svg" alt="DSConf logo">
-      </div>
-      <div class="nav-right">
-        <ul>
-          <li><a href="index.html">2019</a></li>
-          <li><a href="2018">2018</a></li>
-        </ul>
+      <div class="nav-items">
+        <div class="nav-left">
+          <a href="index.html">
+            <img src="assets/img/DSConf2019_logo.svg" alt="DSConf logo">
+          </a>
+        </div>
+        <div class="nav-right">
+          <ul>
+            <li><a href="index.html">2019</a></li>
+            <li><a href="2018">2018</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </nav>
