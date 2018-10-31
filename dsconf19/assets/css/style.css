@@ -850,6 +850,13 @@ a.button-inverted {
   min-height: 100vh;
 }
 
+@media only screen and (orientation: portrait) {
+  .deck-hero {
+    min-height: unset;
+    padding: 10% 0;
+  }
+}
+
 .deck-hero__left * {
   color: #ffffff;
 }
@@ -861,7 +868,8 @@ a.button-inverted {
 
 .deck-hero__left {
   flex: 3;
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-right: 50px;
   min-width: 300px;
 }
 
@@ -909,11 +917,17 @@ a.button-inverted {
 
 .deck-hero__right .form-halfs {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.deck-hero__right .form-halfs .mc-field-group input {
+  width: 87%;
 }
 
 .deck-hero__right .form-halfs .mc-field-group {
   flex: 1;
   margin-right: 20px;
+  min-width: 150px;
 }
 
 .deck-hero__right input[type="email"],
@@ -950,6 +964,7 @@ a.button-inverted {
 
 .deck-why__item img {
   height: 50px;
+  margin-bottom: 15px;
 }
 
 .deck-why__item {
@@ -963,14 +978,33 @@ a.button-inverted {
   text-align: center;
 }
 
-.deck-why__item--left img {
-  margin-bottom: 15px;
-}
-
 .deck-why__item--right {
   flex: 5;
 }
 
 .deck-why__item--right p {
   max-width: 430px;
+}
+
+@media (max-width: 1200px) {
+  .deck-hero__right .form-halfs .mc-field-group input {
+    width: 98%;
+  }
+}
+
+@media (max-width: 767px) {
+  .deck-why__item img {
+    height: 40px;
+  }
+  .deck-why__item--right {
+    flex: 4;
+  }
+
+  .deck-hero__right .form-halfs .mc-field-group input {
+    width: 97%;
+  }
+
+  .deck-hero {
+    padding-top: 0;
+  }
 }
