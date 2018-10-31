@@ -874,6 +874,7 @@ a.button-inverted {
   line-height: 1.4em;
   margin-top: 10px;
   color: rgba(255, 255, 255, 0.9);
+  max-width: 600px;
 }
 
 .deck-hero__right {
@@ -914,6 +915,12 @@ a.button-inverted {
   margin-right: 20px;
 }
 
+.deck-hero__right input[type="email"],
+.deck-hero__right input[type="text"],
+.deck-hero__right textarea {
+  border: 1px solid #c0c0c0;
+}
+
 .deck-why {
   padding: 0px 0;
 }
@@ -942,4 +949,8 @@ a.button-inverted {
   line-height: 1.4em;
   margin-top: 10px;
   color: rgba(0, 0, 0, 0.6);
+}
+
+.deck-why__item img {
+  height: 50px;
 }
