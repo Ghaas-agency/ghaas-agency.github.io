@@ -835,7 +835,7 @@ a.button-inverted {
 }
 
 .form-optional {
-  color: #949494;
+  color: #818181;
   font-weight: normal;
 }
 
@@ -889,9 +889,13 @@ a.button-inverted {
   width: 90%;
 }
 
+.deck-hero__right label {
+  font-weight: normal;
+}
+
 .deck-hero__right .button {
-  width: 300px !important;
-  margin-top: 15px;
+  max-width: 150px;
+  margin-top: 10px;
 }
 
 .deck-hero__right h2 {
