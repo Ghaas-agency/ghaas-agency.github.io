@@ -840,13 +840,14 @@ a.button-inverted {
 }
 
 .deck-hero {
-  padding-bottom: 50px;
+  padding-bottom: 0px;
   background-image: url('../img/dsconf-hero.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.65);
   background-blend-mode: overlay;
+  min-height: 100vh;
 }
 
 .deck-hero__left * {
@@ -862,7 +863,6 @@ a.button-inverted {
   flex: 3;
   padding: 50px 0;
   min-width: 300px;
-  align-self: center;
 }
 
 .deck-hero__left h1 {
@@ -885,6 +885,8 @@ a.button-inverted {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   min-width: 200px;
+  height: 100%;
+  align-self: center
 }
 
 .deck-hero__right input {
@@ -926,31 +928,50 @@ a.button-inverted {
 }
 
 .deck-why__items {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  padding-top: 30px;
 }
 
 .deck-why__item {
-  flex: 1;
-  padding: 50px;
-  padding-bottom: 40px;
-  text-align: center;
+  padding: 10px 0;
   min-width: 150px;
 }
 
 .deck-why__item h3 {
-  margin-bottom: 15px;
-  font-size: 24px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  margin-top: 0;
 }
 
 .deck-why__item p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.4em;
   margin-top: 10px;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .deck-why__item img {
   height: 50px;
+}
+
+.deck-why__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deck-why__item--left {
+  flex: 1;
+  text-align: center;
+}
+
+.deck-why__item--left img {
+  margin-bottom: 15px;
+}
+
+.deck-why__item--right {
+  flex: 5;
+}
+
+.deck-why__item--right p {
+  max-width: 430px;
 }
