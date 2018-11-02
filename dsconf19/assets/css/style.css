@@ -719,7 +719,8 @@ a.button-inverted {
   .section-hero__social a,
   .section-hero__links a {
     color: #c3c3c3;
-    border-bottom-color: #c3c3c3
+    border-bottom-color: #c3c3c3;
+    line-height: 1.6em;
   }
 
   .section-hero__links a:hover,
