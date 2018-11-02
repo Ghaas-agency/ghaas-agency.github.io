@@ -862,6 +862,8 @@ a.button-inverted {
   font-weight: normal;
 }
 
+/* /sponsor */
+
 .deck-hero {
   padding-bottom: 0px;
   background-image: url('../img/dsconf-hero.jpg');
@@ -1034,4 +1036,37 @@ a.button-inverted {
   .deck-hero {
     padding-top: 0;
   }
+}
+
+/* /thank-you */
+
+.ty-hero {
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ty-hero__wrapper {
+  padding: 100px 15%;
+  flex: 1;
+}
+
+.ty-hero h1 {
+  line-height: 1.4;
+}
+
+.ty-hero p {
+  font-size: 18px;
+  padding-top: 30px;
+}
+
+p.ty-hero--look {
+  font-size: 22px;
+  font-style: italic;
+}
+
+.ty-hero img {
+  margin-bottom: 40px;
 }
