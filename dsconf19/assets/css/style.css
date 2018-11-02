@@ -538,16 +538,34 @@ a.button-inverted {
 
 .section-hero__wrapper {
   width: 70%;
-  padding-top: 50px;
-  padding-bottom: 50px
+  padding-top: 70px;
+  padding-bottom: 70px
 }
 
 .section-hero a.button {
   color: #ffffff;
 }
 
+.section-hero__links {
+  margin-top: 8%;
+}
+
+.section-hero__links a {
+  margin: 0 8px;
+  vertical-align: bottom;
+  color: #949494;
+  border-bottom-color: #949494;
+}
+
+.section-hero__links a:hover,
+.section-hero__links a:active,
+.section-hero__links a:focus {
+  color: #4a4a4a;
+  border-bottom-color: #4a4a4a
+}
+
 .section-hero__social {
-  margin-top: 10%;
+  margin-top: 25px;
 }
 
 .section-hero__social a {
@@ -555,7 +573,7 @@ a.button-inverted {
   vertical-align: bottom;
   border-bottom-width: 0;
   color: #949494;
-  border-bottom-color: #949494
+  border-bottom: unset;
 }
 
 .section-hero__social a img {
@@ -580,11 +598,6 @@ a.button-inverted {
   border-bottom-color: #4a4a4a
 }
 
-.section-hero__social a:last-child, .section-hero__social a:nth-last-child(2) {
-  vertical-align: super;
-  border-bottom-width: 1px
-}
-
 .section-hero .play-button-link img {
   margin: 0;
   padding: 0;
@@ -592,7 +605,8 @@ a.button-inverted {
   padding-right: 5px
 }
 
-.section-hero__social div {
+.section-hero__social div,
+.section-hero__links div {
   display: inline-block;
 }
 
@@ -855,6 +869,10 @@ a.button-inverted {
     min-height: unset;
     padding: 10% 0;
   }
+}
+
+.deck-hero-logo {
+  border-bottom-width: 0;
 }
 
 .deck-hero__left * {
