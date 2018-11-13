@@ -1017,7 +1017,8 @@ a.button-inverted {
 }
 
 .section-schedule {
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .section-schedule-item {
