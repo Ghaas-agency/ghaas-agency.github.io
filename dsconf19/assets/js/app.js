@@ -1,3 +1,4 @@
+// Hides "Read more" button of schedule items with less lines.
 window.addEventListener('DOMContentLoaded', function() {
   var truncTexts = document.getElementsByClassName('section-schedule-item__right--text');
   for (var i = 0; i < truncTexts.length; i++) {
@@ -8,11 +9,29 @@ window.addEventListener('DOMContentLoaded', function() {
   }
 })
 
-
 document.onclick = function(e) {
+  // Expand schedule details
   if(e.target.className === 'read-more') {
     var trucTextEl = e.target.parentElement.getElementsByClassName('section-schedule-item__right--text')[0];
     trucTextEl.style.maxHeight = 'unset';
     e.target.style.display = 'none';
+  }
+
+  // Handle navbar display on mobile
+  if(e.target.className === 'nav-menu-icon') {
+    document.getElementById('navbar-ul').style.display = 'block';
+  }
+
+  if(e.target.parentElement.className === 'navbar-ul--first' || e.target.className === 'navbar-ul--first') {
+    document.getElementById('navbar-ul').style.display = 'none';
+  }
+}
+
+// Add box-shadow to nav bar on scroll.
+window.onscroll = function() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar").classList.add('navbar-shadow');
+  } else {
+    document.getElementById("navbar").classList.remove('navbar-shadow');
   }
 }
