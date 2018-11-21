@@ -1510,11 +1510,18 @@ form>div {
   border-top: 5px solid $primary-color;
   background-color: $primary-color;
   cursor: pointer;
+  z-index: 999999;
+  overflow: auto;
+  max-height: 80vh;
 
   @media (max-width: 767px) {
     right: 3.5%;
     left: 3.5%;
     width: 80%;
+  }
+
+  img {
+    vertical-align: bottom;
   }
 
   &__hook {
