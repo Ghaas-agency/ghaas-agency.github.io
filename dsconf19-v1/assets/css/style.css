@@ -1319,3 +1319,14 @@ p.ty-hero--look {
   vertical-align: middle;
   margin: 0;
 }
+
+@media (max-width: 767px) {
+  .section-sponsors {
+    background: none;
+    padding-bottom: 100px
+  }
+
+  .section-sponsors__left img {
+    max-width: 250px;
+  }
+}
