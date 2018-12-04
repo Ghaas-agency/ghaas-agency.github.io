@@ -1,3 +1,11 @@
+/* Smooth scroll. */
+if(typeof SmoothScroll !== 'undefined') {
+  var scroll = new SmoothScroll('a[href*="#"]', {
+    offset: 50,
+    updateURL: false,
+  });
+}
+
 // Hides "Read more" button of schedule items with less lines.
 window.addEventListener('DOMContentLoaded', function() {
   var truncTexts = document.getElementsByClassName('section-schedule-item__right--text');
