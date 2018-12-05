@@ -974,19 +974,17 @@ a.button-inverted {
 .section-intro__content-item--right a {
   display: inline-block;
   padding: 22px;
-  background-color: #f2f2f2;
-  -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
-  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+  background-color: #ffffff;
+  filter: grayscale(100%);
 }
 
 .section-intro__content-item--right a:hover {
-  -webkit-box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
-  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12)
+  filter: grayscale(0%);
 }
 
 .section-intro__content-item--right a img {
   width: auto;
-  max-height: 50px;
+  max-height: 70px;
 }
 
 .section-intro a {
@@ -999,14 +997,14 @@ a.button-inverted {
 }
 
 .section-intro img {
-  max-width: 275px;
+  max-width: 300px;
   vertical-align: middle;
   margin: 0;
 }
 
 .section-intro h3 {
   margin-top: 30px;
-  font-size: 150%;
+  font-size: 130%;
 }
 
 .section-intro--cta {
