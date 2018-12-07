@@ -1,7 +1,13 @@
 /* Smooth scroll. */
 if(typeof SmoothScroll !== 'undefined') {
   var scroll = new SmoothScroll('a[href*="#"]', {
-    offset: 50,
+    offset: function(anchor, toggle) {
+      if(anchor.id === 'sponsors') {
+        return 150;
+      } else {
+        return 30;
+      }
+    },
     updateURL: false,
   });
 }
