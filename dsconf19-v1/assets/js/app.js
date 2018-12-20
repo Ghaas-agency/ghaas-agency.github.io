@@ -63,3 +63,10 @@ window.onscroll = function() {
     document.getElementById("navbar").classList.remove('navbar-shadow');
   }
 }
+
+// Hide bottom tab upon submission.
+var mcForm = document.getElementById('mc-embedded-subscribe-form');
+var mcFormEl = document.getElementById('mc_embed_signup');
+mcForm.addEventListener('submit', function() {
+  mcFormEl.style.display = 'none';
+});
