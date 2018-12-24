@@ -1640,7 +1640,7 @@ footer {
   position: fixed;
   top: unset;
   left: 50%;
-  transform: translate(-50%, 0);
+  transform: translate(-50%, 0px);
   right: 0;
   bottom: 10px;
   min-width: 96vw;
@@ -1723,6 +1723,24 @@ footer {
 .sticky-signup-form-right {
   padding-top: 3px;
   text-align: left;
+}
+
+.sticky-signup-form--close {
+  position: absolute;
+  top: 17.5px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.sticky-signup-form--close img {
+  height: 22px;
+  width: 22px;
+  opacity: 0.7;
+}
+
+.sticky-signup-form--close img:hover,
+.sticky-signup-form--close img:focus {
+  opacity: 1;
 }
 
 @media only screen and (max-width: 979px) {
