@@ -56,15 +56,19 @@ document.onclick = function(e) {
 
   /* Close bottom bar. */
   if (e.target.className === 'sticky-signup-form--close' || e.target.parentElement.className === 'sticky-signup-form--close') {
+    var footer = document.getElementById('footer');
     var elem = document.getElementById('mc_embed_signup');
     var position = 0;
     var intervals = setInterval(changePosition, 1);
     function changePosition() {
       if (position === 120) {
         clearInterval(intervals);
+        elem.style.display = 'none';
+        footer.style.padding = '0px';
       } else {
         position += 5;
         elem.style.transform = "translate(-50%, " + position + "px)";
+        elem.style.webkitTransform = "translate(-50%, " + position + "px)";
       }
     }
   }

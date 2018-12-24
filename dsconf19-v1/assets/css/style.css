@@ -1640,6 +1640,10 @@ footer {
   position: fixed;
   top: unset;
   left: 50%;
+  -webkit-transform: translate(-50%, 0px);
+  -moz-transform: translate(-50%, 0px);
+  -ms-transform: translate(-50%, 0px);
+  -o-transform: translate(-50%, 0px);
   transform: translate(-50%, 0px);
   right: 0;
   bottom: 10px;
@@ -1648,6 +1652,8 @@ footer {
   -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
   border-radius: 3px;
   z-index: 99999999;
 }
@@ -1767,6 +1773,31 @@ footer {
 
   footer {
     padding-bottom: 125px;
+  }
+
+  .sticky-signup-form-left {
+    padding: 0;
+  }
+
+  .sticky-signup-form-left p {
+    text-align: left;
+  }
+
+  .sticky-signup-form--close {
+    top: -10px;
+    right: -10px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  .sticky-signup-form--close img {
+    margin: 0;
+    vertical-align: bottom;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
   }
 }
 
