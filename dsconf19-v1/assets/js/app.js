@@ -67,6 +67,8 @@ window.onscroll = function() {
 // Hide bottom tab upon submission.
 var mcForm = document.getElementById('mc-embedded-subscribe-form');
 var mcFormEl = document.getElementById('mc_embed_signup');
-mcForm.addEventListener('submit', function() {
-  mcFormEl.style.display = 'none';
+mcForm.addEventListener('submit', function(e) {
+  /* mcFormEl.style.display = 'none'; */
+  e.preventDefault();
+  console.log(e);
 });

@@ -698,16 +698,23 @@ nav ul li a:focus {
     display: none;
   }
 
+  .nav-anchor {
+    position: relative;
+  }
+
   .nav-menu-icon {
-    display: initial;
-    margin-right: 150px;
-    vertical-align: middle;
+    display: block;
     width: 30px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
   }
 
   .nav-mob-cta {
-    display: initial;
-    vertical-align: middle;
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 12px;
   }
 
   nav ul li {
@@ -736,12 +743,6 @@ nav ul li a:focus {
 
   main {
     padding-top: 71px;
-  }
-}
-
-@media (max-width: 380px) {
-  .nav-menu-icon {
-    margin-right: 80px;
   }
 }
 
