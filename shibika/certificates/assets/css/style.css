@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  position: relative;
+  background-color: #dfd3ae;
+  background-image: url('../img/certificate-bg.png');
+  background-size: cover;
+  width: 877px;
+  height: 620px;
+  margin: 20px auto;
+}
+
+.border {
+  position: absolute;
+  width: 95%;
+  top: 2.5%;
+  left: 2.5%;
+}
+
+.content {
+  padding: 100px 40px;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: 'Libre Baskerville', serif;
+  color: #2e261c;
+  margin: 0;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 4.5em;
+  margin-top: 20px;
+}
+
+h2 {
+  position: relative;
+  display: inline-block;
+  font-size: 1.6em;
+}
+
+h2::before,
+h2::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 90px;
+  height: 26px;
+  background-image: url('../img/stars.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h2.waves::before,
+h2.waves::after {
+  background-image: url('../img/waves.png');
+}
+
+h2::before {
+  left: -110px;
+}
+
+h2::after {
+  right: -110px;
+}
+
+p {
+  color: #2e261c;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1.1em;
+}
+
+.underline {
+  position: relative;
+  border-bottom: 2px solid #2e261c;
+  width: 450px;
+  margin: 50px auto 30px;
+}
+
+.underline p {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 5px 0;
+}
