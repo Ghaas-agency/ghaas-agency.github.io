@@ -1882,7 +1882,7 @@ a.button-inverted {
 /* /sponsor */
 
 .deck-hero {
-  padding-bottom: 0px;
+  padding-bottom: 50px;
   background-image: url('../img/dsconf-hero.jpg');
   background-position: center;
   -webkit-background-size: cover;

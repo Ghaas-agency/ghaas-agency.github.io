@@ -1,0 +1,319 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+
+  @media only screen and (max-width: 1280px) {
+    padding: 0 3%;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-1 {
+  flex: 1;
+  width: 100%;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.primary {
+  color: $primary;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.mb-1 {
+  margin-bottom: 0.25em;
+}
+
+.normal {
+  font-weight: normal !important;
+}
+
+.white {
+  color: $f !important;
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: $f;
+  border: 1px solid $f;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: $black;
+  font-weight: bold;
+  z-index: 1;
+  overflow: hidden;
+  cursor: pointer;
+  vertical-align: middle;
+
+  @media only screen and (max-width: 480px) {
+    font-size: 1.1em;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    right: 50%;
+    background-color: $primary;
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    z-index: -1;
+    transition: all 0.25s $ease-out;
+  }
+
+  &:hover {
+    border-color: $primary;
+
+    &::before {
+      transition: all 0.35s $ease-in;
+      bottom: 50%;
+      right: 0;
+      transform: translate(10px, 50%);
+    }
+  }
+
+  &:focus {
+    outline: 0;
+
+    &::before {
+      background-color: $primaryhover;
+    }
+  }
+
+  &-inverted {
+    background-color: unset;
+    color: $f;
+    border: 1px solid $f;
+  }
+
+  &-unstyled {
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    border: 0;
+    cursor: pointer;
+
+    &,
+    &:hover,
+    &:focus {
+      background-color: unset;
+      background: unset;
+    }
+    
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  &-outline {
+    border: 1px solid $black;
+  }
+}
+
+.sticky-signup-form {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  min-height: 45px;
+  position: fixed;
+  top: unset;
+  left: 50%;
+  transform: translate(-50%, 0px);
+  right: 0;
+  bottom: 10px;
+  min-width: 96vw;
+  background-color: #8d8d8d;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  z-index: 99999999;
+  transition: all 0.2s $ease-out;
+  opacity: 1;
+
+  @media only screen and (max-width: 979px) {
+    padding-top: 13px;
+    padding-bottom: 5px;
+  }
+
+  @media only screen and (max-width: 767px) {
+    right: 0;
+    bottom: 5px;
+    min-width: 90vw;
+  }
+
+  label {
+    margin: 0;
+    padding: 0;
+  }
+
+  input[type="submit"] {
+    color: $f;
+    border: 1px solid $f;
+    padding: 6px 12px;
+    vertical-align: middle;
+    background-color: unset;
+    font-size: 16px;
+
+    &:hover,
+    &:focus {
+      background-color: unset;
+      border: 1px solid $f;
+    }
+  }
+
+  &-items {
+    width: 100%;
+    text-align: center;
+  }
+
+  &-left,
+  &-right {
+    display: inline-block;
+    min-width: 300px;
+  }
+
+  &-left {
+    padding: 0 10px;
+
+    img {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 10px;
+      height: 25px;
+      width: 25px;
+    }
+
+    p {
+      display: inline-block;
+      font-size: 0.9em;
+      margin: 0;
+      margin-right: 10px;
+      color: $f;
+    }
+
+    @media only screen and (max-width: 767px) {
+      padding: 0;
+
+      img {
+        display: none;
+      }
+    }
+  }
+
+  &-right {
+    padding-top: 3px;
+    text-align: left;
+
+    @media only screen and (max-width: 979px) {
+      padding-bottom: 10px;
+    }
+
+    @media only screen and (max-width: 767px) {
+      margin-top: 10px;
+      padding-bottom: 10px;
+      text-align: center;
+    }
+
+    input[type="email"] {
+      width: 50%;
+      margin: 0;
+      border: none;
+      display: inline-block;
+      padding: 9.5px;
+      max-height: 32px;
+      border-radius: 3px;
+      font-size: 0.9em;
+
+      @media only screen and (max-width: 380px) {
+        width: 45%;
+      }
+    }
+
+    .clear {
+      display: inline-block;
+      width: 30%;
+    }
+
+    & > div {
+      display: inline-block;
+      margin: 0 20px;
+    }
+  }
+
+  &--close {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    cursor: pointer;
+
+    img {
+      height: 22px;
+      width: 22px;
+      opacity: 0.7;
+
+      &:hover,
+      &:focus {
+        opacity: 1;
+      }
+    }
+
+    @media only screen and (max-width: 767px) {
+      top: -10px;
+      right: -10px;
+      background-color: $f;
+      border: 1px solid $f;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+
+      img {
+        margin: 0;
+        vertical-align: bottom;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+      }
+    }
+  }
+}
+
+.form-optional {
+  color: #818181;
+  font-weight: normal;
+}
