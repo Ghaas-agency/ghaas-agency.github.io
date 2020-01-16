@@ -1,0 +1,77 @@
+include ../components/_index.pug
+<!DOCTYPE html>
+html(lang="en")
+  +head('../', 'Inventory Cost of Unreleased Software | Dheeti Technologies', 'Dheeti Technologies provides expert guidance to growth-oriented businesses in the Industry 4.0 through consultation, training as well as software development.')
+
+  body
+
+    nav.nav
+      .container
+        .flex.align-items-center
+          .flex-1
+            a(href="../")
+              img(src="../assets/img/dheeti-logo.svg", alt="dheeti logo")
+          .flex-1.right
+            ul
+              li
+                a(href="../blog/") Blog
+
+    main.article
+      .container
+        header.center
+          h1.entry-title Inventory cost of unreleased software
+          p Posted on Jan 20, 2020
+          a.article-share(href="#!")
+            img(src="../assets/img/share.svg", alt="share", width="30px", height="30px")
+            br
+            span Share
+        img.article-featured-image(src="../assets/img/Banner-_INVENTORY_COST_OF_UNRELEASED_SOFTWARE.jpg", alt="")
+        .entry-content
+          p In my last 2 blogs I talked about few 
+            a(href='https://medium.com/@jayramj/why-is-agile-not-working-for-you-85db136c9dcd') reasons why agile may not be working for you
+            |  &amp; few 
+            a(href='https://medium.com/@jayramj/so-what-are-right-reasons-for-agile-d1fbb0faf4c') reasons why you should look at agile
+            | . Before we move ahead &amp; look at how to make it successful, time to take a pause &amp; look closely at ecosystem that Software Engineering teams operate in. Some of the contributing factors in failure of Engineering organizations originate in other parts of business
+          p Human Resources &amp; Accounting/Finance are two areas that influence the way in which engineering side of organization works. They heavily influence people,processes, behaviors &amp; expectations.
+          h2 Inventory Costs
+          p One of the reasons Lean became very popular in manufacturing &amp; most industries started moving to JIT production was huge costs involved in holding inventory of WIP or finished goods. Since these products are physical, need to be stored in a warehouse there are visible costs related to storage. Since these products are physical, wear &amp; tear happens which has costs associated with it. Lastly there is financial cost of revenue that can not be recognized until the sale happens.
+          p Inventory costs other than the cost associated with revenue not recognized are not visible in case of software. Since it exists in digital form assumption is that there is no wear &amp; tear. What we now know &amp; increasingly people are becoming aware is that , this is not true. Just because software was sitting in unreleased state doesn’t mean that bytes &amp; kilobytes will fall off or disappear. At the same time
+          ul
+            li We continue to build software on top of this unreleased software. Such development leads to incompatibilities, regressions &amp; technical debt. Often this gets captured as “rework” whereas in reality this is Inventory Cost of Unreleased Software (ICUS)
+            li The software is built to run in a target environment. Often this target environment has many moving parts. Some examples are OS upgrades &amp; patches, various libraries &amp; frameworks that your product is built on keep improving, making your current choices deprecated at times unsupported.Ensuring that entire ecosystem is at the same compatibility level as when your code first entered into “ready to deploy” state has a huge cost. This is again ICUS
+            li People who develop software have a tendency to change jobs more frequently. There is a cost associated with transitioning this knowledge associated with WIP product.How many times during development cycle have you been in a situation where a part of the system under development was developed by someone who left the team &amp; current team has no clue about this part? This is ICUS
+          img(src="../assets/img/Banner-_KILLWORDS_IN_REQUIRMENETS.jpg", alt="")
+          p There could be several such reasons that contribute to ICUS. Unfortunately the accounting systems do not capture them well. Atleast I have not seen them to reflect so. Almost all of this gets bundled under “project delays” hiding the root cause.In absence of such costs coming on books from a financial perspective there is no incentive to release software faster, make it revenue generating faster.
+          p One of the changes that we need to make is to start reflecting this as a cost. It would not be too difficult to estimate or define an industry standard. E.g. 5% of development cost of unreleased software to be charged as ICUS. Some of the hurdles that agile teams face , resistance agile teams face could be easily overcome if anti-agile practices become “costly” exposing the real reason for projects with long release cycles being less profitable.
+          p Imagine if in financial statement of a large software player USD 750million show up as ICUS. Imagine the share holder fury &amp; imagine how easy it will be to push people towards smaller &amp; frequent releases….
+        .article-author
+          .flex
+            .flex-1
+              .flex.align-items-center
+                img(src="../assets/img/account.png", alt="")
+                p Written By
+                  br
+                  span.bold Ruskin Joe
+            .flex-1.right
+              button.button(type="button") Follow
+        .article-comments
+          div
+            input#comment(type="text", name="comment", placeholder="Add a comment")
+          .article-comment
+            .flex.align-items-center.article-comment--author
+              img(src="../assets/img/account.png", alt="", width="50", height="50")
+              span Gordon Ramsey
+            p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit, necessitatibus nulla fuga vitae dolorum velit alias repellendus inventore unde eaque.
+            .flex.align-items-center.article-comment--likes
+              img(src="../assets/img/heart.svg", alt="", width="30", height="30")
+              span 250
+          .article-comment
+            .flex.align-items-center.article-comment--author
+              img(src="../assets/img/account.png", alt="", width="50", height="50")
+              span Gordon Ramsey
+            p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit, necessitatibus nulla fuga vitae dolorum velit alias repellendus inventore unde eaque.
+            .flex.align-items-center.article-comment--likes
+              img(src="../assets/img/heart.svg", alt="", width="30", height="30")
+              span 250
+
+    +footer('../')
