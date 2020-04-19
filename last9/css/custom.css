@@ -1,0 +1,38 @@
+.main{
+	background: #ffffff no-repeat center fixed;
+	background-size: cover;
+	height: 100vh;
+	/*font-family: 'Lato', sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+b{
+	color: green;
+}
+
+a{
+	color: green;
+}
+
+.topbar{
+	background-color: green;
+	color: #efefef;
+	box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+h3{
+  line-height: 1.4;
+  font-size: 19px;
+  font-weight: 300;
+}
+
+h1{
+
+	font-size: 34px;
+}
+
+form-control{
+	width:100%;
+
+}
