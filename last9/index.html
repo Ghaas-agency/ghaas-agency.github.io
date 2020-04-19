@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-78296065-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-78296065-1');
+  </script>
+ -->
+	<!-- <script>
+	/**
+	* Function that tracks a click on an outbound link in Analytics.
+	* This function takes a valid URL string as an argument, and uses that URL string
+	* as the event label. Setting the transport method to 'beacon' lets the hit be sent
+	* using 'navigator.sendBeacon' in browser that support it.
+	*/
+	var trackOutboundLink = function(url) {
+	  gtag('event', 'click', {
+	    'event_category': 'outbound',
+	    'event_label': url,
+	    'transport_type': 'beacon',
+	    'event_callback': function(){document.location = url;}
+	  });
+	}
+	</script> -->
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Last9: Reliability Platform for Distributed Systems</title>
+  <meta name="description" content="Obesrvability, maintainability and incident management platform for Distributed Systems. ">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+  
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+  <!-- <link rel="stylesheet" href="css/skeleton.css"> -->
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body class="main">
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container-fluid">
+  	
+  	<!-- TopBar To be used for speal call outs -->
+  	<!-- <a href="http://blog.oogway.in/redis-speaking-event"><div class="row topbar">
+  		<div class="col-sm-12">
+  			<h4 class="text-center">We're speaking at the Redis India Tour 2017 -></h4>
+  		</div>
+  	</div></a> -->
+    
+
+   	<div class="row">      		
+
+      		<div class="col-sm-6" style="text-align:left; margin-top: 8%; padding-left:80px; padding-right: 60px">
+      			<div class="text-left"><img style="width: 125px" src="Assets/Last9-green.png"></div>
+        		<br>
+        		<h1>Build, Ship & Operate Fireproof Systems</h1>
+        		<br>
+        		<h3>Building distributed systems is hard. Observing it? Even more so.<br><br>Improving its reliability? Oh, no! An endless pursuit of trial and error.<br>
+					<br><i>Imagine a firefighter charging towards a fire..
+					Patching a hole in the firehose, without a blueprint in hand, without knowing where the fire’s originated, assembling ladders bought from Ikea.</i>
+					<br><br>Crazy, right? That’s how Site Reliability Engineering feels today.<br>
+					<br>Last9 SRE platform makes running systems at scale; fun and embarrassingly easy!<br><br>
+        		</h3>
+
+        		<!-- <form style="padding-top: 10px">
+				  	<div class="form-inline">				    
+				    	<br>			    	
+				    	<small id="emailHelp" class="form-text text-muted">Signup for a demo</small>
+				    	<input type="email" class="form-control form-control-md" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+				    	<button type="submit" class="btn btn-md btn-dark">Submit</button><br>
+				    			   				    	  					
+  				</div> -->
+				<form>
+  <div class="form">
+    <!-- <label for="exampleInputEmail1">Email address</label> -->
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <button type="submit" class="btn btn-dark">Submit</button>
+				</form>
+        		
+        		<!-- <h3>We write about our experiences, learnings and projects on our <u><a href="http://blog.oogway.in" onclick="trackOutboundLink('showccase'); return false;" target="_blank">showcase page</a></u>. If you want to get in touch with us, please drop us a <u><a href="mailto:contact@oogway.in" onclick="trackOutboundLink('mailto:contact@oogway.in'); return false;">mail</a></u>.</h3> -->
+      		</div>
+      		<div class="col-sm-6">
+      			<div class="text-center"><img style="width: 400px; margin-top:18%" src="Assets/Graphic.png"></div>
+      		</div>
+    	</div>
+  	</div>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
