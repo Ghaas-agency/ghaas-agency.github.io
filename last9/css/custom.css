@@ -36,3 +36,17 @@ form-control{
 	width:100%;
 
 }
+
+input {
+    max-width: 100% !important;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+.no-padding{
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
