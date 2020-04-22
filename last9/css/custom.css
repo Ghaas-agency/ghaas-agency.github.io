@@ -124,23 +124,29 @@ input {
   }
 }
 
-/* Small Devices, Tablets */
-@media only screen and (min-width : 2560px) {
+@media only screen and (min-width : 3000px) {
+  .image-bottom{
+    width: 800px;
+  }
+}
+
+/* 2k devices */
+@media only screen and (min-width : 2400px) {
   .page-content-inner{
     max-width: 100%;
     margin: auto;
   }
 
   .brand-logo{
-    max-width: 180px;
+    max-width: 200px;
   }
 
   h1{
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
 
   p{
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 
   .form-wrapper .form-control,
@@ -157,7 +163,7 @@ input {
 @media only screen and (max-width : 768px) {
 
   h1{
-    font-size: 2.2rem;
+    font-size: 2.5rem;
   }
 }
 
