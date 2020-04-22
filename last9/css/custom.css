@@ -132,15 +132,15 @@ input {
   }
 
   .brand-logo{
-    max-width: 200px;
+    max-width: 180px;
   }
 
   h1{
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   p{
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
   .form-wrapper .form-control,
@@ -149,7 +149,7 @@ input {
   }
 
   .image-bottom{
-    width: 800px;
+    width: 600px;
   }
 }
 
