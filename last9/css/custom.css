@@ -105,6 +105,10 @@ input {
   flex-wrap: wrap;
 }
 
+.brand-logo{
+  max-width: 125px;
+}
+
 /*.page-content-wrap{
   padding: 100px 0;
 }*/
@@ -117,6 +121,35 @@ input {
 
   .page-container{
     padding: 50px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 2560px) {
+  .page-content-inner{
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .brand-logo{
+    max-width: 200px;
+  }
+
+  h1{
+    font-size: 4rem;
+  }
+
+  p{
+    font-size: 2rem;
+  }
+
+  .form-wrapper .form-control,
+  .form-wrapper .btn{
+    font-size: 2rem;
+  }
+
+  .image-bottom{
+    width: 800px;
   }
 }
 
