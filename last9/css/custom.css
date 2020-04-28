@@ -28,7 +28,13 @@ b{
 }
 
 a{
-	color: green;
+	color: #00bf84;
+}
+
+a:hover{
+  color: #0a0a0a;
+  transition: 1s;
+  text-decoration: none;
 }
 
 .topbar{
