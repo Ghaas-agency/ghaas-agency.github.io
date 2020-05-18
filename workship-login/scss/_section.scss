@@ -1,0 +1,57 @@
+.section{
+  padding: 100px 0px;
+
+  .color-white{
+    color: #fff;
+  }
+
+  .color-dark-grey{
+    color: #222;
+  }
+
+  .color-purple{
+    color: #917cb4;
+  }
+
+  .color-orange{
+    // color: $color-orange;
+  }
+
+  &--small-pad{
+    padding: 40px 0px;
+  }
+
+  &--medium-pad{
+    padding: 60px 0px;
+  }
+
+  &--large-pad{
+    padding: 100px 0px;
+  }
+
+  &--xlg-pad{
+    padding: 120px 0px;
+  }
+
+  &--no-pad{
+    padding: 0px 0px;
+  }
+
+  &--no-pad-top{
+    padding-top: 0px;
+  }
+
+  &--no-pad-btm{
+    padding-bottom: 0px;
+  }
+
+  &--bg-yellow{
+    background: $bg-color-yellow;
+  }
+
+  &--login-bg{
+    background: $bg-color-yellow;
+    min-height: 100vh;
+  }
+
+}
