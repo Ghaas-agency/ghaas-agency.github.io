@@ -6,6 +6,10 @@
 
   .header-main-navbar{
     padding: 1rem 0;
+
+    .navbar-brand{
+      max-width: 180px;
+    }
   }
 
   .header-main-content{
@@ -13,6 +17,11 @@
       font-size: 2.5rem;
     }
   }
+
+  .header-main-info-section{
+    align-items: center;
+  }
+
 
   .section{
     &__heading{
