@@ -4,6 +4,10 @@
     font-size: 1.2rem;
   }
 
+  .header-main-navbar{
+    padding: 1rem 0;
+  }
+
   .header-main-content{
     &__main-heading{
       font-size: 2.5rem;
@@ -13,6 +17,10 @@
   .section{
     &__heading{
       font-size: 2rem;
+    }
+
+    &--main-header{
+      padding: 60px 0;
     }
   }
 
@@ -32,6 +40,21 @@
     }
 
   }
+
+  .btn{
+    font-size: 1.25rem;
+    &--purple{
+      padding: 1rem 2rem;
+    }
+
+    &--purple-bordered{
+      padding: 1rem 2rem;
+    }
+
+    &--black-bordered{
+      padding: 1rem 2rem;
+    }
+  }
 }
 
 // Large devices (desktops, less than 1200px)
@@ -48,6 +71,7 @@
       &:before,
       &:after{
         height: 180px;
+        background-size: cover;
       }
     }
   }
@@ -66,7 +90,7 @@
     }
 
     &__img-wrap{
-      display: none;
+      padding-top: 2rem;
     }
   }
 
@@ -151,6 +175,11 @@
       width: 90%;
     }
   }
+
+  .info-card{
+    width: 100%;
+    padding: 2rem;
+  }
 }
 
 // Small devices (landscape phones, less than 768px)
@@ -164,6 +193,7 @@
     }
 
     &--purple-wave-bg{
+      padding-top: 0px;
       &:before{
         height: 150px;
       }
@@ -202,6 +232,7 @@
 
     &__desc{
       font-size: .8rem;
+      display: none;
     }
 
     &__sub-heading{

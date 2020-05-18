@@ -1,0 +1,186 @@
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1600px) {
+  body{
+    font-size: 1rem;
+  }
+
+  .header-main-navbar{
+    padding: .5rem 0;
+  }
+
+  .login-section{
+    &__heading{
+      font-size: 2rem;
+      font-family: 'Libre Baskerville', serif;
+      margin-bottom: 1rem;
+    }
+
+    &__sub-heading{
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    &__fact{
+      font-size: 1rem;
+    }
+  }
+
+  .login-step-list{
+    padding: 1rem 0;
+
+    li{
+      width: 33%;
+      justify-content: space-between;
+      display: block;
+      position: relative;
+
+      .icon{
+        margin-bottom: 2rem;
+      }
+
+      .heading{
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .login-form{
+    padding: 2rem 3rem;
+    
+    &__heading{
+      font-size: 2.25rem;
+    }
+
+    .form-group{
+      margin-bottom: .5rem;
+    }
+
+    .form-control{
+      padding: 1rem;
+      font-size: 1rem;
+      box-shadow: none;
+    }
+
+    &__btn-wrap{
+      padding: 1rem;
+      text-align: center;
+
+      .btn{
+        padding: .5rem 3rem;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+
+  .login-section{
+    &__fact{
+      margin-bottom: 2rem;
+    }
+  }
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+   body{
+    font-size: 1rem;
+  }
+  
+  .header-main-navbar{
+    padding: 1rem 0;
+  }
+
+  .login-section{
+    &__heading{
+      font-size: 1.5rem;
+      font-family: 'Libre Baskerville', serif;
+      margin-bottom: 1rem;
+    }
+
+    &__sub-heading{
+      font-size: 1.5rem;
+      font-weight: 900;
+      line-height: 1.2;
+      margin-bottom: 1.5rem;
+    }
+
+    &__fact{
+      font-size: 1rem;
+    }
+  }
+
+  .login-step-list{
+    padding: 1.5rem 0;
+    flex-wrap: wrap;
+
+    li{
+      width: 100%;
+      margin-bottom: 1.5rem;
+
+      .icon{
+        margin-bottom: 1rem;
+      }
+
+      .heading{
+        font-size: 1.2rem;
+        font-weight: 900;
+      }
+
+      &:last-of-type{
+        margin-bottom: 0px;
+      }
+
+      &:after{
+        display: none;
+      }
+    }
+  }
+
+  .login-form{
+    padding: 2rem;
+    
+    &__heading{
+      font-size: 2rem;
+    }
+
+    .form-group{
+      margin-bottom: 1rem;
+
+      label{
+        font-size: .8rem;
+      }
+    }
+
+    .form-control{
+      padding: 1rem;
+      font-size: 1rem;
+      box-shadow: none;
+    }
+
+    &__btn-wrap{
+      padding: 1rem;
+
+      .btn{
+        padding: .2rem 3rem;
+        font-size: 1.5rem;
+        font-weight: 900;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+
+}

@@ -1,0 +1,135 @@
+.header-main-navbar{
+  background: transparent;
+  padding: 1rem 0;
+}
+
+.header-main-info-section{
+  align-items: top;
+}
+
+.login-section{
+  &-wrap{
+    align-items: center;
+  }
+
+  &__info{
+    text-align: center;
+  }
+
+  &__heading{
+    font-size: 2.7rem;
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 2rem;
+  }
+
+  &__sub-heading{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+
+  &__fact{
+    font-style: italic;
+    font-size: 1rem;
+
+    strong{
+      font-style: normal;
+    }
+  }
+}
+
+.login-step-list{
+  display: flex;
+  flex-direction: row;
+  padding: 4rem 0;
+  margin: 0px;
+
+
+  li{
+    width: 33%;
+    justify-content: space-between;
+    display: block;
+    position: relative;
+
+    .icon{
+      margin-bottom: 2rem;
+    }
+
+    .heading{
+      font-size: 1.5rem;
+    }
+
+    &:after{
+      @extend .psuedo-element-class;
+      width: 18px;
+      height: 15px;
+      top: 3rem;
+      left: 100%;
+      transform: translate(-50%,0);
+      background: url('../img/step-arrow.png') no-repeat;
+      background-position: center center;
+    }
+
+    &:last-of-type{
+      &:after{
+        display: none;
+      }
+    }
+  }
+}
+
+.login-form{
+  background: #fff;
+  padding: 3rem 6rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,.24);
+  margin-bottom: 4rem;
+
+  &__heading{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .form-group{
+    margin-bottom: 1rem;
+
+    label{
+      font-size: 1rem;
+      margin-bottom: .5rem;
+      color: #989898;
+      display: block;
+      line-height: 1;
+    }
+  }
+
+  .form-control{
+    padding: 2rem 1rem;
+    font-size: 1.5rem;
+    box-shadow: none;
+
+    &:hover,
+    &:focus{
+      box-shadow: none;
+      border-color: #989898;
+    }
+  }
+
+  &__btn-wrap{
+    padding: 1rem;
+    text-align: center;
+  }
+
+  &__footer{
+    a{
+      color: #989898;
+      display: block;
+      text-align: center;
+
+      .purple{
+        color: $text-color-purple;
+      }
+    }
+  }
+}
