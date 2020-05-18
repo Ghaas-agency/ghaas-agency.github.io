@@ -1,3 +1,10 @@
+.top-header-nav-wrap{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
 .header-main-navbar{
   background: transparent;
   padding: 1rem 0;
@@ -8,8 +15,17 @@
 }
 
 .login-section{
+
   &-wrap{
     align-items: center;
+    justify-content: space-between;
+    .col-lg-6{
+     flex: 0 0 47%;
+    }
+  }
+
+  &__desc{
+    margin-bottom: 1rem;
   }
 
   &__info{
@@ -83,7 +99,7 @@
   padding: 3rem 6rem;
   border-radius: 10px;
   box-shadow: 5px 5px 15px rgba(0,0,0,.24);
-  margin-bottom: 4rem;
+  // margin-bottom: 4rem;
 
   &__heading{
     font-family: 'Libre Baskerville', serif;
