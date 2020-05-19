@@ -62,6 +62,7 @@
     background: url('../img/main-header-bg.png') no-repeat transparent;
     background-size: cover;
     background-position: bottom center;
+    padding: 60px 0;
   }
 
   &--purple{
@@ -122,8 +123,8 @@
       left: 0;
       top: 0;
       background: url('../img/purple-bg-top.png') no-repeat;
-      background-position: center;
-      background-size: 100% 100%;
+      background-position: top center;
+      // background-size: 100% 100%;
     }
 
     &:after{
@@ -131,8 +132,8 @@
       left: 0;
       bottom: 0;
       background: url('../img/purple-bg-bottom.png') no-repeat;
-      background-position: center;
-      background-size: 100% 100%;
+      background-position: bottom center;
+      // background-size: 100% 100%;
     }
   }
 }

@@ -52,6 +52,10 @@
   &--login-bg{
     background: $bg-color-yellow;
     min-height: 100vh;
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    position: relative;
   }
 
 }
