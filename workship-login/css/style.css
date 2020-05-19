@@ -8,7 +8,7 @@ body, html {
 body {
   color: #141414;
   font-family: 'Inter', sans-serif;
-  font-size: 1.5rem;}
+  font-size: 1.5rem; }
 
 h1, h2, h3, h4, h5 {
   font-family: 'Inter', sans-serif;
@@ -233,6 +233,10 @@ h1, h2, h3, h4, h5 {
     text-align: center; }
     .login-form__footer a .purple {
       color: #782dda; }
+
+.login-bottom-fact {
+  padding-top: 2rem;
+  text-align: center; }
 
 @media (max-width: 1600px) {
   body {
