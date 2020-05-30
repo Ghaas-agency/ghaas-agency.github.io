@@ -9,7 +9,10 @@ body {
   color: #000000;
   font-family: 'Inter', sans-serif;
   font-size: 1.5rem;
-  line-height: 1.7; }
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-top: 60px; }
 
 h1, h2, h3, h4, h5 {
   font-family: 'Inter', sans-serif;
