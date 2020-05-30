@@ -141,6 +141,10 @@
 .info-section{
   padding: 4rem 0;
 
+  &__heading{
+    font-size: 3rem;
+  }
+
   .row{
     align-items: center;
   }
@@ -173,5 +177,12 @@
         text-align: right;
       }
     }
+  }
+
+  &--r-align{
+    .row{
+      flex-direction: row-reverse;
+      justify-content: space-around;
+    } 
   }
 }
