@@ -16,7 +16,7 @@ body {
 
 h1, h2, h3, h4, h5 {
   font-family: 'Inter', sans-serif;
-  font-weight: bold; }
+  /*font-weight: bold; */}
 
 .container {
   width: 90%;
@@ -164,8 +164,8 @@ h1, h2, h3, h4, h5 {
   .section--purple {
     background: #65318e; }
   .section__heading {
-    font-size: 3.5rem;
-    font-weight: 600;
+    font-size: 3rem;
+    font-weight: 500;
     text-align: center;
     margin: auto;
     margin-bottom: 2rem;
@@ -234,7 +234,7 @@ h1, h2, h3, h4, h5 {
   align-items: top; }
 
 .header-main-content__main-heading {
-  font-size: 4rem;
+  font-size: 3rem;
   /*color: #65318e;*/
   color: #010101;
   font-weight: 500; }
@@ -436,19 +436,21 @@ h1, h2, h3, h4, h5 {
 .illustration-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   font-size: 0.8em;
   padding: 0;
   padding-bottom: 5rem;
-  border-bottom: 1px dotted #c1940d; }
+  /*border-bottom: 1px dotted #c1940d;*/ }
   .illustration-list--no-border {
     border-bottom: 0px; }
   .illustration-list li {
     display: block;
     width: 22%;
     text-align: center;
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    margin-right:1rem;
+    margin-left:1rem; }
     .illustration-list li .image {
       margin-bottom: 1.5rem; }
       .illustration-list li .image img {
