@@ -1,0 +1,177 @@
+.section{
+  padding: 100px 0px;
+
+  .color-white{
+    color: #fff;
+  }
+
+  .color-dark-grey{
+    color: #222;
+  }
+
+  .color-purple{
+    color: #917cb4;
+  }
+
+  .color-orange{
+    // color: $color-orange;
+  }
+
+  &--small-pad{
+    padding: 40px 0px;
+  }
+
+  &--medium-pad{
+    padding: 60px 0px;
+  }
+
+  &--large-pad{
+    padding: 100px 0px;
+  }
+
+  &--xlg-pad{
+    padding: 120px 0px;
+  }
+
+  &--no-pad{
+    padding: 0px 0px;
+  }
+
+  &--no-pad-top{
+    padding-top: 0px;
+  }
+
+  &--no-pad-btm{
+    padding-bottom: 0px;
+  }
+
+  &--grey-bg{
+    // background: $bg-color-grey;
+  }
+
+  &--purple-bg{
+    // background: $bg-color-purple;
+    color: #fff;
+  }
+
+  &--bg-yellow{
+    background: $bg-color-yellow;
+  }
+
+  &--main-header{
+    background: url('../img/main-header-bg.png') no-repeat transparent;
+    background-size: cover;
+    background-position: bottom center;
+    padding: 60px 0;
+  }
+
+  &--purple{
+    background: $bg-color-purple;
+  }
+
+  &__heading{
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2rem;
+    max-width: 80%;
+
+    &--sm{
+      font-size: 2rem;
+    }
+
+    &--no-marg{
+      margin: 0px;
+    }
+
+    &--no-tb-marg{
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    &--pad-lg{
+      padding: 3rem 0;
+    }
+  }
+
+  &--purple-wave-bg{
+    background: $bg-color-purple;
+    position: relative;
+    z-index: 10;
+    padding-top: 60px;
+
+    .section__heading{
+      margin-bottom: 4rem;
+    }
+    .section--inner{
+      position: relative;
+      z-index: 15;
+    }
+
+    &:after,
+    &:before{
+      @extend .psuedo-element-class;
+      display: block;
+      // position: static;
+      width: 100%;
+      z-index: 11;
+    }
+
+    &:before{
+      height: 245px;
+      left: 0;
+      top: 0;
+      background: url('../img/purple-bg-top.png') no-repeat;
+      background-position: top center;
+      // background-size: 100% 100%;
+    }
+
+    &:after{
+      height: 245px;
+      left: 0;
+      bottom: 0;
+      background: url('../img/purple-bg-bottom.png') no-repeat;
+      background-position: bottom center;
+      // background-size: 100% 100%;
+    }
+  }
+}
+
+.info-section{
+  padding: 4rem 0;
+
+  .row{
+    align-items: center;
+  }
+
+  &__desc{
+    // text-align: justify;
+  }
+
+  &__img{
+    img{
+      margin: auto;
+      display: block;
+    }
+  }
+  
+  &:nth-of-type(odd){
+    .row{
+      flex-direction: row-reverse;
+    }
+  }
+
+  &--lr-align{
+    .row{
+      justify-content: space-around;
+    }
+
+    &:nth-of-type(even){
+      .info-section__desc,
+      .info-section__heading{
+        text-align: right;
+      }
+    }
+  }
+}
