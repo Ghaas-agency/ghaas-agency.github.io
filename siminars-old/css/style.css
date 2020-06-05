@@ -9,7 +9,7 @@ body {
   color: #000000;
   font-family: 'Inter', sans-serif;
   font-size: 1.5rem;
-  line-height: 2; }
+  line-height: 1.5; }
 
 h1, h2, h3, h4, h5 {
   font-family: 'Inter', sans-serif;
@@ -149,6 +149,8 @@ h1, h2, h3, h4, h5 {
     padding-top: 0px; }
   .section--no-pad-btm {
     padding-bottom: 0px; }
+  .section--grey-bg {
+    background: #fafaf0; }
   .section--purple-bg {
     color: #fff; }
   .section--bg-yellow {
@@ -161,7 +163,7 @@ h1, h2, h3, h4, h5 {
   .section--purple {
     background: #65318e; }
   .section__heading {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 600;
     text-align: center;
     margin: auto;
@@ -169,6 +171,8 @@ h1, h2, h3, h4, h5 {
     max-width: 80%; }
     .section__heading--sm {
       font-size: 2rem; }
+    .section__heading--md {
+      font-size: 2.5rem; }
     .section__heading--no-marg {
       margin: 0px; }
     .section__heading--no-tb-marg {
@@ -176,6 +180,8 @@ h1, h2, h3, h4, h5 {
       margin-bottom: 0px; }
     .section__heading--pad-lg {
       padding: 3rem 0; }
+    .section__heading--grey {
+      color: #787872; }
   .section--purple-wave-bg {
     background: #65318e;
     position: relative;
@@ -319,9 +325,9 @@ h1, h2, h3, h4, h5 {
   line-height: 1; }
 .pricing-info__sub-heading {
   font-weight: 600;
-  margin-bottom: 4rem; }
+  margin-bottom: 1rem; }
 .pricing-info__desc {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   text-align: center; }
 .pricing-info__btn-wrap .btn {
   display: block;
@@ -365,6 +371,41 @@ h1, h2, h3, h4, h5 {
     padding-top: .5rem; }
     .info-card__user .purple {
       color: #65318e; }
+
+.siminar-featured-on-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0; }
+  .siminar-featured-on-list li {
+    width: 16%;
+    display: block; }
+    .siminar-featured-on-list li img {
+      max-width: 100%;
+      display: block;
+      margin: auto;
+      max-height: 150px;
+      -webkit-filter: grayscale(100%);
+      /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+      transition: all .4s;
+      opacity: .6; }
+    .siminar-featured-on-list li:hover img {
+      -webkit-filter: grayscale(0%);
+      /* Safari 6.0 - 9.0 */
+      filter: grayscale(0%);
+      opacity: 1; }
+
+.tick-list {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1rem; }
+  .tick-list li {
+    display: block; }
+    .tick-list li .list-item-img {
+      max-width: 15px;
+      display: inline-block;
+      text-align: left; }
 
 @media (max-width: 1600px) {
   body {
