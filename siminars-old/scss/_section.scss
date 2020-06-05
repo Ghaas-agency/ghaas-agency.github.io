@@ -46,6 +46,7 @@
   }
 
   &--grey-bg{
+    background: #fafaf0;
     // background: $bg-color-grey;
   }
 
@@ -70,7 +71,7 @@
   }
 
   &__heading{
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 600;
     text-align: center;
     margin: auto;
@@ -79,6 +80,10 @@
 
     &--sm{
       font-size: 2rem;
+    }
+
+    &--md{
+      font-size: 2.5rem;
     }
 
     &--no-marg{
@@ -92,6 +97,10 @@
 
     &--pad-lg{
       padding: 3rem 0;
+    }
+
+    &--grey{
+      color: #787872;
     }
   }
 
