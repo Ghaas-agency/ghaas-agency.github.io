@@ -9,11 +9,19 @@ body {
   color: #000000;
   font-family: 'Inter', sans-serif;
   font-size: 1.5rem;
-  line-height: 1.5; }
+  line-height: 1.5;
+  padding-top: 60px; }
 
 h1, h2, h3, h4, h5 {
   font-family: 'Inter', sans-serif;
   font-weight: bold; }
+
+.hm-about-frame {
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  z-index: 10000; }
 
 .container {
   width: 90%;
