@@ -102,6 +102,10 @@
     &--grey{
       color: #787872;
     }
+
+    &--white{
+      color: #fff;
+    }
   }
 
   &--purple-wave-bg{
@@ -109,6 +113,10 @@
     position: relative;
     z-index: 10;
     padding-top: 60px;
+
+    .section__heading{
+      color: #fff;
+    }
 
     .section__heading{
       margin-bottom: 4rem;
@@ -133,6 +141,7 @@
       top: 0;
       background: url('../img/purple-bg-top.png') no-repeat;
       background-position: top center;
+      display: none;
       // background-size: 100% 100%;
     }
 
