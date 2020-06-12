@@ -196,6 +196,8 @@ h1, h2, h3, h4, h5 {
     z-index: 10;
     padding-top: 60px; }
     .section--purple-wave-bg .section__heading {
+      color: #fff; }
+    .section--purple-wave-bg .section__heading {
       margin-bottom: 4rem; }
     .section--purple-wave-bg .section--inner {
       position: relative;
@@ -209,7 +211,8 @@ h1, h2, h3, h4, h5 {
       left: 0;
       top: 0;
       background: url("../img/purple-bg-top.png") no-repeat;
-      background-position: top center; }
+      background-position: top center;
+      display: none; }
     .section--purple-wave-bg:after {
       height: 245px;
       left: 0;
@@ -342,6 +345,8 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 1rem; }
   .pricing-info__btn-wrap .btn:last-of-type {
     margin-bottom: 0px; }
+.pricing-info__btm-info {
+  padding-top: 20px; }
 
 .white-info {
   color: #fff;
@@ -415,6 +420,14 @@ h1, h2, h3, h4, h5 {
       display: inline-block;
       text-align: left; }
 
+@media (min-width: 2000px) {
+  .yellow-curve-seperator {
+    background-size: 100% 100%;
+    background-position: center center; }
+
+  .section--purple-wave-bg:before, .section--purple-wave-bg:after {
+    background-size: 100% 100%;
+    background-position: center center; } }
 @media (max-width: 1600px) {
   body {
     font-size: 1.2rem; }

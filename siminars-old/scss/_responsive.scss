@@ -1,3 +1,21 @@
+@media (min-width: 2000px) {
+  .yellow-curve-seperator{
+    background-size: 100% 100%;
+    background-position: center center;
+  }
+
+  .section{
+    &--purple-wave-bg{
+
+      &:before,
+      &:after{
+        background-size: 100% 100%;
+        background-position: center center;
+      }
+    }
+  }
+}
+
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1600px) {
   body{
