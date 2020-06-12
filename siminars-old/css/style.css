@@ -190,6 +190,8 @@ h1, h2, h3, h4, h5 {
       padding: 3rem 0; }
     .section__heading--grey {
       color: #787872; }
+    .section__heading--white {
+      color: #fff; }
   .section--purple-wave-bg {
     background: #65318e;
     position: relative;
