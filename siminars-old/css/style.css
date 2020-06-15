@@ -247,7 +247,7 @@ h1, h2, h3, h4, h5 {
   align-items: top; }
 
 .header-main-content__main-heading {
-  font-size: 4rem;
+  font-size: 4.2rem;
   color: #65318e;
   font-weight: 600; }
 .header-main-content__main-desc {
@@ -453,7 +453,7 @@ h1, h2, h3, h4, h5 {
       max-width: 180px; }
 
   .header-main-content__main-heading {
-    font-size: 2.5rem; }
+    font-size: 2.6rem; }
 
   .header-main-info-section {
     align-items: center; }
