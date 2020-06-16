@@ -28,13 +28,7 @@ b{
 }
 
 a{
-	color: #00bf84;
-}
-
-a:hover{
-  color: #343a40;
-  transition: 1s;
-  text-decoration: none;
+	color: green;
 }
 
 .topbar{
@@ -124,17 +118,22 @@ input {
 
 .last-9-footer-links li{
   display: inline-block;
-  font-size: 18px;
+  font-size: 1rem;
   padding: 0 20px;
   position: relative;
-  font-weight: bold;
+  /*font-weight: bold;*/
+}
+
+.last-9-footer-links li a{
+  color: #00bf84;
+  text-decoration: none;
 }
 
 .last-9-footer-links li:after{
   content: ' ';
   display: block;
   position: absolute;
-  height: 80%;
+  height: 70%;
   left: 100%;
   top: 50%;
   background: #00bf84;
@@ -204,7 +203,8 @@ input {
   }
 
   .last-9-footer-links li{
-    font-size: 24px;
+    /*font-size: 24px;*/
+    font-size: 1.5rem;
   }
 }
 
