@@ -114,6 +114,8 @@ input {
   margin: 0;
   text-align: center;
   padding-top: 20px;
+  border-top: 2px solid #e2e5ea;
+  margin-top: 10px;
 }
 
 .last-9-footer-links li{
@@ -136,7 +138,7 @@ input {
   height: 70%;
   left: 100%;
   top: 50%;
-  background: #00bf84;
+  background: #ced4da;
   width: 2px;
   transform: translate(0,-50%);
 }
@@ -218,6 +220,10 @@ input {
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
+  .last-9-footer-links{
+    margin-top: 15px;
+    padding-top: 10px;
+  }
   .last-9-footer-links li{
     padding: 0 10px;
   }
