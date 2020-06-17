@@ -432,7 +432,7 @@ h1, h2, h3, h4, h5 {
 
 .can-do{
   font-size: 1.7rem;
-  font-style: italic;
+  font-weight: 500;
 }
 
 @media (min-width: 2000px) {
