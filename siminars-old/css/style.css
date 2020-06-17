@@ -97,6 +97,8 @@ h1, h2, h3, h4, h5 {
     text-transform: capitalize;
     border-radius: 5px;
     padding: 1.5rem 3rem; }
+    .btn--black-bordered:hover {
+      color: #252525; }
 
 .font--popins {
   font-family: 'Heebo', sans-serif; }
@@ -435,6 +437,8 @@ h1, h2, h3, h4, h5 {
   font-weight: 500;
 }
 
+
+
 @media (min-width: 2000px) {
   .yellow-curve-seperator {
     background-size: 100% 100%;
@@ -453,7 +457,7 @@ h1, h2, h3, h4, h5 {
       max-width: 180px; }
 
   .header-main-content__main-heading {
-    font-size: 2.6rem; }
+    font-size: 4rem; }
 
   .header-main-info-section {
     align-items: center; }
@@ -490,7 +494,7 @@ h1, h2, h3, h4, h5 {
   .header-main-content__desc {
     text-align: center; }
   .header-main-content__btn-wrap {
-    text-align: center; }
+    text-align: center;
   .header-main-content__img-wrap {
     padding-top: 2rem; }
 
@@ -577,7 +581,7 @@ h1, h2, h3, h4, h5 {
       padding: 1rem 1.5rem; }
 
   .header-main-content__main-heading {
-    font-size: 2rem; }
+    font-size: 4rem; }
 
   .section__heading {
     font-size: 1.5rem; }
