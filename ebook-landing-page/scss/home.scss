@@ -1,0 +1,201 @@
+.top-header-nav-wrap{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left:0;
+}
+.header-main-navbar{
+  background: transparent;
+  padding: 2rem 0;
+
+  .navbar-brand img{
+    width: 220px;
+    filter: grayscale(100%) brightness(2);
+  }
+}
+
+.header-main-info-section{
+  align-items: center;
+}
+
+.header-main-content{
+  justify-content: center;
+  // align-items: center;
+  
+  &__main-heading{
+    font-size: 3.8rem;
+    font-family: 'DM Serif Display', serif;
+    position: relative;
+
+    &:before{
+      content: " ";
+      background: #fff;
+      position: absolute;
+      height: 4px;
+      width: 100px;
+      display: block;
+      top: -30px;
+      left: 0;
+      border-radius: 10px;
+    }
+  }
+
+  &__main-desc{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+
+  &__btn-wrap{
+  }
+}
+
+.green-curve-seperator{
+  height: 236px;
+  width: 100%;
+  content: " ";
+  background: url('../img/wave-green.svg') no-repeat transparent;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+.what-you-learn-wrap{
+  padding-top: 2rem;
+}
+
+.what-you-learn-list{
+  padding-top: 2rem;
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  li{
+    display: block;
+    background: #fff;
+    width: 22%;
+    padding: 2rem;
+    border-radius: 18px;
+    box-shadow: 0px 11px 26px #B2B2B23D;
+    margin-bottom: 3rem;
+
+    .icon{
+      margin-bottom: 2rem;
+      img{
+        display: block;
+        margin: auto;
+      }
+    }
+
+    .heading{
+      font-size: 1rem;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+
+  &--mobile{
+    display: none;
+    width: 100%;
+    padding-left: 0;
+    padding-top: .5rem;
+    padding-bottom: 2rem;
+
+    li{
+      width: 100%;
+      margin-bottom: 5px;
+      background: transparent;
+      border-radius: 0px;
+      box-shadow: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      padding: 0;
+      text-align: left;
+
+      .icon{
+        width: 30px;
+        margin-right: 10px;
+
+        img{
+          min-width: 30px;
+        }
+      }
+
+      .heading{
+        font-size: 1rem;
+        line-height: 1.2;
+        text-align: left;
+        font-weight: normal;
+      }
+    }
+  }
+}
+
+.ebook-form-external-wrap{
+  padding: 6rem 8rem;
+  box-shadow: 0px 11px 26px #B2B2B23D;
+  background: #fff;
+  border-radius: 18px;
+  margin-bottom: 4rem;
+
+  .info-section__img-wrap{
+    img.mobile{
+      display: none;
+    }
+  }
+}
+
+.ebook-info{
+  &-wrap{
+
+    .mobile-btn-wrap{
+      display: none;
+      padding-top: 1rem;
+      text-align: center;
+
+      .btn{
+        margin-bottom: .5rem;
+        min-width: 90%;
+        &:last-of-type{
+          margin-bottom: 0px;
+        }
+      }
+    }
+
+  }
+
+  &__heading{
+    color: $bg-color-green;
+    font-family: 'DM Serif Display', serif;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+  }
+
+  &__desc{
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+}
+
+.ebook-form{
+  &-wrap{
+
+  }
+
+  &__desc{
+    color: #66657A;
+    font-size: 1rem;
+    padding: 1rem 0;
+  }
+
+  .form-control{
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid #66657A;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+}
