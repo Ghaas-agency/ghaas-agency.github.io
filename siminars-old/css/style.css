@@ -448,6 +448,7 @@ a{
 
 a:hover{
   text-decoration: none;
+  color: #101010;
 }
 
 a::before {
