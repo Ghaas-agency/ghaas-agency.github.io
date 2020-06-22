@@ -63,6 +63,8 @@
 }
 
 .what-you-learn-list{
+  margin: 0px;
+  padding: 0px;
   padding-top: 2rem;
   max-width: 80%;
   margin: auto;
@@ -74,7 +76,7 @@
   li{
     display: block;
     background: #fff;
-    width: 22%;
+    width: 28%;
     padding: 2rem;
     border-radius: 18px;
     box-shadow: 0px 11px 26px #B2B2B23D;
@@ -90,6 +92,7 @@
 
     .heading{
       font-size: 1rem;
+      line-height: 1.5;
       font-weight: bold;
       text-align: center;
     }

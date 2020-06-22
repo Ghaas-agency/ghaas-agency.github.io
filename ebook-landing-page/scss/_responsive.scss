@@ -50,8 +50,27 @@
   }
 
   .what-you-learn-list{
-    max-width: 90%;
-    display: none;
+    max-width: 100%;
+    // display: none;
+
+    li{
+      margin-bottom: 1.5rem;
+      padding: 1.5rem;
+
+      .icon{
+        margin-bottom: 1rem;
+        img{
+          max-height: 50px;
+        }
+      }
+
+      .heading{
+        font-size: .8rem;
+        line-height: 1.5;
+        font-weight: normal;
+        text-align: center;
+      }
+    }
 
     &--mobile{
       display: block;
@@ -160,6 +179,15 @@
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
+
+  .what-you-learn-list{
+    max-width: 100%;
+    // display: none;
+
+    li{
+      width: 48%;
+    }
+  }
 
 }
 
