@@ -238,6 +238,8 @@ h1, h2, h3, h4, h5 {
   padding-top: 2rem; }
 
 .what-you-learn-list {
+  margin: 0px;
+  padding: 0px;
   padding-top: 2rem;
   max-width: 80%;
   margin: auto;
@@ -248,7 +250,7 @@ h1, h2, h3, h4, h5 {
   .what-you-learn-list li {
     display: block;
     background: #fff;
-    width: 22%;
+    width: 28%;
     padding: 2rem;
     border-radius: 18px;
     box-shadow: 0px 11px 26px #B2B2B23D;
@@ -260,6 +262,7 @@ h1, h2, h3, h4, h5 {
         margin: auto; }
     .what-you-learn-list li .heading {
       font-size: 1rem;
+      line-height: 1.5;
       font-weight: bold;
       text-align: center; }
   .what-you-learn-list--mobile {
@@ -356,8 +359,19 @@ h1, h2, h3, h4, h5 {
     flex-direction: column-reverse; }
 
   .what-you-learn-list {
-    max-width: 90%;
-    display: none; }
+    max-width: 100%; }
+    .what-you-learn-list li {
+      margin-bottom: 1.5rem;
+      padding: 1.5rem; }
+      .what-you-learn-list li .icon {
+        margin-bottom: 1rem; }
+        .what-you-learn-list li .icon img {
+          max-height: 50px; }
+      .what-you-learn-list li .heading {
+        font-size: .8rem;
+        line-height: 1.5;
+        font-weight: normal;
+        text-align: center; }
     .what-you-learn-list--mobile {
       display: block; }
 
@@ -409,5 +423,10 @@ h1, h2, h3, h4, h5 {
     text-align: center; }
     .ebook-form .btn-wrap .btn {
       min-width: 90%; } }
+@media (max-width: 767.98px) {
+  .what-you-learn-list {
+    max-width: 100%; }
+    .what-you-learn-list li {
+      width: 48%; } }
 
 /*# sourceMappingURL=style.css.map */
