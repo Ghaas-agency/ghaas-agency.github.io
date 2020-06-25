@@ -469,6 +469,52 @@ a:hover::before {
   transform: scaleX(1);
 }
 
+.footer-menu-list{
+  padding: 0;
+  margin: 0;
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.footer-menu-list li{
+  display: inline-block;
+  padding: 0 1rem;
+  position: relative;
+}
+
+.footer-menu-list li:before{
+  position: absolute;
+  content: " ";
+  width: 5px;
+  height: 5px;
+  background: #fff;
+  border-radius: 100%;
+  right: 100%;
+  top: 50%;
+  transform: translate(50%,-50%);
+}
+
+.footer-menu-list li:first-of-type{
+  padding-left: 0;
+}
+
+.footer-menu-list li:last-of-type{
+  padding-right: 0;
+}
+
+.footer-menu-list li:first-of-type:before{
+  display: none;
+}
+
+.footer-menu-list li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.footer-menu-list li a:before{
+  background: #fff;
+}
 
 
 

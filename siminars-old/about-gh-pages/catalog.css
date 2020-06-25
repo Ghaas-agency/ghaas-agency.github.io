@@ -1,0 +1,256 @@
+.catalogHeader {
+  color: #546e7a;
+  background: #eceff1;
+  padding: 90px 0;
+}
+
+.catalogHeader h1 {
+  text-align: center;
+  font-size: 46px;
+  line-height: 50px;
+  font-family: 'Open Sans', Arial, san-serif;
+}
+
+.catalogDescription {
+  background: #424242;
+  padding: 40px 0;
+}
+
+.catalogDescription .sectionTitle {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1.6em;
+  text-align: center;
+  color: #ffffff;
+  font-family: Georgia, Palatino, Times, serif;
+}
+
+.catalogCatalog {
+  background: #ffffff;
+  padding: 40px 0;
+}
+
+.catalogCatalog .sectionTitle {
+  font-size: 32px;
+  text-align: center;
+  font-family: 'Open Sans', Arial, san-serif;
+  margin: 0 0 20px;
+}
+
+.catalogCatalog .catalogItem {
+  margin: 20px 0;
+  border: 1px solid #cfd8dc;
+}
+
+.catalogCatalog .catalogItem:hover {
+  border: 1px solid #2e7d32;
+}
+
+.catalogCatalog .catalogItemAbout {
+}
+
+.catalogCatalog .catalogItem a {
+  text-decoration: none;
+  color: #708090;
+}
+
+.catalogCatalog .catalogItem .catalogItemLogo {
+  width: 100%;
+  vertical-align: bottom;
+  margin-bottom: 10px;
+}
+
+.catalogCatalog .catalogItem .catalogItemTitle {
+
+}
+
+.catalogCatalog .catalogItem .catalogItemTitle h2 {
+  color: #2b3636;
+  font-weight: 200;
+  margin-left: 16px;
+  margin-right: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.catalogCatalog .catalogItem .catalogItemDescription {
+
+}
+
+.catalogCatalog .catalogItem .catalogItemDescription h3 {
+  color: #586f6f;
+  font-weight: 200;
+  margin-left: 16px;
+  margin-right: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.catalogCatalog .catalogItem .catalogBundleContents {
+
+}
+
+.catalogCatalog .catalogItem .catalogBundleContents h3 {
+  color: #2b3636;
+  font-weight: 200;
+  margin-left: 16px;
+  margin-right: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.catalogCatalog .catalogItem .catalogBundleContents h3 .catalogBundledCourse {
+  color: #586f6f;
+}
+
+.catalogCatalog .catalogItem .catalogBundleContents h3 .catalogBundledCourse::after {
+  content: ",";
+}
+
+.catalogCatalog .catalogItem .catalogBundleContents h3 .catalogBundledCourse:last-child:after {
+  content: "";
+}
+
+.catalogCatalog .catalogItem .catalogItemDetail {
+  padding: 10px 16px;
+}
+
+.catalogCatalog .catalogItem .catalogItemDetail .catalogItemBy img {
+  float: left;
+}
+
+.catalogCatalog .catalogItem .catalogItemDetail h5.catalogSignUp {
+  display: inline-block;
+  margin: 4px 0 0 -6px;
+  padding: 6px;
+  color: #cfd8dc;
+}
+
+.catalogCatalog .catalogItem:hover .catalogItemDetail h5.catalogSignUp {
+  background-color: #2e7d32;
+  color: white;
+}
+
+.catalogCatalog .catalogItem .catalogItemDetail h5.catalogSignUp em {
+  font-style: normal;
+  display: none;
+}
+
+.catalogCatalog .catalogItem:hover .catalogItemDetail h5.catalogSignUp em {
+  display: inline-block;
+}
+
+.catalogCatalog .catalogItem .catalogItemDetail .catalogItemAuthor h4 {
+  max-height: 30px;
+  line-height: 30px;
+  font-weight: 200;
+  font-size: 15px;
+  vertical-align: bottom;
+}
+
+.catalogCatalog .catalogItem .catalogItemDetail .catalogItemPrice {
+  max-height: 30px;
+  text-align: right;
+}
+
+.catalogCatalog .catalogItem .catalogItemDetail .catalogItemPrice h4 {
+  line-height: 30px;
+  font-weight: 200;
+  font-size: 15px;
+  color: #2e7d32;
+}
+
+.catalogCatalog .catalogItem .catalogItemMeta {
+  padding: 10px 16px;
+}
+
+.catalogAuthors {
+  background: #455a64;
+  padding: 20px 0 40px;
+}
+
+.catalogAuthors .sectionTitle {
+  font-size: 24px;
+  line-height: 1.6em;
+  text-align: center;
+  color: #ffffff;
+  font-family: serif;
+  padding: 0px 0px 20px 0px;
+}
+
+.catalogOneAuthor {
+  background-color: #fff;
+  display: block;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.catalogOneAuthor:hover {
+  background-color: #eceff1;
+}
+
+.catalogOneAuthor .catalogAuthorPic img {
+  width: 90%;
+  height: 90%;
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 120px;
+  margin: 10px;
+}
+
+.catalogOneAuthor .catalogAuthorName h2 {
+  margin: 10px 10px 4px 0;;
+  border-bottom: 1px solid #b0bec5;
+  padding-bottom: 4px;
+}
+
+.catalogOneAuthor .catalogAuthorName h2 a {
+  color: #424242;
+}
+
+.catalogOneAuthor .catalogAuthorBio p {
+  font-family: serif;
+  font-size: 18px;
+  margin: 0 10px 10px 0;
+  color: #546e7a;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.catalogReviews {
+  background: #bdbdbd;
+  padding: 60px 0;
+  margin-bottom: 40px;
+}
+
+.catalogReviews .sectionTitle {
+  font-size: 28px;
+  text-align: center;
+  font-family: 'Open Sans', Arial, san-serif;
+  margin-bottom: 30px;
+}
+
+.catalogOneReview {
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+
+.catalogOneReview p {
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+.catalogOneReview h4, h5 {
+  color: #616161;
+}
+  
+.catalogOneReview .testimonialSic {
+  font-size: 20px;
+  color: #e0e0e0;
+  font-weight: bold;
+}

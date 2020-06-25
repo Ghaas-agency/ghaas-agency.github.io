@@ -1,0 +1,90 @@
+
+User-agent: baiduspider
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /javascripts/
+Disallow: /js/
+Disallow: /stylesheets/
+Disallow: /swf/
+sitemap: http://about.siminars.com/sitemap.xml
+
+User-agent: Googlebot
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /javascripts/
+Disallow: /js/
+Disallow: /stylesheets/
+Disallow: /swf/
+sitemap: http://about.siminars.com/sitemap.xml
+
+User-agent: msnbot
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /javascripts/
+Disallow: /js/
+Disallow: /stylesheets/
+Disallow: /swf/
+sitemap: http://about.siminars.com/sitemap.xml
+
+User-agent: naverbot
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /javascripts/
+Disallow: /js/
+Disallow: /stylesheets/
+Disallow: /swf/
+sitemap: http://about.siminars.com/sitemap.xml
+
+User-agent: seznambot
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /javascripts/
+Disallow: /js/
+Disallow: /stylesheets/
+Disallow: /swf/
+sitemap: http://about.siminars.com/sitemap.xml
+
+User-agent: Slurp
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /javascripts/
+Disallow: /js/
+Disallow: /stylesheets/
+Disallow: /swf/
+sitemap: http://about.siminars.com/sitemap.xml
+
+User-agent: teoma
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /javascripts/
+Disallow: /js/
+Disallow: /stylesheets/
+Disallow: /swf/
+sitemap: http://about.siminars.com/sitemap.xml
+
+User-agent: Yandex
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /javascripts/
+Disallow: /js/
+Disallow: /stylesheets/
+Disallow: /swf/
+sitemap: http://about.siminars.com/sitemap.xml
+
+User-agent: *
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /javascripts/
+Disallow: /js/
+Disallow: /stylesheets/
+Disallow: /swf/
+sitemap: http://about.siminars.com/sitemap.xml
