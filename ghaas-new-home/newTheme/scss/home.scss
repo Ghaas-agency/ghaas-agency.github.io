@@ -1,0 +1,151 @@
+.top-header-nav-wrap{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left:0;
+}
+.header-main-navbar{
+  background: transparent;
+  padding: 2rem 0;
+
+  .navbar-brand img{
+    width: 150px;
+    // filter: grayscale(100%) brightness(2);
+  }
+}
+
+.header-main-info-section{
+  align-items: center;
+}
+
+.header-main-content{
+  justify-content: center;
+  max-width: 580px;
+  margin: auto;
+  
+  &__main-heading{
+    font-size: 3rem;
+    font-family: 'DM Serif Display', serif;
+    position: relative;
+
+    &:after{
+      content: " ";
+      display: inline-block;
+      background: #fff;
+      // position: absolute;
+      height: 20px;
+      width: 20px;
+      border-radius: 100%;
+      background: #20E293;
+      // top: -30px;
+      // left: 0;
+      // border-radius: 10px;
+    }
+  }
+
+  &__main-desc{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+
+  &__btn-wrap{
+  }
+}
+
+.client-list{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0px;
+  padding-top: 4rem;
+  max-width: 90%;
+  margin: auto;
+  li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin-bottom: 4.5rem;
+    cursor: pointer;
+
+    img{
+      // max-height: 40px;
+      max-width: 160px;
+      text-align: center;
+      margin: auto;
+      display: block;
+      filter: grayscale(100%);
+      opacity: 0.7;
+      transition: all .2s;
+    }
+
+    &:hover{
+      img{
+        filter: grayscale(0%);
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.contact-form-wrap{
+  max-width: 540px;
+  margin: auto;
+  padding-top: 3rem;
+
+  .form-control{
+    border: 0px;
+    color: $text-color;
+    text-transform: uppercase;
+    border-bottom: 1px solid $text-color;
+    font-size: 1rem;
+    padding: 1.5rem 0;
+    border-radius: 0px;
+    background: transparent;
+    margin-bottom: 2.8rem;
+
+    &::placeholder { 
+      color: $text-color;
+      opacity: 1; 
+    }
+
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: $text-color;
+      opacity: 1; 
+    }
+
+    ::-ms-input-placeholder { /* Microsoft Edge */
+      color: $text-color;
+      opacity: 1; 
+    }
+
+    &:focus{
+      box-shadow: none;
+    }
+  }
+
+  textarea.form-control{
+    padding-bottom: 0px;
+    line-height: 1;
+    margin-bottom: 4rem;
+  }
+
+  .btn--dark-circle{
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    padding: 0;
+    font-size: 1rem;
+    text-align: center;
+    background: $text-color;
+    color: #fff;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+
+    &:focus{
+      box-shadow: none;
+    }
+  }
+}
