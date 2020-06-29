@@ -8,10 +8,24 @@
   background: transparent;
   padding: 2rem 0;
 
-  .navbar-brand img{
-    width: 150px;
-    // filter: grayscale(100%) brightness(2);
-  }
+  .navbar-brand{
+    img{
+      width: 150px;
+      // filter: grayscale(100%);
+      filter: brightness(0) saturate(100%);
+      transition: all .2s;
+      
+      // &.active{
+      //   display: none;
+      // }
+    }
+
+    &:hover{
+      img{
+        filter: brightness(1) saturate(100%);
+      }
+    }
+  } 
 }
 
 .header-main-info-section{
@@ -134,6 +148,7 @@
     padding-bottom: 0px;
     line-height: 1;
     margin-bottom: 4rem;
+    height: 60px;
   }
 
   .btn--dark-circle{
@@ -148,6 +163,11 @@
     border-radius: 100%;
     display: block;
     margin: auto;
+    transition: all .2s;
+    
+    &:hover{
+      background: #20E293;
+    }
 
     &:focus{
       box-shadow: none;
