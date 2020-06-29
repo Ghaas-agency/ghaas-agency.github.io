@@ -86,6 +86,10 @@
         opacity: 1;
       }
     }
+
+    &:last-of-type{
+      margin-bottom: 0px;
+    }
   }
 }
 
