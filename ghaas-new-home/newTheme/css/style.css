@@ -171,7 +171,11 @@ h1, h2, h3, h4, h5 {
   background: transparent;
   padding: 2rem 0; }
   .header-main-navbar .navbar-brand img {
-    width: 150px; }
+    width: 150px;
+    filter: brightness(0) saturate(100%);
+    transition: all .2s; }
+  .header-main-navbar .navbar-brand:hover img {
+    filter: brightness(1) saturate(100%); }
 
 .header-main-info-section {
   align-items: center; }
@@ -257,7 +261,8 @@ h1, h2, h3, h4, h5 {
   .contact-form-wrap textarea.form-control {
     padding-bottom: 0px;
     line-height: 1;
-    margin-bottom: 4rem; }
+    margin-bottom: 4rem;
+    height: 60px; }
   .contact-form-wrap .btn--dark-circle {
     width: 80px;
     height: 80px;
@@ -269,7 +274,10 @@ h1, h2, h3, h4, h5 {
     color: #fff;
     border-radius: 100%;
     display: block;
-    margin: auto; }
+    margin: auto;
+    transition: all .2s; }
+    .contact-form-wrap .btn--dark-circle:hover {
+      background: #20E293; }
     .contact-form-wrap .btn--dark-circle:focus {
       box-shadow: none; }
 
@@ -294,7 +302,9 @@ h1, h2, h3, h4, h5 {
       padding-bottom: 6rem; }
 
   .info-section__heading {
-    font-size: 1.5rem; }
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: unset; }
 
   .header-main-content__main-heading {
     font-size: 1.6rem; }
@@ -304,12 +314,15 @@ h1, h2, h3, h4, h5 {
 
   .client-list {
     width: 100%;
+    max-width: 100%;
     padding-top: 2rem; }
     .client-list li {
       width: 45%;
       margin-bottom: 2rem;
       padding: 0 5px; }
       .client-list li img {
-        max-width: 100%; } }
+        display: inline-block;
+        width: 100%;
+        max-width: 100px; } }
 
 /*# sourceMappingURL=style.css.map */
