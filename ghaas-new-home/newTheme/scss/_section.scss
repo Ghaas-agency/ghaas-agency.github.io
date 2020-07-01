@@ -82,11 +82,13 @@
   }
 
   &--main-header{
+    position: relative;
     background: rgba(35, 36, 39, 0.05);
     // min-height: 100vh;
     display: flex;
     align-items: center;
-    padding: 240px 0;
+    min-height: 100vh;
+    // padding: 150px 0;
   }
 
   &--grey-bg{
@@ -111,7 +113,8 @@
     font-family: 'DM Serif Display', serif;
     font-size: 2rem;
     margin-bottom: 1rem;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
+    font-weight: normal;
 
     &--upper{
       text-transform: uppercase;
