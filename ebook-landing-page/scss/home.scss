@@ -23,7 +23,10 @@
   // align-items: center;
   
   &__main-heading{
-    font-size: 3.8rem;
+    font-size: 2.8rem;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+    font-weight: normal;
     font-family: 'DM Serif Display', serif;
     position: relative;
 
@@ -66,17 +69,17 @@
   margin: 0px;
   padding: 0px;
   padding-top: 2rem;
-  max-width: 80%;
+  max-width: 70%;
   margin: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 
   li{
     display: block;
     background: #fff;
-    width: 28%;
+    width: 45%;
     padding: 2rem;
     border-radius: 18px;
     box-shadow: 0px 11px 26px #B2B2B23D;
@@ -87,6 +90,7 @@
       img{
         display: block;
         margin: auto;
+        height: 60px;
       }
     }
 
@@ -95,6 +99,42 @@
       line-height: 1.5;
       font-weight: bold;
       text-align: center;
+    }
+
+    .desc{
+      font-size: 14px;
+      line-height: 1.5;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .btn-wrap{
+      text-align: center;
+      .btn{
+        color: #4E35E7;
+        font-size: 1rem;
+        font-weight: 600;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        outline: none;
+
+        .arrow{
+          display: inline-block;
+          content: ' ';
+          width: 75px;
+          height: 2px;
+          background: #4E35E7;
+          margin-right: 10px;
+        }
+
+        &:hover,
+        &:focus{
+          box-shadow: none;
+          outline: none;
+        }
+      }
     }
   }
 
@@ -178,8 +218,10 @@
   }
 
   &__desc{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 1.5;
+    font-weight: 300;
+    text-align: justify;
   }
 }
 
