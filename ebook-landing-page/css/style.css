@@ -11,26 +11,39 @@ body {
   color: #707070;
   background: #FBFBFB;
   font-family: 'Inter', sans-serif;
+  font-size: 1.125rem;
   line-height: 1.5;
   position: realtive; }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Inter', sans-serif;
-  font-weight: bold; }
+  font-family: 'Inter', sans-serif; }
+
+h1 {
+  font-size: 3.375rem;
+  line-height: 1.4;
+  font-family: 'DM Serif Display', serif; }
+
+.small {
+  font-size: 1rem;
+  line-height: 1.5; }
 
 .container {
-  width: 90%;
+  width: 95%;
   margin: auto;
   max-width: 1440px; }
 
 .btn {
   padding: 10px 15px;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
+  line-height: 1.5;
   display: inline-block;
   text-decoration: none;
   border: 0px;
   cursor: pointer;
   box-shadow: none; }
+  .btn:focus {
+    outline: none;
+    box-shadow: none; }
   .btn--bold {
     font-weight: bold; }
   .btn--semi-bold {
@@ -73,16 +86,14 @@ h1, h2, h3, h4, h5 {
     background: #fff;
     padding: .5rem 3rem;
     color: #00CC66;
-    border-radius: 5px;
-    font-size: 1.2rem; }
+    border-radius: 5px; }
     .btn--white-green:hover {
       color: #00CC66; }
   .btn--green-white {
     background: #00CC66;
     padding: .5rem 3rem;
     color: #fff;
-    border-radius: 5px;
-    font-size: 1.2rem; }
+    border-radius: 5px; }
     .btn--green-white:hover {
       color: #fff; }
 
@@ -148,14 +159,9 @@ h1, h2, h3, h4, h5 {
   .section--purple-bg {
     color: #fff; }
   .section__heading {
-    font-size: 3.5rem;
-    font-weight: 600;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 2rem;
-    max-width: 80%; }
-    .section__heading--sm {
-      font-size: 2rem; }
+    font-size: 2.5rem;
+    font-family: 'DM Serif Display', serif;
+    margin-bottom: 2rem; }
     .section__heading--no-marg {
       margin: 0px; }
     .section__heading--no-tb-marg {
@@ -163,6 +169,22 @@ h1, h2, h3, h4, h5 {
       margin-bottom: 0px; }
     .section__heading--pad-lg {
       padding: 3rem 0; }
+  .section__sub-heading-1 {
+    font-size: 1.375rem;
+    line-height: 1.4;
+    font-weight: 600; }
+    .section__sub-heading-1--sm {
+      max-width: 60%;
+      margin: auto; }
+  .section__sub-heading-2 {
+    font-size: 1.125rem;
+    font-weight: 600; }
+  .section__desc--sm {
+    max-width: 75%;
+    margin: auto; }
+  .section__small-desc {
+    font-size: 1rem;
+    line-height: 1.5; }
   .section--main-header {
     background: #12B449;
     color: #fff; }
@@ -184,6 +206,9 @@ h1, h2, h3, h4, h5 {
       transform: rotateZ(180deg);
       z-index: 99; }
 
+.info-section__small-desc {
+  font-size: 1rem;
+  line-height: 1.5; }
 .info-section__img-wrap img {
   margin: auto;
   display: block; }
@@ -206,7 +231,7 @@ h1, h2, h3, h4, h5 {
   background: transparent;
   padding: 2rem 0; }
   .header-main-navbar .navbar-brand img {
-    width: 220px;
+    width: 160px;
     filter: grayscale(100%) brightness(2); }
 
 .header-main-info-section {
@@ -215,10 +240,7 @@ h1, h2, h3, h4, h5 {
 .header-main-content {
   justify-content: center; }
   .header-main-content__main-heading {
-    font-size: 2.8rem;
-    line-height: 1.5;
     margin-bottom: 3rem;
-    font-weight: normal;
     font-family: 'DM Serif Display', serif;
     position: relative; }
     .header-main-content__main-heading:before {
@@ -250,46 +272,40 @@ h1, h2, h3, h4, h5 {
   margin: 0px;
   padding: 0px;
   padding-top: 2rem;
-  max-width: 70%;
   margin: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: space-between; }
   .what-you-learn-list li {
     display: block;
     background: #fff;
-    width: 45%;
-    padding: 2rem;
+    width: 48%;
+    padding: 4.6rem;
     border-radius: 18px;
     box-shadow: 0px 11px 26px #B2B2B23D;
-    margin-bottom: 3rem; }
+    margin-bottom: 3.5rem; }
     .what-you-learn-list li .icon {
       margin-bottom: 2rem; }
       .what-you-learn-list li .icon img {
         display: block;
-        margin: auto;
         height: 60px; }
     .what-you-learn-list li .heading {
-      font-size: 1rem;
-      line-height: 1.5;
-      font-weight: bold;
-      text-align: center; }
+      text-align: left;
+      margin-bottom: 1rem; }
     .what-you-learn-list li .desc {
-      font-size: 14px;
-      line-height: 1.5;
-      text-align: center;
+      text-align: left;
       margin-bottom: 1rem; }
     .what-you-learn-list li .btn-wrap {
-      text-align: center; }
+      text-align: left; }
       .what-you-learn-list li .btn-wrap .btn {
         color: #4E35E7;
         font-size: 1rem;
         font-weight: 600;
-        display: flex;
+        display: inline-block;
+        width: auto;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
         outline: none; }
         .what-you-learn-list li .btn-wrap .btn .arrow {
           display: inline-block;
@@ -297,66 +313,48 @@ h1, h2, h3, h4, h5 {
           width: 75px;
           height: 2px;
           background: #4E35E7;
-          margin-right: 10px; }
+          margin-right: 10px;
+          position: relative;
+          top: -5px; }
         .what-you-learn-list li .btn-wrap .btn:hover, .what-you-learn-list li .btn-wrap .btn:focus {
           box-shadow: none;
           outline: none; }
-  .what-you-learn-list--mobile {
-    display: none;
-    width: 100%;
-    padding-left: 0;
-    padding-top: .5rem;
-    padding-bottom: 2rem; }
-    .what-you-learn-list--mobile li {
-      width: 100%;
-      margin-bottom: 5px;
-      background: transparent;
-      border-radius: 0px;
-      box-shadow: none;
-      display: flex;
-      flex-direction: row;
-      justify-content: left;
-      padding: 0;
-      text-align: left; }
-      .what-you-learn-list--mobile li .icon {
-        width: 30px;
-        margin-right: 10px; }
-        .what-you-learn-list--mobile li .icon img {
-          min-width: 30px; }
-      .what-you-learn-list--mobile li .heading {
-        font-size: 1rem;
-        line-height: 1.2;
-        text-align: left;
-        font-weight: normal; }
 
 .ebook-form-external-wrap {
-  padding: 6rem 8rem;
+  padding: 0;
   box-shadow: 0px 11px 26px #B2B2B23D;
   background: #fff;
   border-radius: 18px;
-  margin-bottom: 4rem; }
+  overflow: hidden;
+  margin-bottom: 6rem; }
   .ebook-form-external-wrap .info-section__img-wrap img.mobile {
     display: none; }
 
-.ebook-info-wrap .mobile-btn-wrap {
-  display: none;
-  padding-top: 1rem;
-  text-align: center; }
-  .ebook-info-wrap .mobile-btn-wrap .btn {
-    margin-bottom: .5rem;
-    min-width: 90%; }
-    .ebook-info-wrap .mobile-btn-wrap .btn:last-of-type {
-      margin-bottom: 0px; }
+.ebook-form-preview {
+  background: #12B449;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 18px;
+  overflow: hidden;
+  padding: 1rem; }
+
+.ebook-info-wrap {
+  padding: 4rem;
+  padding-left: 2rem; }
+  .ebook-info-wrap .mobile-btn-wrap {
+    display: none;
+    padding-top: 1rem;
+    text-align: center; }
+    .ebook-info-wrap .mobile-btn-wrap .btn {
+      margin-bottom: .5rem; }
+      .ebook-info-wrap .mobile-btn-wrap .btn:last-of-type {
+        margin-bottom: 0px; }
 .ebook-info__heading {
-  color: #12B449;
   font-family: 'DM Serif Display', serif;
-  font-size: 3rem;
-  margin-bottom: 1.5rem;
-  line-height: 1.2; }
+  margin-bottom: 1.5rem; }
 .ebook-info__desc {
-  font-size: 1.5rem;
-  line-height: 1.5;
-  font-weight: 300;
   text-align: justify; }
 
 .ebook-form__desc {
@@ -369,86 +367,99 @@ h1, h2, h3, h4, h5 {
   border: 1px solid #66657A;
   border-radius: 4px;
   margin-bottom: 1rem; }
+  .ebook-form .form-control:focus {
+    outline: none;
+    box-shadow: none; }
+.ebook-form div.mce_inline_error {
+  color: #721c24 !important;
+  background-color: #f8d7da !important;
+  border-color: #f5c6cb !important;
+  border-radius: 4px; }
 
-@media (min-width: 1600px) {
-  body {
-    font-size: 1.2rem;
-    line-height: 1.2; }
-
-  .header-main-content__main-heading {
-    font-size: 3.5rem; }
-
-  .what-you-learn-list {
-    max-width: 70%; }
-
-  .ebook-form-external-wrap {
-    padding: 6rem; } }
+@media (max-width: 1366px) {
+  h1 {
+    font-size: 3rem; } }
 @media (max-width: 991.98px) {
   body {
     font-size: 1rem;
     line-height: 1.3; }
 
-  .btn {
-    font-size: 1rem; }
-    .btn--white-green, .btn--green-white {
-      padding: .5rem 1rem; }
+  h1 {
+    font-size: 2rem; }
+
+  .btn--white-green, .btn--green-white {
+    padding: .5rem 1rem; }
+
+  .section__heading {
+    font-size: 1.8rem; }
+  .section__sub-heading-1 {
+    font-size: 1.3rem; }
+    .section__sub-heading-1--sm {
+      max-width: 100%; }
+  .section__sub-heading-2 {
+    font-size: 1.1rem; }
+    .section__sub-heading-2--sm {
+      max-width: 100%; }
+  .section__desc {
+    text-align: center; }
+    .section__desc--sm {
+      max-width: 100%; }
+  .section__small-desc {
+    font-size: .9rem; }
 
   .header-main-info-section {
     flex-direction: column-reverse; }
+
+  .what-you-learn-wrap {
+    padding-top: 1rem; }
 
   .what-you-learn-list {
     max-width: 100%; }
     .what-you-learn-list li {
       margin-bottom: 1.5rem;
-      padding: 1.5rem; }
+      padding: 1.5rem;
+      text-align: center; }
       .what-you-learn-list li .icon {
         margin-bottom: 1rem; }
+        .what-you-learn-list li .icon img {
+          margin: auto; }
       .what-you-learn-list li .heading {
-        font-size: .8rem;
         line-height: 1.5;
+        text-align: center; }
+      .what-you-learn-list li .desc {
+        text-align: center; }
+      .what-you-learn-list li .btn-wrap {
         text-align: center; }
     .what-you-learn-list--mobile {
       display: block; }
 
-  .info-section__heading {
-    font-size: 1.2rem;
-    font-weight: 600;
-    text-align: left; }
-
   .header-main-content__main-heading {
-    font-size: 2rem; }
+    text-align: center;
+    margin-bottom: 2rem; }
     .header-main-content__main-heading:before {
-      top: -20px; }
+      top: -20px;
+      left: 50%;
+      transform: translate(-50%, 0); }
   .header-main-content__main-desc {
     padding-top: 1rem;
     padding-bottom: 2rem; }
+  .header-main-content__btn-wrap {
+    text-align: center; }
   .header-main-content__img-wrap {
-    margin-bottom: 3rem; }
+    margin-bottom: 4rem; }
 
   .green-curve-seperator {
     height: 100px; }
 
-  .ebook-form-external-wrap {
-    padding: 2rem; }
-    .ebook-form-external-wrap .info-section__img-wrap img {
-      display: none; }
-    .ebook-form-external-wrap .info-section__img-wrap img.mobile {
-      display: block; }
-
   .ebook-info-wrap {
-    padding-top: 2rem; }
+    padding: 2rem; }
     .ebook-info-wrap .mobile-btn-wrap {
       display: block; }
   .ebook-info__heading {
-    color: #12B449;
-    font-family: 'DM Serif Display', serif;
-    font-size: 1.5rem;
     margin-bottom: 1rem;
-    line-height: 1.2;
     text-align: center; }
   .ebook-info__desc {
     font-size: 1rem;
-    line-height: 1.3;
     text-align: center; }
 
   .ebook-form-wrap {
@@ -456,37 +467,11 @@ h1, h2, h3, h4, h5 {
   .ebook-form__desc {
     text-align: center; }
   .ebook-form .btn-wrap {
-    text-align: center; }
-    .ebook-form .btn-wrap .btn {
-      min-width: 90%; } }
-@media (max-width: 767.98px) {
-  .header-main-content__main-heading {
-    font-size: 1.8rem;
-    margin-bottom: 1.4rem;
-    text-align: center; }
-    .header-main-content__main-heading:before {
-      left: 50%;
-      transform: translate(-50%, 0); }
-  .header-main-content__btn-wrap {
-    text-align: center; }
-
-  .info-section__heading {
-    font-size: 1rem;
-    font-weight: 600; }
-  .info-section__desc {
-    text-align: center;
-    font-size: .9rem; }
-
-  .what-you-learn-list {
-    max-width: 100%; }
-    .what-you-learn-list li {
-      width: 48%; } }
+    text-align: center; } }
 @media (max-width: 575.98px) {
   .what-you-learn-list {
     max-width: 100%; }
     .what-you-learn-list li {
-      width: 100%; }
-      .what-you-learn-list li__desc {
-        font-size: 12px; } }
+      width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

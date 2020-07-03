@@ -14,7 +14,7 @@ body{
   // font-family: 'Open Sans', sans-serif;
   background: $bg-color-light-grey;
   font-family: 'Inter', sans-serif;
-  // font-size: 1.5rem;
+  font-size: 1.125rem;
   line-height: 1.5;
   position: realtive;
 }
@@ -23,23 +23,41 @@ h1,h2,h3,h4,h5{
   // font-family: 'Share Tech Mono', monospace;
   // font-family: 'Poppins', sans-serif;
   font-family: 'Inter', sans-serif;
-  font-weight: bold;
+  // font-weight: bold;
 }
 
+h1{
+  font-size: 3.375rem;
+  line-height: 1.4;
+  font-family: 'DM Serif Display', serif;
+}
+
+.small{
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
 .container{
-  width: 90%;
+  width: 95%;
   margin: auto;
   max-width: 1440px;
 }
 
 .btn{
   padding: 10px 15px;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
+  line-height: 1.5;
   display: inline-block;
   text-decoration: none;
   border: 0px;
   cursor: pointer;
   box-shadow: none;
+
+  &:focus{
+    outline: none;   
+    box-shadow: none; 
+  }
 
   &--bold{
     font-weight: bold;
@@ -119,7 +137,7 @@ h1,h2,h3,h4,h5{
     padding: .5rem 3rem;
     color: $bg-color-light-green;
     border-radius: 5px;
-    font-size: 1.2rem;
+    // font-size: 1.2rem;
 
     &:hover{
       color: $bg-color-light-green;
@@ -131,7 +149,7 @@ h1,h2,h3,h4,h5{
     padding: .5rem 3rem;
     color: #fff;
     border-radius: 5px;
-    font-size: 1.2rem;
+    // font-size: 1.2rem;
 
     &:hover{
       color: #fff;
