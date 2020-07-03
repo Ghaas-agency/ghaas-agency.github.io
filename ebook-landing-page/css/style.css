@@ -1,5 +1,7 @@
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 body, html {
   position: relative;
@@ -9,7 +11,6 @@ body {
   color: #707070;
   background: #FBFBFB;
   font-family: 'Inter', sans-serif;
-  font-size: 1.5rem;
   line-height: 1.5;
   position: realtive; }
 
@@ -189,6 +190,11 @@ h1, h2, h3, h4, h5 {
 .info-section__heading {
   font-size: 1.5rem;
   margin-bottom: 1rem; }
+  .info-section__heading--dm-font {
+    font-family: 'DM Serif Display', serif;
+    font-weight: normal;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem; }
 
 .top-header-nav-wrap {
   position: absolute;
@@ -209,7 +215,10 @@ h1, h2, h3, h4, h5 {
 .header-main-content {
   justify-content: center; }
   .header-main-content__main-heading {
-    font-size: 3.8rem;
+    font-size: 2.8rem;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+    font-weight: normal;
     font-family: 'DM Serif Display', serif;
     position: relative; }
     .header-main-content__main-heading:before {
@@ -241,16 +250,16 @@ h1, h2, h3, h4, h5 {
   margin: 0px;
   padding: 0px;
   padding-top: 2rem;
-  max-width: 80%;
+  max-width: 70%;
   margin: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between; }
+  justify-content: space-around; }
   .what-you-learn-list li {
     display: block;
     background: #fff;
-    width: 28%;
+    width: 45%;
     padding: 2rem;
     border-radius: 18px;
     box-shadow: 0px 11px 26px #B2B2B23D;
@@ -259,12 +268,39 @@ h1, h2, h3, h4, h5 {
       margin-bottom: 2rem; }
       .what-you-learn-list li .icon img {
         display: block;
-        margin: auto; }
+        margin: auto;
+        height: 60px; }
     .what-you-learn-list li .heading {
       font-size: 1rem;
       line-height: 1.5;
       font-weight: bold;
       text-align: center; }
+    .what-you-learn-list li .desc {
+      font-size: 14px;
+      line-height: 1.5;
+      text-align: center;
+      margin-bottom: 1rem; }
+    .what-you-learn-list li .btn-wrap {
+      text-align: center; }
+      .what-you-learn-list li .btn-wrap .btn {
+        color: #4E35E7;
+        font-size: 1rem;
+        font-weight: 600;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        outline: none; }
+        .what-you-learn-list li .btn-wrap .btn .arrow {
+          display: inline-block;
+          content: ' ';
+          width: 75px;
+          height: 2px;
+          background: #4E35E7;
+          margin-right: 10px; }
+        .what-you-learn-list li .btn-wrap .btn:hover, .what-you-learn-list li .btn-wrap .btn:focus {
+          box-shadow: none;
+          outline: none; }
   .what-you-learn-list--mobile {
     display: none;
     width: 100%;
@@ -318,8 +354,10 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 1.5rem;
   line-height: 1.2; }
 .ebook-info__desc {
-  font-size: 1.2rem;
-  line-height: 1.5; }
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 300;
+  text-align: justify; }
 
 .ebook-form__desc {
   color: #66657A;
@@ -332,16 +370,16 @@ h1, h2, h3, h4, h5 {
   border-radius: 4px;
   margin-bottom: 1rem; }
 
-@media (max-width: 1600px) {
+@media (min-width: 1600px) {
   body {
     font-size: 1.2rem;
     line-height: 1.2; }
 
   .header-main-content__main-heading {
-    font-size: 3rem; }
+    font-size: 3.5rem; }
 
   .what-you-learn-list {
-    max-width: 90%; }
+    max-width: 70%; }
 
   .ebook-form-external-wrap {
     padding: 6rem; } }
@@ -365,17 +403,15 @@ h1, h2, h3, h4, h5 {
       padding: 1.5rem; }
       .what-you-learn-list li .icon {
         margin-bottom: 1rem; }
-        .what-you-learn-list li .icon img {
-          max-height: 50px; }
       .what-you-learn-list li .heading {
         font-size: .8rem;
         line-height: 1.5;
-        font-weight: normal;
         text-align: center; }
     .what-you-learn-list--mobile {
       display: block; }
 
   .info-section__heading {
+    font-size: 1.2rem;
     font-weight: 600;
     text-align: left; }
 
@@ -424,9 +460,33 @@ h1, h2, h3, h4, h5 {
     .ebook-form .btn-wrap .btn {
       min-width: 90%; } }
 @media (max-width: 767.98px) {
+  .header-main-content__main-heading {
+    font-size: 1.8rem;
+    margin-bottom: 1.4rem;
+    text-align: center; }
+    .header-main-content__main-heading:before {
+      left: 50%;
+      transform: translate(-50%, 0); }
+  .header-main-content__btn-wrap {
+    text-align: center; }
+
+  .info-section__heading {
+    font-size: 1rem;
+    font-weight: 600; }
+  .info-section__desc {
+    text-align: center;
+    font-size: .9rem; }
+
   .what-you-learn-list {
     max-width: 100%; }
     .what-you-learn-list li {
       width: 48%; } }
+@media (max-width: 575.98px) {
+  .what-you-learn-list {
+    max-width: 100%; }
+    .what-you-learn-list li {
+      width: 100%; }
+      .what-you-learn-list li__desc {
+        font-size: 12px; } }
 
 /*# sourceMappingURL=style.css.map */

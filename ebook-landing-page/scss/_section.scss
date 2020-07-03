@@ -129,5 +129,12 @@
   &__heading{
     font-size: 1.5rem;
     margin-bottom: 1rem;
+
+    &--dm-font{
+      font-family: 'DM Serif Display', serif;
+      font-weight: normal;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
   }
 }
