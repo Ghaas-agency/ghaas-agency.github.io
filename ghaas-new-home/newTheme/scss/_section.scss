@@ -83,7 +83,8 @@
 
   &--main-header{
     position: relative;
-    background: rgba(35, 36, 39, 0.05);
+    // background: rgba(35, 36, 39, 0.05);
+    background: #e9e9e9;
     // min-height: 100vh;
     display: flex;
     align-items: center;
@@ -92,7 +93,13 @@
   }
 
   &--grey-bg{
-    background: rgba(35, 36, 39, 0.05);
+    // background: rgba(35, 36, 39, 0.05);
+    background: #e9e9e9;
+  }
+
+  &--section-form{
+    position: relative;
+    overflow: hidden;
   }
 }
 
