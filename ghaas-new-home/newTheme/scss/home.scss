@@ -18,7 +18,7 @@
 
     i,
     .fa{
-      color: #20E293;
+      color: #00C479;
       margin-left: 10px;
     }
   }
@@ -79,7 +79,7 @@
       height: 20px;
       width: 20px;
       border-radius: 100%;
-      background: #20E293;
+      background: #00C479;
       // top: -30px;
       // left: 0;
       // border-radius: 10px;
@@ -200,7 +200,7 @@
     transition: all .2s;
     
     &:hover{
-      background: #20E293;
+      background: #00C479;
     }
 
     &:focus{
@@ -304,7 +304,7 @@
       color: $text-color;
 
       &:hover{
-        color: #20E293;
+        color: #00C479;
       }
     }
 
@@ -318,7 +318,7 @@
       height: 8px;
       border-radius: 100%;
       // background: $text-color;
-      background: #20E293;
+      background: #00C479;
       transform: translate(0,-50%);
     }
 
