@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5 {
     padding: 10px 0; }
     .top-header-nav-wrap .top-info-text i,
     .top-header-nav-wrap .top-info-text .fa {
-      color: #20E293;
+      color: #00C479;
       margin-left: 10px; }
 
 .header-main-navbar {
@@ -220,7 +220,7 @@ h1, h2, h3, h4, h5 {
       height: 20px;
       width: 20px;
       border-radius: 100%;
-      background: #20E293; }
+      background: #00C479; }
   .header-main-content__main-desc {
     padding-top: 2rem;
     padding-bottom: 3rem; }
@@ -302,7 +302,7 @@ h1, h2, h3, h4, h5 {
     margin: auto;
     transition: all .2s; }
     .contact-form-wrap .btn--dark-circle:hover {
-      background: #20E293; }
+      background: #00C479; }
     .contact-form-wrap .btn--dark-circle:focus {
       box-shadow: none; }
   .contact-form-wrap div.mce_inline_error {
@@ -392,7 +392,7 @@ h1, h2, h3, h4, h5 {
       transition: all .4s;
       color: #232427; }
       .footer-nav li a:hover {
-        color: #20E293; }
+        color: #00C479; }
     .footer-nav li:after {
       position: absolute;
       content: " ";
@@ -402,7 +402,7 @@ h1, h2, h3, h4, h5 {
       width: 8px;
       height: 8px;
       border-radius: 100%;
-      background: #20E293;
+      background: #00C479;
       transform: translate(0, -50%); }
     .footer-nav li:first-of-type {
       padding-left: 0px; }
