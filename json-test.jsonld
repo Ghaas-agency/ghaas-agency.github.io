@@ -1,0 +1,264 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Do I need to buy insurance for my employees?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "On April 15th 2020, the Government of India, as part of order №40–3/2020-DM-I (A), issued as part of the consolidated revised guidelines by the ministry of home affairs, made it mandatory for all employers, who resume functioning post-COVID-19 lockdown in the country, to provide medical insurance to their employees.
+ 
+Not just that, insurance protection is the most preferred benefit by employees.. That’s because it takes the challenge of finding the right policy, helps them in managing healthcare costs and ensures that they get easy claims. So, when you provide health insurance, your employees feel cared for."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the different types of benefits that companies provide to their employees?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "One of the most common benefits provided by companies to their employees is health insurance. Companies provide insurance either only to employees or also to their dependents (spouse, children, and even parents). Other common benefits include term life insurance, accident insurance, and other health & wellness benefits. Plum provides a comprehensive suite of insurance and health benefit options for companies to choose from. Explore more at https://www.plumhq.com/."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is a typical budget while buying insurance for employees?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Budget depends on factors like the city, terms/conditions of the insurance, family coverage (employee vs dependents), and average age of employees. At Plum, we customize our plans to suit your budget."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do I need an intermediary while buying insurance for employees?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, it is recommended to take the help of an intermediary while choosing the insurance. Insurance is a subject that can be complex at times and has many associated implications on benefits and premium. An intermediary works closely with the companies and also with insurance companies. First, they understand the need of the companies with respect to protection for its employees and then work with multiple insurance companies to develop a customized and efficient solution."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the top factors to consider when comparing different insurance solutions?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "There are many features and benefits that vary from one solution. Few of the important ones are:
+Sum insured
+Employee-only cover, or family cover (spouse, kids, and parents) 
+Maternity cover  
+Pre-existing disease cover 
+Waiting periods
+Disease or treatment wise capping
+Room rent and ICU capping
+Pre and post hospitalization expenses
+ 
+Quite often, you would get a surprisingly low price from an insurance provider, but the solution would come with limited benefits and many restrictions/cappings. Plum brings this much-needed transparency into insurance."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the benefits for companies if they provide insurance for their employees?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Some of the key benefits include: 
+Attract top talent
+Lower your attrition rate 
+Enjoy tax benefits
+Increase employee satisfaction 
+Increase employee productivity"
+    }
+  },{
+    "@type": "Question",
+    "name": "When should I purchase group health insurance for my company?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "There is no right or wrong time to set up group health insurance. Though given the current Covid-19 pandemic, we recommend companies to set up health insurance as soon as possible."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there any minimum requirement to take group insurance?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The minimum requirement can vary for different insurers. You can know all details about those here. Plum’s group health insurance is available for a registered company, with a minimum of 7 members. E.g., if you are a company of 4 employees (and 3 spouses), you are eligible."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can we opt to cover family members?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you have three policy design options:
+E plan: Covers employees only
+ESC plan: Covers employees, spouse, and upto 4 dependent children
+ESCP plan: Covers employees, spouse, upto 4 dependent children, and 2 parents/in-laws
+ 
+Other relatives, like siblings or uncles, cannot be covered."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I take policy for specific employees?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No, group covers don't allow any selection. You will have to cover ALL your employees with no exception. Read more on why selection is not allowed."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I take policy for specific family members?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No, group cover doesn't allow any selection. If you choose to take the ESC-plan, you will have to cover spouses of all married employees and all dependent children. If you choose to take the ESCP-plan, you will have to cover spouses of all married employees, all dependent children, and parents of all employees. Read more on why selection is not allowed."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I add or remove members after the initial setup?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you can add new employees, add new dependents (at the time of marriage or childbirth), and remove employees who exit the company. Additions and deletions can be done using the Plum dashboard.
+ 
+For additions, you would get charged based on pro-rata. E.g., if the annual premium for a 35-yr old member is ₹2000, and you add a member 6 months later, you would pay ₹1000 for that member. In case a member is deleted, you would get refunded ₹1000."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is health insurance?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Health insurance is an insurance product that covers medical and surgical expenses of an insured individual. It reimburses the expenses incurred due to illness or injury or pays the care provider of the insured individual directly."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there any age limit for insurance?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, adults between 19 to 80 years, and dependent children between 3 months to 25 years can be covered."
+    }
+  },{
+    "@type": "Question",
+    "name": "When can employees use health insurance?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Insurance covers require a minimum of 24 hours of hospitalization. Insurance covers do not reimburse you for OPD visits, health checkups, or medicines that don't involve a hospitalization. 
+ 
+Note that technological and medical breakthroughs have made it possible for certain treatments and surgeries to be administered and conducted over a few hours. Examples include chemotherapy, radiotherapy, dialysis, cataract surgery, kidney stone removal, etc. These are called daycare procedures as it is performed without requiring 24-hour hospitalization."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the benefits of health insurance?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The main purpose of medical insurance is to receive the best medical care without any strain on your finances. Health insurance offers protection against high medical costs. It covers hospitalization expenses, daycare procedures, domiciliary expenses, and ambulance charges, besides many others."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can the employees use their Plum health insurance?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Your team members would get Plum app to understand their insurance cover, see what's covered and what's not covered. They would also see the step by step claims process on the app itself. Plum’s health insurance can be used via a cashless treatment at a hospital. Alternatively employees can pay out of pocket for treatment and then claim the cost of treatment via reimbursement from the insurance company."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is a cashless facility?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Insurance companies have tie-ups with several hospitals all over the country as part of their network. If you take treatment in any of the network hospitals, the insurance company pays your (admissible) hospital bills to the hospital directly. You would only need to pay for the expenses not covered under the policy to the hospital. Cashless facilities are not available if you take treatment in a hospital that is not in the network."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there a limit on the number of claims during a year?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. You can make an unlimited number of claims during the policy period. However, the sum insured is the maximum limit under the policy."
+    }
+  },{
+    "@type": "Question",
+    "name": "Does this policy cover for treatments outside India?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. The insurance policies are restricted to treatments & hospitalization in India."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is a Health Card and what is its use?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A health card is a way to keep all relevant information regarding your health insurance in a handy and easy way to carry around. Now in the digital world, you only carry your phone, not even your wallet, so Plum provides a digital health card which you can find inside your Plum app."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do I get my health card?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Plum provides a digital health card which you can find inside your Plum app."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do I need to get treatment only at network hospitals?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No, you can get treatment at any government approved hospitals. But for a better experience and to avoid the hassle of paying first and then filing for a claim, it is always recommended to take treatment at a network hospital."
+    }
+  },{
+    "@type": "Question",
+    "name": "What happens when I take treatment in a non-network hospital?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You can take treatment from non-network hospitals but in that case, you have to pay for the treatment first and then claim the treatment amount from Insurance company."
+    }
+  },{
+    "@type": "Question",
+    "name": "Does my health insurance cover expenses on outpatient treatments?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Most health insurance plans in India cover expenses that are incurred while you are hospitalized. Plum provides a doctor-consultation add-on benefit, in case you want your outpatient consultations to be covered."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can an employee convert the group plan to an individual plan in case he/she leaves the company?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, the employee could move to a similar policy with the same insurance company, but the premium may change according to the retail product structure. Employees may carry the continuity details from his/her old policy to get an exemption from waiting period conditions in the new retail product."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there any No Claim bonus?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No, group policies don’t have any No Claim bonus benefit."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there a room rate cap?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Certain plans come with room and ICU rent capping. We also offer comprehensive plans that come with no capping on room rents, ICU, and diseases."
+    }
+  },{
+    "@type": "Question",
+    "name": "Are mental health treatments included? Or are there any add-ons for this?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Hospitalization due to mental conditions is covered under Plum’s policies. We additionally provide mental-wellness add-on that provides continuous support to employees. Do talk to the Plum team to set it up."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I get a plan that covers 4 parents?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "As of now, only female employees are allowed to cover either their parents or parents-in-law, but not both the set. We’re working to expand the coverage to both sets of parents. However it’s not available at this moment."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there a limit on consultations that can I book?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No, your benefits include an unlimited number of consultations. Please use this benefit whenever you feel like you need to talk to a doctor. We want you to stay as healthy as possible."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I directly visit a doctor in person?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. You should first consult a doctor on the Mfine app. This saves you time and trouble. Only after your initial consultation, your doctor may advise for an in-person visit. In case an in-person visit is required, the same is also covered in your benefit."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I include my family in this plan?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you can enroll for the comprehensive family plan which covers OPD consultations for you, your spouse, kids and parents."
+    }
+  }]
+}
+</script>
