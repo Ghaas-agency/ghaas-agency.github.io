@@ -1,0 +1,32 @@
+.hero__device-mockup:before,
+.hero__device-mockup:after{
+  display: none;
+}
+
+.features .feature-1 .features__feature-device:after,
+.features .feature-2 .features__feature-device:after,
+.features .feature-3 .features__feature-device:after{
+  background: transparent;
+}
+
+.features .feature-1 .features__feature-device img,
+.features .feature-2 .features__feature-device img,
+.features .feature-3 .features__feature-device img{
+  max-width: 100%;
+}
+
+.btn-primary{
+  background: #65318e;
+  color: #fff!important;
+  border: 0px;
+}
+
+.btn-primary:hover{
+  background: #65318e;
+  color: #fff!important;
+}
+
+.hero__logos img,
+.logos img{
+  max-width: 80px;
+}
