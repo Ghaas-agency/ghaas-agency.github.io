@@ -34,3 +34,19 @@ body{
 .logos img{
   max-width: 80px;
 }
+
+@media only screen and (max-width: 768px) {
+  .hero__logos ul,
+  .logos ul{
+    flex-wrap: wrap;
+  }
+
+  .hero__logos img,
+  .logos img{
+    max-width: 60px;
+  }
+
+  .features__feature:not(:last-child){
+    padding-bottom: 3rem;
+  }
+}
