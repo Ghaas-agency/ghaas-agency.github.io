@@ -1,5 +1,6 @@
 body{
   overflow: unset;
+  overflow-x: hidden;
 }
 
 .hero__device-mockup:before,
