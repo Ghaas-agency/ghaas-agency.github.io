@@ -1,3 +1,7 @@
+body{
+  overflow: unset;
+}
+
 .hero__device-mockup:before,
 .hero__device-mockup:after{
   display: none;
