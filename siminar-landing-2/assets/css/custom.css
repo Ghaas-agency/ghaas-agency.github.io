@@ -33,13 +33,39 @@ body{
 
 .hero__logos img,
 .logos img{
-  max-width: 80px;
+  max-width: 60px;
+  filter:grayscale(100%);
+  transition: transform all .4s;
+}
+
+.hero__logos img:hover,
+.logos img:hover{
+  filter:grayscale(0);
+}
+
+.benefits img{
+  max-height: 300px;
+}
+
+.hero__device{
+  margin-top: 1rem;
+}
+
+.home-logo{
+  width: 100%!important;
+  max-width: 160px;
 }
 
 @media only screen and (max-width: 768px) {
   .hero__logos ul,
   .logos ul{
     flex-wrap: wrap;
+  }
+
+  .hero__logos ul li,
+  .logos ul li{
+    padding-top: .5rem!important;
+    padding-bottom: .5rem!important;
   }
 
   .hero__logos img,
