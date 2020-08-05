@@ -21,14 +21,26 @@ body{
 }
 
 .btn-primary{
-  background: #65318e;
+  background:  #F5CC29;
+  color: #fff!important;
+  border: 0px;
+  transition: all .4s;
+  font-weight: 600;
+}
+
+.btn-primary:hover{
+  background: #F2B903;
   color: #fff!important;
   border: 0px;
 }
 
+.btn-primary:focus,
+.btn-primary:active,
 .btn-primary:hover{
-  background: #65318e;
+  background: #65318e!important;
   color: #fff!important;
+  box-shadow: none;
+  outline: none;
 }
 
 .hero__logos img,
