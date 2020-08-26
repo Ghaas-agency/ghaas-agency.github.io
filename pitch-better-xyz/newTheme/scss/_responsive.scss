@@ -1,0 +1,213 @@
+// Large devices (desktops, less than 1200px)
+@media (min-width: 1600px) {
+  body{
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+
+  .contact-form-graphic{
+    position: absolute;
+    right: 0;
+    top: 40px;
+    max-width: 660px;
+    width: calc((100vw - 600px)/2);
+    transform: translate(100%,0);
+  }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  
+  .contact-form-wrap{
+    position: static;
+  }
+  .contact-form-graphic{
+    bottom: 0;
+    right: 0;
+    top: auto;
+    transform: unset;
+    width: 40%;
+  }
+
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  body{
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+
+  .header-main-content{
+
+    .logo-text{
+      font-size: 1.8rem;
+    }
+
+    &__main-heading{
+      font-size: 3.5rem;
+    }
+
+    &__main-desc{
+      font-size: 1.3rem;
+    }
+  }
+
+  .btn{
+    font-size: 1rem;
+
+    &--white-green,
+    &--green-white{
+      padding: .5rem 1rem;
+    }
+  }
+
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .section{
+    padding: 4rem 0;
+    &--main-header{
+      // padding-top: 9rem;
+      // padding-bottom: 6rem;
+    }
+  }
+
+  h3{
+    font-size: 1.1rem;
+  }
+
+  .info-section{
+    &__heading{
+      font-size: 1.2rem;
+      font-weight: 500;
+      text-transform: unset;
+    }
+  }
+
+
+  .header-main-content{
+    // max-width: 70%;
+
+    &__logo{
+      max-width: 120px;
+      margin-bottom: 1.5rem;
+    }
+
+    &__main-heading{
+      font-size: 2rem;
+
+      &:after{
+        width: 10px;
+        height: 10px;
+      }
+    }
+
+    &__main-desc{
+      font-size: 1rem;
+    }
+  }
+
+  .client-list{
+    width: 100%;
+    max-width: 100%;
+    padding-top: 2rem;
+    li{
+      margin-bottom: 2rem;
+      padding: 0 5px;
+
+      img{
+        display: inline-block;
+        width: 100%;
+        max-width: 100px;
+        // max-height: 30px;
+      }
+    }
+  }
+
+  .contact-form-wrap{
+    .form-group{
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .what-we-do{
+    &__wrap{
+      max-width: 90%;
+      margin: auto;
+      margin-top: 4rem;
+    }
+
+    &__item{
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+
+      &:last-of-type{
+        margin-bottom: 0px;
+      }
+
+      &:nth-of-type(even){
+        flex-direction: row;
+      }
+    }
+
+    &__img{
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 2rem;
+    }
+
+    &__info{
+      max-width: 100%;
+    }
+  }
+
+  .how-it-works{
+    &__wrap{
+      flex-wrap: wrap;
+    }
+
+    &__item{
+      max-width: 100%;
+      margin-bottom: 2rem;
+
+      &:last-of-type{
+        margin-bottom: 0px;
+      }
+    }
+  }
+
+  .price-list{
+    &__wrap{
+      flex-wrap: wrap;
+    }
+
+    &__item{
+      max-width: 100%;
+      margin-right: 0px;
+      margin-bottom: 2rem;
+
+      &:last-of-type{
+        margin-right: 0px;
+        margin-bottom: 0px;
+      }    
+    }
+  }
+
+  .story-placeholder{
+    min-height: 300px;
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+
+  .header-main-content{
+    &__main-heading{
+      font-size: 1.6rem;
+    }
+  }
+
+}
