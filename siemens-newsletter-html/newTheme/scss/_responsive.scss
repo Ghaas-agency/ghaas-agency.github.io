@@ -1,6 +1,11 @@
 // Large devices (desktops, less than 1200px)
-@media (max-width: 1600px) {
-  
+@media (min-width: 1600px) {
+  .info{
+    
+    &__main-heading{
+      font-size: 3rem;
+    }
+  }
 }
 
 // Large devices (desktops, less than 1200px)
