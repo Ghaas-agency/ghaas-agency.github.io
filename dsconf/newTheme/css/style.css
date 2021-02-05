@@ -158,7 +158,7 @@ h1, h2, h3, h4, h5 {
     background: #4F0040; }
   .section--main-header {
     background: #4F0040;
-    background: url("../img/bg-desktop.jpg") no-repeat;
+    background: url("../img/bg-desktop.jpg") no-repeat #4F0040;
     background-size: cover;
     min-height: 100vh;
     height: auto;
