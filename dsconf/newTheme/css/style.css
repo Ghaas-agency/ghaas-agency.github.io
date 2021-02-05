@@ -225,7 +225,7 @@ h1, h2, h3, h4, h5 {
       font-size: 2rem;
       display: block;
       font-weight: normal;
-      line-height: 1; }
+      line-height: 1.5; }
   .header-main-content__sub-heading {
     color: #fff;
     font-size: 2.5rem;
