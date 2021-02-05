@@ -61,6 +61,12 @@
       .nav-item{
         margin-right: 0px;
 
+        .dropdown-menu{
+          z-index: 10000;
+          position: relative;
+          margin-bottom: .5rem;
+        }
+
         &:last-of-type{
           margin-right: 0px;
         }
