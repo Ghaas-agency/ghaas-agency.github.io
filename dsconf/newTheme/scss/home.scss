@@ -17,6 +17,19 @@
 
     .nav-item{
       margin-right: 3.5rem;
+      position: relative;
+
+      .dropdown-menu{
+        // background: $bg-color-purple;
+        // color: #fff;
+        // font-weight: bold;
+        transform: translate(-50%,0);
+        left: 50%;
+
+        .dropdown-item{
+          font-weight: bold;
+        }
+      }
 
       &:last-of-type{
         margin-right: 0px;
@@ -29,8 +42,11 @@
       padding-right: 0px;
       border-bottom: 2px solid rgba(0,0,0,0);
       transition: all .4s;
+      position: relative;
+      outline: none;
 
-      &:hover{
+      &:hover,
+      &:focus{
         color: #fff;
         border-bottom: 2px solid #fff;
       }
