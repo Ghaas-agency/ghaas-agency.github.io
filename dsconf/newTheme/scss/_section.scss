@@ -91,7 +91,7 @@
 
   &--main-header{
     background: $bg-color-purple;
-    background: url('../img/bg-desktop.jpg') no-repeat;
+    background: url('../img/bg-desktop.jpg') no-repeat $bg-color-purple;
     background-size: cover;
     min-height: 100vh;
     height: auto;
