@@ -277,7 +277,7 @@ h1, h2, h3, h4, h5 {
   justify-content: space-between;
   flex-wrap: wrap; }
   .speaker-info-list__item {
-    width: 32%;
+    width: 30%;
     position: relative; }
     .speaker-info-list__item:before {
       position: absolute;
@@ -309,7 +309,7 @@ h1, h2, h3, h4, h5 {
         .speaker-info-list__author-info .social li i {
           font-size: 1.5rem; }
   .speaker-info-list__author-bio {
-    padding-left: 1rem; }
+    padding-left: 1.5rem; }
     .speaker-info-list__author-bio .name {
       font-size: 2rem;
       color: #4E033F;
