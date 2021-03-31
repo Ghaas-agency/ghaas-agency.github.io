@@ -156,6 +156,30 @@ h1, h2, h3, h4, h5 {
     margin: 1rem 0; }
   .section--page .section__inner {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.4); }
+  .section--grey-highlight .section__inner {
+    position: relative;
+    overflow: hidden; }
+    .section--grey-highlight .section__inner:before {
+      content: ' ';
+      display: block;
+      width: 40%;
+      height: 150%;
+      right: -10%;
+      top: 0;
+      background: #e7ecf0;
+      transform: rotateZ(20deg);
+      position: absolute; }
+  .section--border-top .section__inner {
+    position: relative; }
+    .section--border-top .section__inner:after {
+      content: " ";
+      position: absolute;
+      display: block;
+      width: calc( 100% - 4rem);
+      height: 2px;
+      left: 2rem;
+      top: 2rem;
+      background: #034669; }
 
 .info-section__desc {
   max-width: 720px;
@@ -189,7 +213,9 @@ span.highlight {
     left: -50%; }
 .info__col {
   padding-top: 5rem;
-  padding-bottom: 3rem; }
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem; }
   .info__col--blue {
     padding-top: 2rem;
     background: #52bdd6;
@@ -197,11 +223,31 @@ span.highlight {
 .info__main-heading {
   margin-bottom: 1rem; }
   .info__main-heading span {
-    color: #00476b; }
+    color: #034669; }
+  .info__main-heading--alt {
+    background: #034669;
+    color: #fff;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    padding: 1rem 2rem;
+    line-height: 1.1;
+    position: relative; }
+    .info__main-heading--alt span {
+      color: #e5e357; }
+    .info__main-heading--alt:after {
+      content: ' ';
+      display: block;
+      position: absolute;
+      right: -15px;
+      top: 0;
+      height: 100%;
+      width: 40px;
+      background: #034669;
+      transform: skewX(-10deg); }
 .info__sticky-heading {
   position: absolute;
   top: 2rem;
-  right: 1rem;
+  right: 2rem;
   color: #004668;
   font-size: 1.3rem; }
 .info__page-count {
@@ -236,18 +282,39 @@ span.highlight {
     background: #fff; }
     .page-indicators li.active {
       background: #e5e357; }
+  .page-indicators--blue {
+    margin-bottom: 0px; }
+    .page-indicators--blue li {
+      background: #52bdd6; }
+  .page-indicators--dark-blue {
+    margin-bottom: 0.5rem; }
+    .page-indicators--dark-blue li {
+      background: #034669; }
+  .page-indicators--static {
+    justify-content: unset; }
+    .page-indicators--static li {
+      margin-right: .5rem; }
+      .page-indicators--static li:last-of-type {
+        margin-right: 0px; }
 
 .user-info {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  justify-content: start; }
   .user-info__details {
     font-weight: 600;
     color: #52bdd6;
     padding-right: .5rem; }
   .user-info img {
     max-width: 80px; }
+  .user-info--highlight {
+    flex-direction: row-reverse;
+    align-items: center; }
+    .user-info--highlight .user-info__details {
+      color: #034669;
+      padding-left: .5rem; }
 
 .bold-list {
   margin: 0px;
@@ -262,15 +329,15 @@ span.highlight {
   flex-direction: row;
   align-items: end; }
 .idea-box__wrap {
-  background: #00476b;
+  background: #034669;
   color: #fff;
   border-radius: .5rem;
   position: relative;
   padding: 2rem; }
 .idea-box__img-wrap {
   position: absolute;
-  max-width: 120px;
-  left: -100px;
+  max-width: 90px;
+  left: -70px;
   bottom: 0; }
 .idea-box__list {
   margin: 0px;
@@ -289,6 +356,11 @@ span.highlight {
       margin-left: -1rem;
       margin-right: .5rem;
       border-radius: 100%; }
+.idea-box--alt .idea-box__wrap {
+  background: #e5e357;
+  color: #034669; }
+.idea-box--alt .idea-box__list li:before {
+  background: #034669; }
 
 @media (min-width: 1600px) {
   .info__main-heading {
@@ -298,7 +370,8 @@ span.highlight {
     font-size: 1rem; }
 
   .section {
-    padding: 4rem 0; }
+    padding: 4rem 0;
+    overflow: hidden; }
     .section--main-header {
       padding-top: 2rem; }
     .section--yellow-illustration {
@@ -308,6 +381,10 @@ span.highlight {
       padding-top: 0px;
       padding-bottom: 0px;
       margin: 1rem 0; }
+    .section--grey-highlight .section__inner:before {
+      display: none; }
+    .section--border-top .section__inner:after {
+      display: none; }
 
   .info-row .img-offset {
     position: static;
