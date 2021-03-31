@@ -118,6 +118,38 @@
   &--page &__inner{
     box-shadow: 0 0 2px rgba(0,0,0,.4);
   }
+
+  &--grey-highlight &__inner{
+    position: relative;
+    overflow: hidden;
+
+    &:before{
+      content: ' ';
+      display: block;
+      width: 40%;
+      height: 150%;
+      right: -10%;
+      top: 0;
+      background: $bg-color-grey;
+      transform: rotateZ(20deg);
+      position: absolute;
+    }
+  }
+
+  &--border-top &__inner{
+    position: relative;
+
+    &:after{
+      content: " ";
+      position: absolute;
+      display: block;
+      width: calc( 100% - 4rem);
+      height: 2px;
+      left: 2rem;
+      top: 2rem;
+      background: $text-color-dark-blue;
+    }
+  }
 }
 
 .info-section{

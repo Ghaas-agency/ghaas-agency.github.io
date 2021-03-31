@@ -25,6 +25,8 @@ span.highlight{
   &__col{
     padding-top: 5rem;
     padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     
     &--blue{
       padding-top: 2rem;
@@ -38,12 +40,38 @@ span.highlight{
     span{
       color: $text-color-dark-blue;
     }
+
+    &--alt{
+      background: $text-color-dark-blue;
+      color: #fff;
+      margin-left: -2rem;
+      margin-right: -2rem;
+      padding: 1rem 2rem;
+      line-height: 1.1;
+      position: relative;
+
+      span{
+        color: $bg-color-yellow;
+      }
+
+      &:after{
+        content: ' ';
+        display: block;
+        position: absolute;
+        right: -15px;
+        top: 0;
+        height: 100%;
+        width: 40px;
+        background: $text-color-dark-blue;
+        transform: skewX(-10deg);
+      }
+    }
   }
 
   &__sticky-heading{
     position: absolute;
     top: 2rem;
-    right: 1rem;
+    right: 2rem;
     color: #004668;
     font-size: 1.3rem;
   }
@@ -90,6 +118,32 @@ span.highlight{
       background: $bg-color-yellow;
     }
   }
+
+  &--blue{
+    margin-bottom: 0px;
+    li{
+      background: $bg-color-blue;
+    }
+  }
+
+  &--dark-blue{
+    margin-bottom: 0.5rem;
+
+    li{
+      background: $text-color-dark-blue;
+    }
+  }
+  
+  &--static{
+    justify-content: unset;
+
+    li{
+      margin-right: .5rem;
+      &:last-of-type{
+        margin-right: 0px;
+      }
+    }
+  }
 }
 
 .user-info{
@@ -97,6 +151,8 @@ span.highlight{
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 1rem;
+  justify-content: start;
+
 
   &__details{
     font-weight: 600;
@@ -107,6 +163,16 @@ span.highlight{
 
   img{
     max-width: 80px;
+  }
+
+  &--highlight{
+    flex-direction: row-reverse;
+    align-items: center;
+
+    .user-info__details{
+      color: $text-color-dark-blue;
+      padding-left: .5rem;
+    }
   }
 }
 
@@ -138,8 +204,8 @@ span.highlight{
 
   &__img-wrap{
     position: absolute;
-    max-width: 120px;
-    left: -100px;
+    max-width: 90px;
+    left: -70px;
     bottom: 0;
   }
 
@@ -162,6 +228,21 @@ span.highlight{
         margin-left: -1rem;
         margin-right: .5rem; 
         border-radius: 100%;
+      }
+    }
+  }
+
+  &--alt{
+    .idea-box__wrap{
+      background: $bg-color-yellow;
+      color: $text-color-dark-blue;
+    }
+
+    .idea-box__list{
+      li{
+        &:before{
+          background: $text-color-dark-blue;
+        }
       }
     }
   }
