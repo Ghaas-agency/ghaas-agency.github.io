@@ -121,7 +121,7 @@
   }
 
   .dark-panel{
-    padding: 30px;
+    padding: 5rem 3rem;
 
     &__logo{
       max-height: 60px;
@@ -129,11 +129,11 @@
   }
 
   .page-intro{
-    min-height: calc(100vh - 90px);
-    padding: 2rem;
+    min-height: calc(100vh - 12rem);
+    padding: 1rem 3rem;
    
     &__heading{
-      font-size: 2rem;
+      font-size: 1.8rem;
     }
 
     &__sub-heading{
@@ -157,8 +157,8 @@
     }
 
     &__copyright{
-      width: calc(100% - 4rem);
-      left: 2rem;
+      width: calc(100% - 6rem);
+      left: 3rem;
     }
   }
 }
