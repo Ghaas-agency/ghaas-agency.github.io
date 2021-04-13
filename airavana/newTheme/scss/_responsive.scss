@@ -1,0 +1,168 @@
+// Large devices (desktops, less than 1200px)
+@media (min-width: 1600px) {
+  .dark-panel{
+  }
+
+  .page-intro{
+    font-size: 1.75rem;
+   
+    &__heading{
+      font-size: 5rem;
+    }
+
+    &__sub-heading{
+    }
+
+    &__social-head{
+    }
+
+    &__social-list{
+
+      li{
+        font-size: 3rem;
+ 
+        &:last-of-type{
+        }
+
+        a{
+          
+        } 
+      }
+    }
+
+    &__copyright{
+    }
+  }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  body{
+    font-size: 1rem;
+  }
+
+  .section{
+    padding: 4rem 0;
+
+    &--main-header{
+      padding: 0px;
+
+      .section__inner{
+        flex-wrap: wrap;
+      }
+    }
+  }
+
+  .dark-panel{
+    &__logo{
+    }
+  }
+
+  .page-intro{
+    padding: 2rem;
+    font-size: 1.15rem;
+   
+    &__heading{
+      font-size: 2.75rem;
+    }
+
+    &__sub-heading{
+    }
+
+    &__social-head{
+    }
+
+    &__social-list{
+
+      li{
+        font-size: 1.5rem;
+ 
+        &:last-of-type{
+        }
+
+        a{
+          
+        } 
+      }
+    }
+
+    &__copyright{
+      width: calc(100% - 4rem);
+      left: 2rem;
+    }
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .section{
+    padding: 4rem 0;
+
+    &--main-header{
+      padding: 0px;
+
+      .section__inner{
+        flex-wrap: wrap;
+      }
+    }
+  }
+
+  .dark-panel,
+  .page-intro{
+    width: 100%;
+    min-height: auto;
+    height: auto;
+  }
+
+  .dark-panel{
+    padding: 30px;
+
+    &__logo{
+      max-height: 60px;
+    }
+  }
+
+  .page-intro{
+    min-height: calc(100vh - 90px);
+    padding: 2rem;
+    font-size: 1.15rem;
+   
+    &__heading{
+      font-size: 2rem;
+    }
+
+    &__sub-heading{
+    }
+
+    &__social-head{
+    }
+
+    &__social-list{
+
+      li{
+        font-size: 1.5rem;
+ 
+        &:last-of-type{
+        }
+
+        a{
+          
+        } 
+      }
+    }
+
+    &__copyright{
+      width: calc(100% - 4rem);
+      left: 2rem;
+    }
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+
+}
