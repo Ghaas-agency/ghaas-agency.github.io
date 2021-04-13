@@ -46,7 +46,7 @@
 
     li{
       display:  block;
-      font-size: 2rem;
+      font-size: 1.5rem;
       margin-right: 2rem;
 
       &:last-of-type{
@@ -71,5 +71,6 @@
     color: #0f1e2d;
     max-width: calc(100% - 8rem);
     left: 4rem;
+    font-size: 1rem;
   }
 }
