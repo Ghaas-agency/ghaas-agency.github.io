@@ -33,6 +33,10 @@ span.highlight{
       background: $bg-color-blue;
       color: #fff;
     }
+
+    img{
+      filter: grayscale(100%);
+    }
   }
 
   &__main-heading{
@@ -64,6 +68,7 @@ span.highlight{
         width: 40px;
         background: $text-color-dark-blue;
         transform: skewX(-10deg);
+        display: none;
       }
     }
   }
@@ -74,6 +79,8 @@ span.highlight{
     right: 2rem;
     color: #004668;
     font-size: 1.3rem;
+    min-width: 200px;
+    text-align: center;
   }
 
   &__page-count{
@@ -110,7 +117,7 @@ span.highlight{
   li{
     content: " ";
     display: block;
-    width: 18%;
+    width: 25%;
     height: 5px;
     background: #fff;
 

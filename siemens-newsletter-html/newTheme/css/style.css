@@ -220,6 +220,8 @@ span.highlight {
     padding-top: 2rem;
     background: #52bdd6;
     color: #fff; }
+  .info__col img {
+    filter: grayscale(100%); }
 .info__main-heading {
   margin-bottom: 1rem; }
   .info__main-heading span {
@@ -243,13 +245,16 @@ span.highlight {
       height: 100%;
       width: 40px;
       background: #034669;
-      transform: skewX(-10deg); }
+      transform: skewX(-10deg);
+      display: none; }
 .info__sticky-heading {
   position: absolute;
   top: 2rem;
   right: 2rem;
   color: #004668;
-  font-size: 1.3rem; }
+  font-size: 1.3rem;
+  min-width: 200px;
+  text-align: center; }
 .info__page-count {
   position: absolute;
   bottom: 0rem;
@@ -277,7 +282,7 @@ span.highlight {
   .page-indicators li {
     content: " ";
     display: block;
-    width: 18%;
+    width: 25%;
     height: 5px;
     background: #fff; }
     .page-indicators li.active {
