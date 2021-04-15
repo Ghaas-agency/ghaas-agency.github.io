@@ -253,6 +253,7 @@ span.highlight {
   right: 2rem;
   color: #004668;
   font-size: 1.3rem;
+  min-width: 200px;
   text-align: right;
   text-transform: uppercase; }
 .info__page-count {
