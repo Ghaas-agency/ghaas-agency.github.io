@@ -253,8 +253,8 @@ span.highlight {
   right: 2rem;
   color: #004668;
   font-size: 1.3rem;
-  min-width: 200px;
-  text-align: center; }
+  text-align: right;
+  text-transform: uppercase; }
 .info__page-count {
   position: absolute;
   bottom: 0rem;
@@ -344,6 +344,8 @@ span.highlight {
   max-width: 90px;
   left: -70px;
   bottom: 0; }
+  .idea-box__img-wrap img {
+    filter: none; }
 .idea-box__list {
   margin: 0px;
   padding: 0px;
