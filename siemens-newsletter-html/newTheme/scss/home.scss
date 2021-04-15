@@ -79,8 +79,10 @@ span.highlight{
     right: 2rem;
     color: #004668;
     font-size: 1.3rem;
-    min-width: 200px;
-    text-align: center;
+    // min-width: 200px;
+    text-align: right;
+    text-transform: uppercase;
+
   }
 
   &__page-count{
@@ -214,6 +216,10 @@ span.highlight{
     max-width: 90px;
     left: -70px;
     bottom: 0;
+
+    img{
+      filter: none;
+    }
   }
 
   &__list{
