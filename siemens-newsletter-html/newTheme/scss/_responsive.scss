@@ -9,7 +9,12 @@
 }
 
 // Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) {
+@media (max-width: 1399.98px) {
+  .section{
+    &--page &__inner{
+      height: auto;
+    }
+  }
 }
 
 // Medium devices (tablets, less than 992px)
@@ -35,6 +40,10 @@
       padding-top: 0px;
       padding-bottom: 0px;
       margin: 1rem 0;
+    }
+
+    &--page &__inner{
+      height: auto;
     }
 
     &--grey-highlight &__inner{
