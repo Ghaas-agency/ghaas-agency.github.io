@@ -5,6 +5,7 @@ span.highlight{
 .info{
   &-row{
     position: relative;
+    min-height: 100%;
 
     h4{
       font-size: 1rem;
@@ -34,8 +35,32 @@ span.highlight{
       color: #fff;
     }
 
+    &--green{
+      padding-top: 2rem;
+      background: $bg-color-bluish-green;
+      color: #fff; 
+    }
+
     img{
       filter: grayscale(100%);
+    }
+
+    &--flex{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .table{
+      thead{
+        td{
+          background: #e5e357;
+          border-color: #fff;
+        }
+      }
+      td{
+        background: #dee3eb;
+        border-color: #fff;
+      }
     }
   }
 
@@ -70,6 +95,21 @@ span.highlight{
         transform: skewX(-10deg);
         display: none;
       }
+    }
+
+    &--blue-green{
+      color: #57b5b0;
+      span{
+        color: #056182;
+      }
+    }
+
+    &--xlg{
+      font-size: 4rem;
+    }
+
+    &--align-bottom{
+      align-self: end;
     }
   }
 
@@ -256,6 +296,36 @@ span.highlight{
         &:before{
           background: $text-color-dark-blue;
         }
+      }
+    }
+  }
+}
+
+.table-of-content{
+  &__wrap{
+    color: #055e7e;
+    font-size: 1.1rem;
+  }
+
+  &__heading{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  &__sub-list{
+    li{
+      display: block;
+      text-decoration: none;
+      width: 100%;
+      position: relative;
+      margin-bottom: .5rem;
+
+      .page-no{
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translate(0,-50%);
       }
     }
   }

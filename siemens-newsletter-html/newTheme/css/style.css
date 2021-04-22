@@ -155,7 +155,11 @@ h1, h2, h3, h4, h5 {
     padding-bottom: 0px;
     margin: 1rem 0; }
   .section--page .section__inner {
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.4); }
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+    height: 800px;
+    overflow: hidden; }
+  .section--page-grey .section__inner {
+    background: #dfe2e9; }
   .section--grey-highlight .section__inner {
     position: relative;
     overflow: hidden; }
@@ -201,7 +205,8 @@ span.highlight {
   color: #52bdd6; }
 
 .info-row {
-  position: relative; }
+  position: relative;
+  min-height: 100%; }
   .info-row h4 {
     font-size: 1rem;
     font-weight: bold;
@@ -220,8 +225,21 @@ span.highlight {
     padding-top: 2rem;
     background: #52bdd6;
     color: #fff; }
+  .info__col--green {
+    padding-top: 2rem;
+    background: #29aeab;
+    color: #fff; }
   .info__col img {
     filter: grayscale(100%); }
+  .info__col--flex {
+    display: flex;
+    flex-wrap: wrap; }
+  .info__col .table thead td {
+    background: #e5e357;
+    border-color: #fff; }
+  .info__col .table td {
+    background: #dee3eb;
+    border-color: #fff; }
 .info__main-heading {
   margin-bottom: 1rem; }
   .info__main-heading span {
@@ -247,6 +265,14 @@ span.highlight {
       background: #034669;
       transform: skewX(-10deg);
       display: none; }
+  .info__main-heading--blue-green {
+    color: #57b5b0; }
+    .info__main-heading--blue-green span {
+      color: #056182; }
+  .info__main-heading--xlg {
+    font-size: 4rem; }
+  .info__main-heading--align-bottom {
+    align-self: end; }
 .info__sticky-heading {
   position: absolute;
   top: 2rem;
@@ -370,6 +396,28 @@ span.highlight {
 .idea-box--alt .idea-box__list li:before {
   background: #034669; }
 
+.table-of-content__wrap {
+  color: #055e7e;
+  font-size: 1.1rem; }
+.table-of-content__heading {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem; }
+.table-of-content__sub-list li {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  position: relative;
+  margin-bottom: .5rem; }
+  .table-of-content__sub-list li .page-no {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%); }
+
+@media (max-width: 1399.98px) {
+  .section--page .section__inner {
+    height: auto; } }
 @media (max-width: 991.98px) {
   body {
     font-size: 1rem; }
@@ -385,6 +433,8 @@ span.highlight {
       padding-top: 0px;
       padding-bottom: 0px;
       margin: 1rem 0; }
+    .section--page .section__inner {
+      height: auto; }
     .section--grey-highlight .section__inner:before {
       display: none; }
     .section--border-top .section__inner:after {
