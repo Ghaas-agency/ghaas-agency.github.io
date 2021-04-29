@@ -8,8 +8,26 @@
   }
 }
 
+// Large devices (desktops, less than 1600px)
+@media screen and (max-width: 1599px) {
+  body{
+    font-size: 15px;
+    line-height: 1.3;
+  }
+  .info{
+    
+    &__main-heading{
+      // font-size: 3rem;
+    }
+  }
+}
+
 // Large devices (desktops, less than 1200px)
 @media screen and (max-width: 1399.98px) {
+  body{
+    font-size: 1rem;
+    line-height: 1.5;
+  }
   .section{
     &--page &__inner{
       height: auto;
@@ -21,6 +39,12 @@
       img{
         position: static;
       }
+    }
+  }
+
+  .info{
+    &__col{
+      padding-bottom: 2rem;
     }
   }
 }
@@ -85,7 +109,7 @@
       &--blue{
         padding-top: 2rem;
         background: $bg-color-blue;
-        color: #fff;
+        // color: #fff;
       }
     }
 

@@ -33,13 +33,19 @@ span.highlight{
     &--blue{
       padding-top: 2rem;
       background: $bg-color-blue;
-      color: #fff;
+      // color: #fff;
+      color: $text-color-dark-blue;
+      font-weight: 600;
+
     }
 
     &--green{
       padding-top: 2rem;
       background: $bg-color-bluish-green;
-      color: #fff; 
+      // color: #fff;
+      color: $text-color-dark-blue;
+      font-weight: 600;
+
     }
 
     img{
@@ -152,7 +158,7 @@ span.highlight{
 .page-indicators{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   margin: 0px;
   padding: 0px;
   margin-bottom: 2rem;
@@ -161,8 +167,14 @@ span.highlight{
     content: " ";
     display: block;
     width: 25%;
-    height: 5px;
+    width: 50px!important;
+    margin-left: 1rem;
+    height: 0.4rem;
     background: #fff;
+
+    &:first-of-type{
+      margin-left: 0px;
+    }
 
     &.active{
       background: $bg-color-yellow;
@@ -243,13 +255,14 @@ span.highlight{
   &__details{
     font-weight: 600;
     color: $bg-color-blue;
-    padding-right: .5rem;
+    // padding-right: .5rem;
     flex-grow: 1;
     // font-size: .9rem;
   }
 
   img{
     max-width: 80px;
+    margin-right: 1rem;
   }
 
   &--highlight{
@@ -258,7 +271,7 @@ span.highlight{
 
     .user-info__details{
       color: $text-color-dark-blue;
-      padding-left: .5rem;
+      // padding-left: .5rem;
     }
   }
 }
@@ -279,6 +292,7 @@ span.highlight{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+    flex-wrap: wrap;
   }
 
   &__wrap{
@@ -377,4 +391,30 @@ span.highlight{
 
 .img-colored{
   filter: none!important;
+}
+
+.team-member-pic-grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+
+  li{
+    display: block;
+    width: 33.3%;
+    img{
+      width: 100%;
+      height: 100%;
+      max-height: 120px;
+      margin: auto;
+      object-fit: cover;
+    }
+  }
+}
+
+.img-l-print{
+  display:  none;
+  visibility:   none;
 }
