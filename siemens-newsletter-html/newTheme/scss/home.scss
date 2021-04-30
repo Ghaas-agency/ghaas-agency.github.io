@@ -60,13 +60,13 @@ span.highlight{
     .table{
       thead{
         td{
-          background: #e5e357;
-          border-color: #fff;
+          background: #e5e357!important;
+          border-color: #fff!important;
         }
       }
       td{
-        background: #dee3eb;
-        border-color: #fff;
+        background: #dee3eb!important;
+        border-color: #fff!important;
       }
     }
   }
@@ -410,6 +410,13 @@ span.highlight{
       max-height: 120px;
       margin: auto;
       object-fit: cover;
+    }
+
+    .name{
+      font-size: .8rem;
+      font-weight: 600;
+      text-align: center;
+      padding: .25rem;
     }
   }
 }
