@@ -20,6 +20,29 @@
       // font-size: 3rem;
     }
   }
+
+  .section{
+    &--page{
+    }
+
+    &--page &__inner{
+    }
+
+    &--page-cover{
+    }
+
+    &--page-cover &__inner{
+      position: relative;
+      // overflow: visible;
+      height: auto;
+
+      img{
+       position: static;
+        height: auto;
+      }
+    }
+  }
+
 }
 
 // Large devices (desktops, less than 1200px)
