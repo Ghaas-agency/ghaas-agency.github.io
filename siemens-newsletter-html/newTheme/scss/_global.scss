@@ -150,6 +150,10 @@ h1,h2,h3,h4,h5{
     color: #fff!important;
   }
 
+  &--dark-blue{
+    color: $text-color-dark-blue;
+  }
+
   &--dark{
     // color: $text-color-dark;
   }
