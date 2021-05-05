@@ -542,6 +542,8 @@ span.highlight {
   .info__sticky-heading {
     display: none; }
 
+  .idea-box__wrap {
+    margin-left: 0px; }
   .idea-box__img-wrap {
     display: none; } }
 @media screen and (max-width: 767.98px) {

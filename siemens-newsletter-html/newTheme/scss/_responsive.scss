@@ -142,6 +142,10 @@
   }
 
   .idea-box{
+
+    &__wrap{
+      margin-left: 0px;
+    }
     
     &__img-wrap{
       display: none;
