@@ -140,6 +140,22 @@ span.highlight{
     font-weight: bold;
     color: $bg-color-yellow;
     line-height: 1.1;
+    display: flex;
+    align-items: flex-end;
+
+
+    .toc-marker{
+      font-size: 1rem;
+      font-weight: bold;
+      color: $text-color-dark-blue;
+      display: inline-block;
+      outline: none;
+      text-decoration: none;
+      margin-right: .25rem;
+      line-height: 2rem;
+      text-transform: uppercase;
+      // align-self: top;
+    }
   }
 
   &__heading-dark-bg{
@@ -429,4 +445,16 @@ span.highlight{
 .img-l-print{
   display:  none;
   visibility:   none;
+}
+
+.img-caption{
+  margin-top: .25rem;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+}
+
+.img-center{
+  display: block;
+  margin: auto;
 }
