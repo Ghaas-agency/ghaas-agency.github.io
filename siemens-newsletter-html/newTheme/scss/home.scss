@@ -150,6 +150,10 @@ span.highlight{
     display: inline-block;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    
+    &--yellow{
+      background: $bg-color-yellow;
+    }
   }
 
 
@@ -302,6 +306,7 @@ span.highlight{
     position: relative;
     padding: 2rem;
     margin-bottom: 3rem;
+    margin-left: 45px;
   }
 
   &__img-wrap{

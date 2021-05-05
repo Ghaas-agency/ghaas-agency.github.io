@@ -310,6 +310,8 @@ span.highlight {
   display: inline-block;
   margin-top: 1rem;
   margin-bottom: 1rem; }
+  .info__heading-dark-bg--yellow {
+    background: #e5e357; }
 
 .page-indicators {
   display: flex;
@@ -395,7 +397,8 @@ span.highlight {
   border-radius: .5rem;
   position: relative;
   padding: 2rem;
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+  margin-left: 45px; }
 .idea-box__img-wrap {
   position: absolute;
   max-width: 90px;
@@ -539,6 +542,8 @@ span.highlight {
   .info__sticky-heading {
     display: none; }
 
+  .idea-box__wrap {
+    margin-left: 0px; }
   .idea-box__img-wrap {
     display: none; } }
 @media screen and (max-width: 767.98px) {
