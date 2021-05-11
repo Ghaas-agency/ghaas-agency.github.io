@@ -13,6 +13,12 @@
     width: calc((100vw - 600px)/2);
     transform: translate(100%,0);
   }
+
+  .header-main-content{
+    &__main-heading{
+      font-size: 5rem;
+    }
+  }
 }
 
 // Large devices (desktops, less than 1200px)
@@ -53,6 +59,35 @@
     }
   }
 
+  .top-header-nav-wrap{
+    .navbar{
+      &-nav{
+        .nav-link{
+          padding: 1rem 0;
+        }
+      }
+    }
+  }
+
+  .bottom-header-sticky-nav-wrap{
+    // padding: 1rem;
+
+    a{
+      font-size: 1.25rem;
+      max-width: 90%;
+      line-height: 1.5;
+
+      strong{
+        display: block;
+      }
+
+      i,
+      .fa{
+        margin-left: 5px;
+      }
+    }
+  }
+
 
 }
 
@@ -87,8 +122,6 @@
       font-size: 2rem;
 
       &:after{
-        width: 10px;
-        height: 10px;
       }
     }
   }
@@ -113,6 +146,12 @@
   .contact-form-wrap{
     .form-group{
       margin-bottom: 1.5rem;
+    }
+  }
+
+  .bottom-header-sticky-nav-wrap{
+    a{
+      font-size: 1rem;
     }
   }
 }
