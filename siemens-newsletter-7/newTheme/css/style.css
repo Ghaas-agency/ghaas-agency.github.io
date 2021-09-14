@@ -234,11 +234,21 @@ span.highlight {
   .info-row .img-offset {
     position: relative;
     left: -50%; }
+  .info-row .img-two-expand {
+    width: calc(200% + 2rem);
+    max-width: calc(200% + 2rem);
+    left: auto;
+    right: -50%;
+    border: 2px solid #2BADAA;
+    margin-bottom: 1rem;
+    display: block; }
 .info__col {
   padding-top: 2rem;
   padding-bottom: 5rem;
   padding-left: 2rem;
   padding-right: 2rem; }
+  .info__col ul {
+    padding-left: 0.8rem; }
   .info__col--blue {
     padding-top: 2rem;
     background: #52bdd6;
@@ -385,6 +395,8 @@ span.highlight {
     .social-share li .icon {
       font-size: 2.5rem;
       display: block; }
+      .social-share li .icon img {
+        max-height: 2rem; }
     .social-share li .text {
       display: block;
       font-weight: bold; }
@@ -507,7 +519,8 @@ span.highlight {
       border-radius: 100%; }
 .idea-box--alt .idea-box__wrap {
   background: #e5e357;
-  color: #034669; }
+  color: #034669;
+  margin-left: 0px; }
 .idea-box--alt .idea-box__list li:before {
   background: #034669; }
 
