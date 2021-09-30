@@ -278,7 +278,8 @@ span.highlight {
   margin-bottom: 1rem;
   color: #009999;
   text-transform: uppercase;
-  font-size: 3rem; }
+  font-size: 3rem;
+  line-height: 1; }
   .info__main-heading span {
     color: #034669; }
   .info__main-heading--alt {
@@ -341,7 +342,8 @@ span.highlight {
     align-items: flex-end;
     margin-bottom: 0px; }
     .info__footer-heading .text {
-      margin-right: .5rem; }
+      margin-right: .5rem;
+      font-size: 1.75rem; }
     .info__footer-heading .page-indicators {
       position: relative;
       top: -.5rem; }
