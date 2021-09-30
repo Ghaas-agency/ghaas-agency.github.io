@@ -98,6 +98,7 @@ span.highlight{
     color: #009999;
     text-transform: uppercase;
     font-size: 3rem;
+    line-height: 1;
 
     span{
       color: $text-color-dark-blue;
@@ -185,6 +186,7 @@ span.highlight{
       // line-height: 1;
       .text{
         margin-right: .5rem;
+        font-size: 1.75rem;
       }
 
       .page-indicators{
