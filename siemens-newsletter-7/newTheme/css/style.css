@@ -235,8 +235,7 @@ span.highlight {
     position: relative;
     left: -50%; }
   .info-row .img-two-expand {
-    width: calc(200% + 2rem);
-    max-width: calc(200% + 2rem);
+    width: 100%;
     left: auto;
     right: -50%;
     border: 2px solid #2BADAA;
@@ -589,6 +588,60 @@ span.highlight {
 
 #last-feedback-link {
   display: none; }
+
+.gemba-testimonial {
+  border-radius: .5rem;
+  background: #54bcd6;
+  color: #000;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 1rem; }
+  .gemba-testimonial--no-b-marg {
+    margin-bottom: 0px; }
+  .gemba-testimonial__user {
+    background: #fff;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    box-shadow: 5px -5px 0 #e5e560; }
+  .gemba-testimonial__user-name {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0.5rem 0; }
+  .gemba-testimonial__user-team {
+    font-weight: normal;
+    font-size: 1.25rem;
+    color: #fff; }
+  .gemba-testimonial__desc {
+    position: relative;
+    padding: 1rem 0;
+    padding-bottom: 0px; }
+    .gemba-testimonial__desc p {
+      margin-bottom: 0.5rem; }
+    .gemba-testimonial__desc:before {
+      content: " ";
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      top: -20px;
+      left: -20px;
+      background: url(../img/gemba-testimonial-quote.png) no-repeat;
+      background-position: center center;
+      background-size: contain;
+      display: block; }
+    .gemba-testimonial__desc:after {
+      content: " ";
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      bottom: 5px;
+      right: -20px;
+      background: url(../img/gemba-testimonial-quote.png) no-repeat;
+      background-position: center center;
+      background-size: contain;
+      transform: rotateY(180deg);
+      display: block; }
 
 @media screen and (max-width: 1599px) {
   body {
