@@ -744,6 +744,18 @@ span.highlight {
       background: #52bdd6; }
   .info__sticky-heading {
     display: none; }
+  .info__footer {
+    position: relative;
+    height: auto;
+    padding-top: 1rem;
+    display: block;
+    padding-bottom: 1rem; }
+    .info__footer-footer-heading {
+      width: 100%;
+      margin-bottom: .5rem; }
+  .info__page-count {
+    width: 100%;
+    justify-content: flex-end; }
 
   .idea-box__wrap {
     margin-left: 0px; }
