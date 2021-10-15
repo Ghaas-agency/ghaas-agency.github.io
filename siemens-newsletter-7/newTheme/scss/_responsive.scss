@@ -151,6 +151,24 @@
     &__sticky-heading{
       display: none;
     }
+
+    &__footer{
+      position: relative;
+      height: auto;
+      padding-top: 1rem;
+      display: block;
+      padding-bottom: 1rem;
+
+      &-footer-heading{
+        width:100%;
+        margin-bottom: .5rem;
+      }
+    }
+
+    &__page-count{
+      width: 100%;
+      justify-content: flex-end;
+    }
   }
 
   .idea-box{
