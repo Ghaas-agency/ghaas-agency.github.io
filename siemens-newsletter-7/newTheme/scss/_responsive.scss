@@ -159,15 +159,25 @@
       display: block;
       padding-bottom: 1rem;
 
-      &-footer-heading{
+      &-heading{
         width:100%;
         margin-bottom: .5rem;
+        font-size: 1.25rem;
+        
+        .text{
+          font-size: 1.25rem
+        }
+
+        .page-indicators{
+          top: -.25rem;
+        }
       }
     }
 
     &__page-count{
       width: 100%;
       justify-content: flex-end;
+      font-size: 1.5rem;
     }
   }
 
@@ -179,6 +189,12 @@
     
     &__img-wrap{
       display: none;
+    }
+  }
+
+  .page-indicators{
+    li{
+      max-width: 10px!important;
     }
   }
 
