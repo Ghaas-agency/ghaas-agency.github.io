@@ -73,6 +73,8 @@ span.highlight{
 
       .flex-start{
         align-self: flex-start;
+        max-width: 100%;
+        word-wrap: break-word;
       }
 
       .flex-end{
@@ -103,6 +105,10 @@ span.highlight{
 
     span{
       color: $text-color-dark-blue;
+    }
+
+    &--sm{
+      font-size: 2.25rem;
     }
 
     &--alt{
@@ -403,6 +409,9 @@ span.highlight{
 
   img{
     max-width: 80px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
     // margin-right: 1rem;
     // border: 2px solid #009999;
     // box-shadow: 0 0 2px #009999;
@@ -663,5 +672,42 @@ span.highlight{
       transform: rotateY(180deg);
       display: block;
     }
+  }
+}
+
+.art-img-wrapp{
+  position: relative;
+  z-index: 10;
+
+  img{
+    position: relative;
+    z-index: 20;
+  }
+  //positioning if needed.
+}
+
+.art-img-winner{
+  position: relative;
+  z-index: 10;
+  display: inline-block;
+
+  img{
+    position: relative;
+    z-index: 20;
+  }
+  //positioning if needed.
+
+  &:after{
+    content: " ";
+    position: absolute;
+    z-index: 30;
+    right: -60px;
+    bottom: 0;
+    display: block;
+    width: 134px;
+    height: 235px;
+    background: url(../img/art-winner.png) no-repeat;
+    background-size: contain;
+    background-position: center center;
   }
 }
