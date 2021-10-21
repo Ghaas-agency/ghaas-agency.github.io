@@ -74,7 +74,7 @@ span.highlight{
       .flex-start{
         align-self: flex-start;
         max-width: 100%;
-        word-wrap: break-word;
+        // word-wrap: break-word;
       }
 
       .flex-end{
@@ -100,7 +100,7 @@ span.highlight{
     margin-bottom: 1rem;
     color: #009999;
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 1;
 
     span{
@@ -151,6 +151,14 @@ span.highlight{
 
     &--align-bottom{
       align-self: end;
+    }
+
+    &.text-center{
+      text-align: center;
+    }
+
+    &--w-100{
+      width: 100%;
     }
   }
 

@@ -41,6 +41,13 @@
     }
   }
 
+  .info{
+    &__main-content{
+      line-height: 1.2;
+      font-size: 1.05rem;
+    }
+  }
+
   .img-l-print{
     display:  block;
     visibility:   visible;  
