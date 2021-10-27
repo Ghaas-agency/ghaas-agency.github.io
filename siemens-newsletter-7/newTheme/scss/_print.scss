@@ -63,4 +63,15 @@
     top: 0;
     background: rgba(0,0,0,0);
   }
+
+  .gemba-testimonial{
+    &__user{
+      width: 45px;
+      height: 45px;
+    }
+
+    &__user-name{
+      font-size: 1.15rem;
+    }
+  }
 }
