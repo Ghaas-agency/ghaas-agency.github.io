@@ -550,7 +550,8 @@ span.highlight {
   text-decoration: none;
   width: 100%;
   position: relative;
-  margin-bottom: .5rem; }
+  margin-bottom: .5rem;
+  padding-right: 2rem; }
   .table-of-content__sub-list li .page-no {
     position: absolute;
     right: 0;
@@ -785,7 +786,9 @@ span.highlight {
     display: none; }
 
   .team-member-pic-grid li {
-    width: 50%; } }
+    width: 50%; }
+    .team-member-pic-grid li img {
+      object-fit: unset; } }
 @page {
   size: auto; }
 @media print {
