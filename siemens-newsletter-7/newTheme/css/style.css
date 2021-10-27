@@ -626,7 +626,8 @@ span.highlight {
   .gemba-testimonial__desc {
     position: relative;
     padding: 1rem 0;
-    padding-bottom: 0px; }
+    padding-bottom: 0px;
+    font-size: 0.95rem; }
     .gemba-testimonial__desc p {
       margin-bottom: 0.5rem; }
     .gemba-testimonial__desc:before {
@@ -822,6 +823,12 @@ span.highlight {
     text-decoration: none;
     left: 0;
     top: 0;
-    background: transparent; } }
+    background: transparent; }
+
+  .gemba-testimonial__user {
+    width: 45px;
+    height: 45px; }
+  .gemba-testimonial__user-name {
+    font-size: 1.15rem; } }
 
 /*# sourceMappingURL=style.css.map */
