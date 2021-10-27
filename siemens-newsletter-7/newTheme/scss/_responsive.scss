@@ -234,6 +234,10 @@
   .team-member-pic-grid{
     li{
       width: 50%;
+
+      img{
+        object-fit: unset;
+      }
     }
   }
  
