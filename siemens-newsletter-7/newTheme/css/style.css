@@ -832,6 +832,9 @@ span.highlight {
     width: 45px;
     height: 45px; }
   .gemba-testimonial__user-name {
-    font-size: 1.15rem; } }
+    font-size: 1.15rem; }
+
+  .art-img-winner:after {
+    display: none !important; } }
 
 /*# sourceMappingURL=style.css.map */

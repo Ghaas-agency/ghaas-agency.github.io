@@ -74,4 +74,11 @@
       font-size: 1.15rem;
     }
   }
+
+  .art-img-winner{
+
+    &:after{
+      display: none!important;
+    }
+  }
 }
